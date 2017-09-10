@@ -5,8 +5,7 @@
 
 	<groupId>me.xstr</groupId>
 	<artifactId>xstrapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>0.0.1</version>
 
 	<name>api.xstr.me</name>
 	<description>the API for xstr.me</description>
