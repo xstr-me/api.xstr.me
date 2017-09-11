@@ -60,7 +60,9 @@
 	</dependencies>
 
 	<build>
+	
 		<plugins>
+		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -78,7 +80,7 @@
 						</goals>
 						<configuration>
 							<!-- Sets the path to the file which contains the execution data. -->
-							<destFile>coverage/jacoco.exec
+							<destFile>target/jacoco.exec
 							</destFile>
 						</configuration>
 					</execution>
@@ -91,19 +93,21 @@
 							<goal>report</goal>
 						</goals>
 						<configuration>
-							<dataFile>coverage/jacoco.exec
+							<dataFile>target/jacoco.exec
 							</dataFile>
-							<outputDirectory>coverage
+							<outputDirectory>target/coverage
 							</outputDirectory>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>3.3.0.603</version>
 			</plugin>
+			
 		</plugins>
 	</build>
 
