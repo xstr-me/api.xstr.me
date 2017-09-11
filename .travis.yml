@@ -2,6 +2,15 @@ language: java
 jdk:
   - openjdk8
 dist: trusty
+addons:
+  sonarcloud:
+    organization: $sonarcloud_organization_key
+    token: $sonarcloud_token
+before_install:
+  - pip install --user codecov
+after_success:
+  - codecov
+  - mvn sonar:sonar
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
