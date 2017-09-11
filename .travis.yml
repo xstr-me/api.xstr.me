@@ -4,8 +4,8 @@ jdk:
 dist: trusty
 deploy:
   provider: releases
-  github_token: $GITHUB_TOKEN
-  file: "xstrapi-0.0.1.jar"
+  api_key: $GITHUB_TOKEN
+  file: "target/xstrapi-0.0.1.jar"
   skip_cleanup: true
   on:
     tags: true
