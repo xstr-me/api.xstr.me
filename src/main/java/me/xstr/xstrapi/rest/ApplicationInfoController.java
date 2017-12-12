@@ -10,13 +10,13 @@ import me.xstr.xstrapi.model.ApplicationInfo;
 
 @RestController
 public class ApplicationInfoController {
-	private static final String template = "Hello, %s!";
+	private static final String TEMPLATE = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/info")
     public ApplicationInfo applicationInfo(@RequestParam(value="name", defaultValue="World") String name) {
         return new ApplicationInfo(counter.incrementAndGet(),
-                            String.format(template, name));
+                            String.format(TEMPLATE, name));
     }
 
 }

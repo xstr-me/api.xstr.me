@@ -25,8 +25,7 @@ public class Application {
 					env.getProperty("server.context-path"), InetAddress.getLocalHost().getHostAddress(),
 					env.getProperty("server.port"), env.getProperty("server.context-path"));
 		} catch (UnknownHostException e) {
-			log.error("can't get host adresse");// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error("can't get host adresse");
 		}
 	}
 }
