@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animetitles>
+	<anime aid="1">
+		<title type="short" xml:lang="en">CotS</title>
+		<title type="official" xml:lang="en">Crest of the Stars</title>
+		<title type="official" xml:lang="fr">Crest of the Stars</title>
+		<title type="official" xml:lang="pl">Crest of the Stars</title>
+		<title xml:lang="cs" type="syn">Hvězdný erb</title>
+		<title type="main" xml:lang="x-jat">Seikai no Monshou</title>
+		<title xml:lang="x-jat" type="short">SnM</title>
+		<title xml:lang="zh-Hans" type="syn">星界之纹章</title>
+		<title xml:lang="ja" type="official">星界の紋章</title>
+	</anime>
+	<anime aid="2">
+		<title type="syn" xml:lang="ja">サザンアイズ</title>
+		<title type="official" xml:lang="ja">3×3 EYES</title>
+		<title type="short" xml:lang="x-jat">3x3</title>
+		<title xml:lang="de" type="official">3x3 Augen (OVA 1)</title>
+		<title type="main" xml:lang="x-jat">3x3 Eyes</title>
+		<title xml:lang="fr" type="official">3x3 Eyes</title>
+		<title type="official" xml:lang="en">3x3 Eyes</title>
+		<title xml:lang="en" type="syn">3x3 Eyes - Immortals</title>
+		<title type="official" xml:lang="it">3x3 Occhi</title>
+		<title type="official" xml:lang="cs">3x3 Oči</title>
+		<title type="official" xml:lang="sv">3x3 Ögon</title>
+		<title xml:lang="es" type="official">3x3 Ojos [1-4]</title>
+		<title type="official" xml:lang="ca">3x3 Ulls</title>
+		<title type="syn" xml:lang="ru">3x3 глаза</title>
+		<title type="syn" xml:lang="x-jat">Sazan Eyes</title>
+		<title type="syn" xml:lang="zh-x-nan">三隻眼</title>
+	</anime>
+	<anime aid="3">
+		<title type="official" xml:lang="ja">3×3 EYES -聖魔伝説-</title>
+		<title xml:lang="pl" type="official">3*3 Oczy</title>
+		<title xml:lang="de" type="official">3x3 Augen (OVA 2)</title>
+		<title type="official" xml:lang="fr">3x3 Eyes - La légende du démon divin</title>
+		<title type="official" xml:lang="en">3x3 Eyes: Legend of the Divine Demon</title>
+		<title xml:lang="x-jat" type="main">3x3 Eyes: Seima Densetsu</title>
+		<title type="official" xml:lang="it">3x3 Occhi - La Leggenda del Demone Divino</title>
+		<title xml:lang="sv" type="syn">3x3 Ögon (1995)</title>
+		<title xml:lang="es" type="official">3x3 Ojos [5-7]</title>
+		<title type="syn" xml:lang="ru">3х3 глаза: Сказание Сэймы</title>
+		<title xml:lang="x-jat" type="syn">Shin 3x3 Eyes</title>
+	</anime>
+	<anime aid="4">
+		<title xml:lang="ko" type="official">성계의 전기</title>
+		<title type="official" xml:lang="en">Banner of the Stars</title>
+		<title type="syn" xml:lang="en">Battle Flag of the Stars</title>
+		<title xml:lang="en" type="short">BFotS</title>
+		<title xml:lang="en" type="short">BotS</title>
+		<title xml:lang="en" type="short">BotS1</title>
+		<title xml:lang="x-jat" type="main">Seikai no Senki</title>
+		<title type="short" xml:lang="x-jat">SnS</title>
+		<title type="short" xml:lang="x-jat">SnS1</title>
+		<title xml:lang="ja" type="official">星界の戦旗</title>
+		<title type="syn" xml:lang="zh-Hans">星界的战旗</title>
+	</anime>
+	<anime aid="5">
+		<title type="syn" xml:lang="en">Banner of the Stars 2</title>
+		<title xml:lang="en" type="official">Banner of the Stars II</title>
+		<title type="syn" xml:lang="en">Battle Flag of the Stars 2</title>
+		<title xml:lang="en" type="short">BFotS2</title>
+		<title type="short" xml:lang="en">BotS2</title>
+		<title xml:lang="x-jat" type="syn">Seikai no Senki 2</title>
+		<title type="main" xml:lang="x-jat">Seikai no Senki II</title>
+		<title type="short" xml:lang="x-jat">SnS2</title>
+		<title type="official" xml:lang="ja">星界の戦旗II</title>
+		<title type="syn" xml:lang="zh-Hans">星界的战旗2</title>
+	</anime>
+	<anime aid="6">
+		<title xml:lang="en" type="official">Crest of the Stars: Birth</title>
+		<title type="syn" xml:lang="en">Crest of the Stars: Fragment Birth of Stars</title>
+		<title type="syn" xml:lang="en">Lost Chapter of the Stars</title>
+		<title xml:lang="x-jat" type="main">Seikai no Danshou: Tanjou</title>
+		<title type="syn" xml:lang="x-jat">Seikai no Monshou Birth</title>
+		<title xml:lang="x-jat" type="short">SnD</title>
+		<title xml:lang="ja" type="official">星界の断章 誕生</title>
+		<title xml:lang="zh-Hans" type="syn">星界的断章</title>
+	</anime>
+	<anime aid="7">
+		<title type="syn" xml:lang="ko">원령공주</title>
+		<title xml:lang="ko" type="official">모노노케 히메</title>
+		<title type="official" xml:lang="pt">A Princesa Mononoke</title>
+		<title xml:lang="hu" type="official">A vadon hercegnője</title>
+		<title xml:lang="vi" type="syn">Công chúa sói</title>
+		<title type="official" xml:lang="pl">Księżniczka Mononoke</title>
+		<title xml:lang="es" type="official">La Princesa Mononoke</title>
+		<title type="official" xml:lang="it">La Principessa Mononoke</title>
+		<title xml:lang="x-jat" type="main">Mononoke-hime</title>
+		<title xml:lang="en" type="syn">Mononoke Princess</title>
+		<title type="official" xml:lang="tr">Prenses Mononoke</title>
+		<title xml:lang="sl" type="official">Princesa Mononoke</title>
+		<title xml:lang="pt-BR" type="official">Princesa Mononoke</title>
+		<title type="official" xml:lang="lv">Princese Mononoke</title>
+		<title type="official" xml:lang="lt">Princesė Mononokė</title>
+		<title type="official" xml:lang="fr">Princesse Mononoké</title>
+		<title type="official" xml:lang="en">Princess Mononoke</title>
+		<title type="official" xml:lang="hr">Princeza Mononoke</title>
+		<title xml:lang="cs" type="official">Princezna Mononoke</title>
+		<title xml:lang="sk" type="official">Princezná Mononoke</title>
+		<title xml:lang="fi" type="official">Prinsessa Mononoke</title>
+		<title xml:lang="da" type="official">Prinsesse Mononoke</title>
+		<title xml:lang="ro" type="official">Prinţesa Mononoke</title>
+		<title type="official" xml:lang="et">Printsess Mononoke</title>
+		<title xml:lang="de" type="official">Prinzessin Mononoke</title>
+		<title xml:lang="ar" type="official">الأميرة مونونوكي</title>
+		<title type="syn" xml:lang="ar">الأميرة مونونوكيه</title>
+		<title xml:lang="fa" type="official">شاهزاده مونونوکه</title>
+		<title type="official" xml:lang="he">הנסיכה מונונוקי</title>
+		<title type="official" xml:lang="el">Πριγκίπισσα Μονονόκε</title>
+		<title xml:lang="mn" type="official">Мононокэ Гүнж</title>
+		<title xml:lang="sr" type="syn">Принцеза Мононоке</title>
+		<title type="official" xml:lang="bg">Принцеса Мононоке</title>
+		<title xml:lang="uk" type="syn">Принцеса Мононоке</title>
+		<title xml:lang="uk" type="syn">Принцеса-мононоке</title>
+		<title xml:lang="ru" type="official">Принцесса Мононоке</title>
+		<title xml:lang="ru" type="syn">Принцесса Мононокэ</title>
+		<title type="official" xml:lang="ja">もののけ姫</title>
+		<title type="syn" xml:lang="zh-Hans">幽灵公主</title>
+		<title type="official" xml:lang="zh-Hant">幽靈公主</title>
+		<title xml:lang="zh-Hans" type="official">魔法公主</title>
+	</anime>
+	<anime aid="8">
+		<title type="main" xml:lang="x-jat">Aquarian Age: Sign for Evolution</title>
+		<title type="official" xml:lang="en">Aquarian Age: Sign for Evolution</title>
+		<title xml:lang="de" type="official">Aquarian Age: Sign for Evolution</title>
+		<title xml:lang="fr" type="official">L`âge du Verseau - Signe d`évolution</title>
+		<title xml:lang="ja" type="official">アクエリアンエイジ Sign for Evolution</title>
+	</anime>
+	<anime aid="9">
+		<title type="official" xml:lang="en">A Little Snow Fairy Sugar</title>
+		<title xml:lang="en" type="short">ALSFS</title>
+		<title type="main" xml:lang="x-jat">Chiccha na Yuki Tsukai Sugar</title>
+		<title xml:lang="x-jat" type="syn">Chiccha na Yukitsukai Sugar</title>
+		<title xml:lang="pt-BR" type="syn">Fadinha de Neve Sugar</title>
+		<title xml:lang="x-jat" type="short">sugar</title>
+		<title xml:lang="en" type="syn">Sugar: A Little Snow Fairy</title>
+		<title xml:lang="en" type="syn">Tiny Little Snow Fairy Sugar</title>
+		<title type="syn" xml:lang="en">Tiny Snow Fairy Sugar</title>
+		<title type="short" xml:lang="en">TSFS</title>
+		<title type="syn" xml:lang="bg">Малката снежна фея Шугър</title>
+		<title xml:lang="ja" type="official">ちっちゃな雪使いシュガー</title>
+	</anime>
+	<anime aid="10">
+		<title xml:lang="en" type="official">Bastard!!</title>
+		<title xml:lang="it" type="official">Bastard!!</title>
+		<title xml:lang="x-jat" type="main">Bastard!! Ankoku no Hakai Shin</title>
+		<title type="syn" xml:lang="en">Bastard! Destroyer of Darkness</title>
+		<title xml:lang="it" type="syn">Bastard!! L`oscuro distruttore</title>
+		<title xml:lang="ja" type="official">BASTARD!! 暗黒の破壊神</title>
+		<title xml:lang="ru" type="syn">Ублюдок!! Сокрушитель Тьмы</title>
+		<title type="syn" xml:lang="zh-Hans">暗黑破坏神</title>
+		<title type="syn" xml:lang="ja">バスタード!! 暗黒の破壊神</title>
+	</anime>
+	<anime aid="11">
+		<title type="short" xml:lang="x-jat">IDBS</title>
+		<title xml:lang="x-jat" type="main">Initial D Battle Stage</title>
+		<title type="official" xml:lang="ja">頭文字[イニシャル]D Battle Stage</title>
+	</anime>
+	<anime aid="12">
+		<title xml:lang="ko" type="official">쵸빗츠</title>
+		<title type="official" xml:lang="ja">ちょびっツ</title>
+		<title type="official" xml:lang="pl">Chobits</title>
+		<title type="official" xml:lang="en">Chobits</title>
+		<title type="official" xml:lang="de">Chobits</title>
+		<title type="official" xml:lang="pt">Chobits</title>
+		<title xml:lang="fr" type="official">Chobits</title>
+		<title type="main" xml:lang="x-jat">Chobits</title>
+		<title xml:lang="bg" type="syn">Чобитс</title>
+		<title type="official" xml:lang="ru">Чобиты</title>
+		<title xml:lang="uk" type="syn">Чобіти</title>
+		<title type="syn" xml:lang="zh-Hans">人形电脑天使心</title>
+	</anime>
+	<anime aid="13">
+		<title xml:lang="ja" type="official">ノワール</title>
+		<title type="official" xml:lang="pt">Noir</title>
+		<title type="official" xml:lang="fr">Noir</title>
+		<title type="official" xml:lang="en">Noir</title>
+		<title xml:lang="de" type="official">Noir</title>
+		<title xml:lang="pt-BR" type="official">Noir</title>
+		<title type="main" xml:lang="x-jat">Noir</title>
+		<title type="official" xml:lang="es">Noir</title>
+		<title xml:lang="x-jat" type="syn">noir tv</title>
+		<title type="syn" xml:lang="uk">Нуар</title>
+		<title xml:lang="ru" type="official">Нуар</title>
+	</anime>
+	<anime aid="14">
+		<title type="official" xml:lang="ja">ラーゼフォン</title>
+		<title xml:lang="de" type="official">RahXephon</title>
+		<title xml:lang="fr" type="official">RahXephon</title>
+		<title xml:lang="x-jat" type="main">RahXephon</title>
+		<title xml:lang="en" type="official">RahXephon</title>
+		<title xml:lang="x-jat" type="short">rx</title>
+		<title xml:lang="ar" type="syn">راهزيفون</title>
+		<title type="syn" xml:lang="he">רה-קספון</title>
+		<title type="official" xml:lang="el">Ενορχήστρωση</title>
+		<title xml:lang="ru" type="syn">Ра-Зефон</title>
+		<title xml:lang="uk" type="syn">РаКсефон</title>
+		<title xml:lang="zh" type="syn">翼神传说</title>
+	</anime>
+	<anime aid="15">
+		<title type="syn" xml:lang="ja">カノン</title>
+		<title xml:lang="ja" type="official">Kanon</title>
+		<title type="main" xml:lang="x-jat">Kanon</title>
+		<title type="syn" xml:lang="en">Kanon 2002</title>
+		<title xml:lang="ru" type="syn">Канон</title>
+		<title xml:lang="zh" type="syn">雪之少女</title>
+	</anime>
+	<anime aid="16">
+		<title xml:lang="ja" type="short">おねてぃ</title>
+		<title xml:lang="ko" type="syn">오네가이 티쳐</title>
+		<title type="official" xml:lang="ja">おねがい☆ティーチャー</title>
+		<title type="official" xml:lang="th">พลีสทีชเชอร์ สอนนักรักซะ</title>
+		<title xml:lang="x-jat" type="short">one1</title>
+		<title type="main" xml:lang="x-jat">Onegai Teacher</title>
+		<title xml:lang="de" type="official">Onegai Teacher</title>
+		<title type="short" xml:lang="x-jat">onetea</title>
+		<title type="short" xml:lang="x-jat">OT</title>
+		<title type="official" xml:lang="en">Please Teacher!</title>
+		<title xml:lang="fr" type="official">Please Teacher!</title>
+		<title type="syn" xml:lang="lt">Prašau Mokytoja!</title>
+		<title xml:lang="uk" type="syn">Будь ласка, вчителю!</title>
+		<title type="syn" xml:lang="bg">Моля ви учителю</title>
+		<title type="syn" xml:lang="ru">Пожалуйста! Учитель</title>
+	</anime>
+	<anime aid="17">
+		<title type="official" xml:lang="ko">풀 메탈 패닉!</title>
+		<title xml:lang="th" type="official">ฟูลเมทัล แพนิค!</title>
+		<title type="official" xml:lang="ja">フルメタル・パニック!</title>
+		<title xml:lang="x-jat" type="short">FMP</title>
+		<title type="short" xml:lang="x-jat">FMP!</title>
+		<title type="short" xml:lang="x-jat">FMP1</title>
+		<title type="syn" xml:lang="x-jat">Full Metal Panic</title>
+		<title type="official" xml:lang="it">Full Metal Panic!</title>
+		<title xml:lang="fr" type="official">Full Metal Panic!</title>
+		<title type="official" xml:lang="sv">Full Metal Panic!</title>
+		<title xml:lang="ro" type="official">Full Metal Panic!</title>
+		<title xml:lang="cs" type="official">Full Metal Panic!</title>
+		<title xml:lang="de" type="official">Full Metal Panic!</title>
+		<title type="official" xml:lang="hu">Full Metal Panic!</title>
+		<title type="official" xml:lang="fi">Full Metal Panic!</title>
+		<title xml:lang="en" type="official">Full Metal Panic!</title>
+		<title xml:lang="pl" type="official">Full Metal Panic!</title>
+		<title xml:lang="x-jat" type="main">Fullmetal Panic!</title>
+		<title type="syn" xml:lang="he">!פול מטאל פאניק</title>
+		<title xml:lang="uk" type="official">Металева тривога</title>
+		<title type="syn" xml:lang="ru">Металлобоязнь</title>
+		<title type="syn" xml:lang="bg">Пълна метална паника!</title>
+		<title xml:lang="uk" type="syn">Сталева тривога!</title>
+		<title type="official" xml:lang="ru">Стальная тревога</title>
+		<title type="official" xml:lang="zh">全金属狂潮</title>
+		<title xml:lang="zh-Hans" type="syn">全金属狂潮2 校园篇</title>
+	</anime>
+	<anime aid="18">
+		<title xml:lang="en" type="short">ICT</title>
+		<title xml:lang="it" type="official">L`irresponsabile Capitano Tylor</title>
+		<title type="main" xml:lang="x-jat">Musekinin Kanchou Tylor</title>
+		<title type="official" xml:lang="en">The Irresponsible Captain Tylor</title>
+		<title xml:lang="es-LA" type="official">Tylor, El Capitán Irresponsable</title>
+		<title xml:lang="fr" type="official">Tylor - The irresponsible captain</title>
+		<title xml:lang="ru" type="syn">Безответственный капитан Тайлор</title>
+		<title xml:lang="ja" type="official">無責任艦長タイラー</title>
+	</anime>
+	<anime aid="19">
+		<title type="official" xml:lang="ja">りぜるまいん</title>
+		<title type="syn" xml:lang="th">ริเซ็ลไมน์</title>
+		<title type="short" xml:lang="x-jat">rizel</title>
+		<title xml:lang="x-jat" type="syn">Rizelmain</title>
+		<title xml:lang="x-jat" type="main">Rizelmine</title>
+		<title xml:lang="x-jat" type="syn">Rizerumain</title>
+	</anime>
+	<anime aid="20">
+		<title type="official" xml:lang="fr">Tokyo Underground</title>
+		<title type="main" xml:lang="x-jat">Tokyo Underground</title>
+		<title xml:lang="x-jat" type="short">TU</title>
+		<title type="official" xml:lang="ja">東京アンダーグラウンド</title>
+	</anime>
+	<anime aid="21">
+		<title type="official" xml:lang="ko">달빛천사</title>
+		<title type="syn" xml:lang="tr">Dolunay Arayışı</title>
+		<title xml:lang="x-jat" type="short">FMoS</title>
+		<title xml:lang="x-jat" type="short">FMwS</title>
+		<title type="short" xml:lang="x-jat">fullmoon</title>
+		<title type="short" xml:lang="x-jat">full moon</title>
+		<title type="official" xml:lang="en">Full Moon</title>
+		<title type="official" xml:lang="fr">Full Moon</title>
+		<title xml:lang="x-jat" type="main">Full Moon o Sagashite</title>
+		<title xml:lang="x-jat" type="syn">Full Moon wo Sagashite</title>
+		<title xml:lang="en" type="syn">Searching for the Full Moon</title>
+		<title type="syn" xml:lang="pl">W poszukiwaniu pełni księżyca</title>
+		<title xml:lang="ru" type="syn">В поисках Полной Луны</title>
+		<title xml:lang="zh" type="syn">尋找滿月</title>
+		<title type="official" xml:lang="zh-Hant">星河滿月</title>
+		<title xml:lang="ja" type="official">満月[フルムーン]をさがして</title>
+	</anime>
+	<anime aid="22">
+		<title type="official" xml:lang="ko">신세기 에반게리온</title>
+		<title type="official" xml:lang="th">อีวานเกเลี่ยน: มหาสงครามวันพิพากษา</title>
+		<title type="short" xml:lang="x-jat">eva</title>
+		<title xml:lang="x-jat" type="syn">Evangelion</title>
+		<title xml:lang="gl" type="official">Evangelion</title>
+		<title xml:lang="es-LA" type="official">Evangelion</title>
+		<title type="syn" xml:lang="ja">Evangelion TV</title>
+		<title type="short" xml:lang="x-jat">eva tv</title>
+		<title xml:lang="pt-BR" type="official">Neon Genesis Evangelion</title>
+		<title type="official" xml:lang="fr">Neon Genesis Evangelion</title>
+		<title xml:lang="pt" type="official">Neon Genesis Evangelion</title>
+		<title xml:lang="es" type="official">Neon Genesis Evangelion</title>
+		<title xml:lang="de" type="official">Neon Genesis Evangelion</title>
+		<title xml:lang="it" type="official">Neon Genesis Evangelion</title>
+		<title xml:lang="sv" type="official">Neon Genesis Evangelion</title>
+		<title type="official" xml:lang="pl">Neon Genesis Evangelion</title>
+		<title type="official" xml:lang="fi">Neon Genesis Evangelion</title>
+		<title xml:lang="en" type="official">Neon Genesis Evangelion</title>
+		<title type="syn" xml:lang="fr">Neon Genesis Evangelion Platinum</title>
+		<title type="syn" xml:lang="en">Neon Genesis Evangelion Renewal</title>
+		<title type="short" xml:lang="en">NGE</title>
+		<title type="short" xml:lang="en">nge tv</title>
+		<title type="main" xml:lang="x-jat">Shinseiki Evangelion</title>
+		<title type="short" xml:lang="x-jat">sse</title>
+		<title type="official" xml:lang="he">ניאון ג`נסיס אוונג`ליון</title>
+		<title type="short" xml:lang="ru">ева</title>
+		<title type="syn" xml:lang="bg">Евангелион</title>
+		<title type="official" xml:lang="ru">Евангелион</title>
+		<title type="short" xml:lang="uk">єва</title>
+		<title type="syn" xml:lang="uk">Євангеліон</title>
+		<title xml:lang="uk" type="syn">Євангеліон нового покоління</title>
+		<title xml:lang="uk" type="syn">Нова ера: Євангеліон</title>
+		<title type="official" xml:lang="ja">新世紀エヴァンゲリオン</title>
+		<title xml:lang="zh" type="official">新世纪福音战士</title>
+		<title type="official" xml:lang="zh-Hans">新世纪福音战士</title>
+	</anime>
+	<anime aid="23">
+		<title type="official" xml:lang="ko">카우보이 비밥</title>
+		<title xml:lang="ja" type="official">カウボーイビバップ</title>
+		<title type="short" xml:lang="x-jat">Bebop</title>
+		<title type="short" xml:lang="x-jat">Bebop TV</title>
+		<title type="short" xml:lang="x-jat">CB</title>
+		<title xml:lang="x-jat" type="syn">CBB</title>
+		<title xml:lang="x-jat" type="short">CowBe</title>
+		<title xml:lang="ca" type="official">Cowboy Bebop</title>
+		<title type="official" xml:lang="pl">Cowboy Bebop</title>
+		<title xml:lang="fi" type="official">Cowboy Bebop</title>
+		<title xml:lang="es" type="official">Cowboy Bebop</title>
+		<title type="official" xml:lang="it">Cowboy Bebop</title>
+		<title type="official" xml:lang="pt">Cowboy Bebop</title>
+		<title xml:lang="fr" type="official">Cowboy Bebop</title>
+		<title type="official" xml:lang="ro">Cowboy Bebop</title>
+		<title type="official" xml:lang="pt-BR">Cowboy Bebop</title>
+		<title type="official" xml:lang="en">Cowboy Bebop</title>
+		<title xml:lang="nl" type="syn">Cowboy Bebop</title>
+		<title type="official" xml:lang="de">Cowboy Bebop</title>
+		<title type="official" xml:lang="es-LA">Cowboy Bebop</title>
+		<title type="main" xml:lang="x-jat">Cowboy Bebop</title>
+		<title xml:lang="hu" type="official">Csillagközi fejvadászok</title>
+		<title xml:lang="lt" type="syn">Kaubojus Bebopas</title>
+		<title type="syn" xml:lang="lt">Kaubojus Bibopas</title>
+		<title xml:lang="cs" type="official">Kovboj Bebop</title>
+		<title type="syn" xml:lang="tr">Kovboy Bebop</title>
+		<title type="syn" xml:lang="ar">راعي البقر بيبوب</title>
+		<title type="syn" xml:lang="fa">کابوی بیباپ</title>
+		<title type="official" xml:lang="he">קאובוי ביבופ</title>
+		<title xml:lang="ru" type="syn">Ковбой Бибоп ТВ</title>
+		<title type="syn" xml:lang="uk">Ковбой Бібоп ТБ</title>
+		<title type="official" xml:lang="bg">Марсиански каубой</title>
+		<title xml:lang="zh" type="official">星际牛仔</title>
+		<title xml:lang="zh-Hant" type="official">星際牛仔</title>
+	</anime>
+	<anime aid="24">
+		<title xml:lang="x-jat" type="syn">dot hack</title>
+		<title type="syn" xml:lang="en">dot hack sign</title>
+		<title type="short" xml:lang="x-jat">hack</title>
+		<title type="short" xml:lang="x-jat">hackSIGN</title>
+		<title xml:lang="ja" type="official">.hack//SIGN</title>
+		<title xml:lang="x-jat" type="main">.hack//Sign</title>
+		<title type="official" xml:lang="en">.hack//SIGN</title>
+		<title xml:lang="de" type="official">.hack//SIGN</title>
+		<title xml:lang="fr" type="official">.hack//SIGN</title>
+		<title xml:lang="pt" type="official">.hack//SIGN</title>
+		<title type="official" xml:lang="pt-BR">.hack//SIGN</title>
+		<title xml:lang="ro" type="syn">.hack//SIGN</title>
+		<title xml:lang="x-jat" type="syn">hack sign</title>
+		<title type="syn" xml:lang="x-jat">hack//SIGN</title>
+		<title type="short" xml:lang="x-jat">sign</title>
+		<title xml:lang="bg" type="short">Хак</title>
+		<title type="syn" xml:lang="bg">Хак//Симбол</title>
+	</anime>
+	<anime aid="25">
+		<title type="syn" xml:lang="fr">Animation expérimentale Excel Saga</title>
+		<title xml:lang="x-jat" type="short">Excel</title>
+		<title xml:lang="it" type="official">Excel Saga</title>
+		<title type="syn" xml:lang="x-jat">Excel Saga</title>
+		<title xml:lang="es" type="official">Excel Saga</title>
+		<title xml:lang="en" type="official">Excel Saga</title>
+		<title xml:lang="pt-BR" type="official">Excel Saga</title>
+		<title type="official" xml:lang="pt">Excel Saga</title>
+		<title type="official" xml:lang="fr">Excel Saga</title>
+		<title type="syn" xml:lang="es">Excel Saga: Animación Absurda y Experimental</title>
+		<title xml:lang="it" type="syn">Excel Saga Animazione Sperimentale</title>
+		<title type="main" xml:lang="x-jat">Heppoko Jikken Animation Excel Saga</title>
+		<title xml:lang="en" type="syn">Quack Experimental Anime Excel Saga</title>
+		<title xml:lang="en" type="syn">Weird Anime Excel Saga</title>
+		<title type="syn" xml:lang="bg">Експериментално Аниме: Ексел Сага</title>
+		<title type="syn" xml:lang="ru">Извращенное экспериментальное аниме Эксель Сага</title>
+		<title type="short" xml:lang="ru">Эксель Cага</title>
+		<title type="official" xml:lang="ja">へっぽこ実験アニメーション エクセル・サーガ</title>
+		<title type="syn" xml:lang="zh-Hans">迷糊女战士</title>
+	</anime>
+	<anime aid="26">
+		<title xml:lang="th" type="syn">12 อาณาจักรเทพยุทธ์</title>
+		<title type="syn" xml:lang="ro">12 Împărăţii</title>
+		<title xml:lang="en" type="short">12K</title>
+		<title type="syn" xml:lang="lt">12 Karalysčių</title>
+		<title type="syn" xml:lang="en">12 Kingdoms</title>
+		<title xml:lang="de" type="official">12 Kingdoms - Juuni Kokki</title>
+		<title type="syn" xml:lang="x-jat">12 Kokuki</title>
+		<title type="syn" xml:lang="tr">12 Krallık</title>
+		<title type="syn" xml:lang="pl">12 królestw</title>
+		<title type="official" xml:lang="es">Doce Reinos</title>
+		<title xml:lang="pt-BR" type="syn">Doze Reinos</title>
+		<title xml:lang="cs" type="syn">Dvanáct království</title>
+		<title xml:lang="pl" type="syn">Dwanaście królestw</title>
+		<title xml:lang="ca" type="official">Els Dotze Regnes</title>
+		<title type="short" xml:lang="x-jat">JK</title>
+		<title xml:lang="x-jat" type="short">Juuni</title>
+		<title xml:lang="ja" type="syn">Juuni Kokki</title>
+		<title xml:lang="x-jat" type="main">Juuni Kokuki</title>
+		<title type="syn" xml:lang="et">Kaksteist Kuningriiki</title>
+		<title xml:lang="fr" type="official">Les 12 royaumes</title>
+		<title xml:lang="es-LA" type="official">Los Doce Reinos</title>
+		<title type="syn" xml:lang="en">Record of 12 countries</title>
+		<title type="official" xml:lang="en">The Twelve Kingdoms</title>
+		<title xml:lang="pt-BR" type="official">The Twelve Kingdoms</title>
+		<title type="syn" xml:lang="ar">الممالك الاثنى عشر</title>
+		<title xml:lang="he" type="official">שתים עשרה הממלכות</title>
+		<title xml:lang="bg" type="syn">Дванадесете Кралства</title>
+		<title xml:lang="ru" type="official">Двенадцать королевств</title>
+		<title xml:lang="ru" type="syn">Хроники Двенадцати Королевств</title>
+		<title xml:lang="uk" type="syn">Хроніки дванадцяти королівств</title>
+		<title type="official" xml:lang="ja">十二国記</title>
+		<title type="official" xml:lang="zh">十二国记</title>
+	</anime>
+	<anime aid="27">
+		<title type="official" xml:lang="th">เทพธิดาอลเวง</title>
+		<title xml:lang="x-jat" type="main">Aa! Megami-sama!</title>
+		<title xml:lang="x-jat" type="short">aams</title>
+		<title xml:lang="cs" type="official">Ach! Má bohyně</title>
+		<title type="official" xml:lang="es">Ah, mi Diosa!</title>
+		<title xml:lang="pt-BR" type="official">Ah! Minha Deusa</title>
+		<title xml:lang="en" type="syn">Ah! My Goddess</title>
+		<title xml:lang="fr" type="official">Ah! My Goddess - OAV</title>
+		<title type="short" xml:lang="en">AMG</title>
+		<title xml:lang="x-jat" type="short">AMS</title>
+		<title type="short" xml:lang="x-jat">ams ova</title>
+		<title type="official" xml:lang="it">Oh, Mia Dea!</title>
+		<title type="official" xml:lang="en">Oh My Goddess!</title>
+		<title type="syn" xml:lang="en">Oh! My Goddess</title>
+		<title type="official" xml:lang="de">Oh! My Goddess - OVA</title>
+		<title xml:lang="en" type="short">OMG</title>
+		<title type="short" xml:lang="de">omg ova</title>
+		<title xml:lang="bg" type="syn">Ах! Богиньо моя!</title>
+		<title xml:lang="ru" type="official">Моя богиня!</title>
+		<title xml:lang="ja" type="official">ああっ女神さまっ</title>
+		<title xml:lang="zh-Hans" type="syn">我的女神</title>
+	</anime>
+	<anime aid="28">
+		<title type="official" xml:lang="ja">アキラ</title>
+		<title type="official" xml:lang="th">อากิระ คนไม่ใช่คน</title>
+		<title xml:lang="cs" type="official">Akira</title>
+		<title xml:lang="lt" type="syn">Akira</title>
+		<title xml:lang="fr" type="official">Akira</title>
+		<title xml:lang="pl" type="official">Akira</title>
+		<title type="official" xml:lang="el">Akira</title>
+		<title xml:lang="x-jat" type="main">Akira</title>
+		<title xml:lang="es-LA" type="official">Akira</title>
+		<title xml:lang="pt-BR" type="official">Akira</title>
+		<title type="official" xml:lang="es">Akira</title>
+		<title type="official" xml:lang="it">Akira</title>
+		<title type="official" xml:lang="sv">Akira</title>
+		<title xml:lang="pt" type="official">Akira</title>
+		<title xml:lang="de" type="official">Akira</title>
+		<title xml:lang="en" type="official">Akira</title>
+		<title type="official" xml:lang="da">Akira</title>
+		<title type="official" xml:lang="tr">Akira</title>
+		<title xml:lang="fi" type="official">Akira</title>
+		<title xml:lang="hu" type="official">Akira</title>
+		<title type="official" xml:lang="fa">آکیرا</title>
+		<title type="official" xml:lang="he">אקירה</title>
+		<title type="official" xml:lang="bg">Акира</title>
+		<title type="official" xml:lang="ru">Акира</title>
+		<title xml:lang="sr" type="official">Акира</title>
+		<title type="syn" xml:lang="uk">Акіра</title>
+	</anime>
+	<anime aid="29">
+		<title type="official" xml:lang="en">Angel Sanctuary</title>
+		<title type="official" xml:lang="de">Angel Sanctuary</title>
+		<title type="official" xml:lang="es">Angel Sanctuary</title>
+		<title type="official" xml:lang="fr">Angel Sanctuary</title>
+		<title type="official" xml:lang="pl">Angel Sanctuary</title>
+		<title xml:lang="it" type="official">Angel Sanctuary - Riserva di caccia agli Angeli</title>
+		<title type="short" xml:lang="en">AS</title>
+		<title type="syn" xml:lang="tr">Melek Tapınağı</title>
+		<title xml:lang="x-jat" type="short">tenkin</title>
+		<title xml:lang="x-jat" type="main">Tenshi Kinryouku</title>
+		<title xml:lang="ru" type="official">Прибежище ангела</title>
+		<title type="syn" xml:lang="ru">Убежище ангела</title>
+		<title type="official" xml:lang="ja">天使禁猟区</title>
+		<title xml:lang="ja" type="short">天禁</title>
+	</anime>
+	<anime aid="30">
+		<title type="syn" xml:lang="ja">エックス (2001)</title>
+		<title xml:lang="pl" type="official">X</title>
+		<title xml:lang="fr" type="official">X</title>
+		<title xml:lang="en" type="official">X (2001)</title>
+		<title type="official" xml:lang="ja">X (2001)</title>
+		<title xml:lang="x-jat" type="main">X (2001)</title>
+		<title xml:lang="de" type="official">X - Die Serie</title>
+		<title type="official" xml:lang="it">X serie TV</title>
+		<title type="syn" xml:lang="x-jat">X TV</title>
+		<title type="syn" xml:lang="de">X - TV Serie</title>
+		<title xml:lang="ru" type="official">X (Икс)</title>
+		<title xml:lang="zh-Hans" type="syn">X战记</title>
+		<title type="syn" xml:lang="ar">إكس</title>
+		<title type="official" xml:lang="he">אקס</title>
+		<title xml:lang="bg" type="syn">Х</title>
+	</anime>
+	<anime aid="32">
+		<title xml:lang="ko" type="official">헬싱</title>
+		<title xml:lang="ja" type="official">ヘルシング</title>
+		<title type="official" xml:lang="th">เฮลล์ซิ่ง</title>
+		<title xml:lang="de" type="official">Hellsing</title>
+		<title xml:lang="fr" type="official">Hellsing</title>
+		<title type="official" xml:lang="pt-BR">Hellsing</title>
+		<title type="official" xml:lang="it">Hellsing</title>
+		<title type="official" xml:lang="cs">Hellsing</title>
+		<title xml:lang="sv" type="official">Hellsing</title>
+		<title type="official" xml:lang="pt">Hellsing</title>
+		<title type="official" xml:lang="en">Hellsing</title>
+		<title xml:lang="hu" type="official">Hellsing</title>
+		<title type="official" xml:lang="pl">Hellsing</title>
+		<title xml:lang="tr" type="official">Hellsing</title>
+		<title type="main" xml:lang="x-jat">Hellsing</title>
+		<title type="official" xml:lang="es-LA">Hellsing</title>
+		<title type="short" xml:lang="en">hellsingtv</title>
+		<title type="short" xml:lang="x-jat">hellsing tv</title>
+		<title type="official" xml:lang="lt">Helsingas</title>
+		<title xml:lang="ar" type="syn">هيلسنج</title>
+		<title type="syn" xml:lang="bg">Хеллсинг</title>
+		<title type="official" xml:lang="ru">Хеллсинг: Война с нечистью</title>
+		<title type="official" xml:lang="bg">Хелсинг</title>
+		<title type="syn" xml:lang="uk">Хелсінг</title>
+		<title type="syn" xml:lang="zh-Hans">王家国教骑士团</title>
+	</anime>
+	<anime aid="33">
+		<title type="syn" xml:lang="th">แฮปปี้ เลสซั่น</title>
+		<title type="main" xml:lang="x-jat">Happy Lesson (2002)</title>
+		<title type="official" xml:lang="ja">HAPPY☆LESSON (2002)</title>
+		<title type="syn" xml:lang="x-jat">Happy Lesson TV</title>
+		<title type="short" xml:lang="x-jat">HL</title>
+		<title type="short" xml:lang="x-jat">HLTV</title>
+		<title type="syn" xml:lang="bg">Щастлив урок ТВ</title>
+	</anime>
+	<anime aid="34">
+		<title xml:lang="ko" type="official">후르츠 바스켓</title>
+		<title xml:lang="ja" type="official">フルーツバスケット</title>
+		<title type="official" xml:lang="th">ฟรุ๊ตส์บาสเก็ต</title>
+		<title xml:lang="th" type="syn">เสน่ห์สาวข้าวปั้น</title>
+		<title xml:lang="es" type="syn">Cesta de frutas</title>
+		<title type="syn" xml:lang="pt-BR">Cesta de Frutas</title>
+		<title type="short" xml:lang="x-jat">FB</title>
+		<title type="short" xml:lang="x-jat">fruba</title>
+		<title type="official" xml:lang="en">Fruits Basket</title>
+		<title xml:lang="sv" type="official">Fruits Basket</title>
+		<title xml:lang="x-jat" type="main">Fruits Basket</title>
+		<title type="official" xml:lang="es">Fruits Basket</title>
+		<title xml:lang="de" type="official">Fruits Basket</title>
+		<title xml:lang="fr" type="official">Fruits Basket</title>
+		<title type="official" xml:lang="fi">Fruits Basket</title>
+		<title xml:lang="pt-BR" type="official">Fruits Basket - A Série</title>
+		<title type="syn" xml:lang="x-jat">Furuba</title>
+		<title type="syn" xml:lang="vi">Giỏ Trái Cây</title>
+		<title xml:lang="vi" type="official">Hoá giải lời nguyền</title>
+		<title xml:lang="tr" type="syn">Meyve Sepeti</title>
+		<title xml:lang="pl" type="syn">Owocowy koszyk</title>
+		<title type="official" xml:lang="ar">سلة الفواكه</title>
+		<title xml:lang="he" type="official">פרוטס באסקט</title>
+		<title type="syn" xml:lang="ru">Корзина Фруктов</title>
+		<title xml:lang="ru" type="syn">Корзинка фруктов</title>
+		<title type="syn" xml:lang="uk">Кошик фруктів</title>
+		<title type="syn" xml:lang="bg">Кошница с плодове</title>
+		<title xml:lang="zh" type="official">幻影天使</title>
+		<title type="syn" xml:lang="zh-Hans">水果篮子</title>
+	</anime>
+	<anime aid="35">
+		<title type="official" xml:lang="ko">러브 히나</title>
+		<title xml:lang="ja" type="official">ラブひな</title>
+		<title type="official" xml:lang="th">เลิฟฮินะ</title>
+		<title xml:lang="th" type="syn">บ้านพักอลเวง</title>
+		<title type="short" xml:lang="x-jat">LH</title>
+		<title xml:lang="de" type="official">Love Hina</title>
+		<title xml:lang="x-jat" type="main">Love Hina</title>
+		<title xml:lang="fi" type="official">Love Hina</title>
+		<title xml:lang="pl" type="official">Love Hina</title>
+		<title type="official" xml:lang="sv">Love Hina</title>
+		<title xml:lang="fr" type="official">Love Hina</title>
+		<title xml:lang="es" type="official">Love Hina</title>
+		<title xml:lang="pt" type="official">Love Hina</title>
+		<title type="official" xml:lang="pt-BR">Love Hina</title>
+		<title xml:lang="en" type="official">Love Hina</title>
+		<title xml:lang="da" type="official">Love Hina</title>
+		<title xml:lang="x-jat" type="syn">Love Hina tv</title>
+		<title xml:lang="uk" type="syn">Кохання та Хіна</title>
+		<title type="syn" xml:lang="ru">Любовь и Хина</title>
+		<title type="syn" xml:lang="ru">С любовью, Хина</title>
+		<title type="syn" xml:lang="zh-Hans">纯情房东俏房客</title>
+	</anime>
+	<anime aid="36">
+		<title type="official" xml:lang="ja">イケてる2人</title>
+		<title type="syn" xml:lang="en">Cool Couple</title>
+		<title type="short" xml:lang="x-jat">IF</title>
+		<title type="main" xml:lang="x-jat">Iketeru Futari</title>
+		<title type="syn" xml:lang="ru">Клевая пара</title>
+	</anime>
+	<anime aid="38">
+		<title xml:lang="x-jat" type="main">Koutetsu Tenshi Kurumi Zero</title>
+		<title type="short" xml:lang="x-jat">kurumi0</title>
+		<title type="syn" xml:lang="x-jat">kurumi zero</title>
+		<title type="official" xml:lang="en">Steel Angel Kurumi Zero</title>
+		<title xml:lang="ja" type="official">鋼鉄天使くるみ零</title>
+	</anime>
+	<anime aid="39">
+		<title type="official" xml:lang="ko">마법소녀 리나</title>
+		<title xml:lang="ko" type="syn">슬레이어즈</title>
+		<title type="official" xml:lang="ja">スレイヤーズ</title>
+		<title xml:lang="es-LA" type="official">Los Justicieros</title>
+		<title xml:lang="pl" type="official">Magiczni wojownicy</title>
+		<title xml:lang="es" type="official">Reena y Gaudy</title>
+		<title type="official" xml:lang="en">Slayers</title>
+		<title xml:lang="x-jat" type="main">Slayers</title>
+		<title type="official" xml:lang="fr">Slayers</title>
+		<title xml:lang="ro" type="official">Slayers</title>
+		<title xml:lang="de" type="official">Slayers</title>
+		<title xml:lang="hu" type="official">Slayers-A kis boszorkány</title>
+		<title type="official" xml:lang="cs">Slayers - Lina, postrach banditů</title>
+		<title xml:lang="ro" type="syn">Slayers - Micuţa Vrăjitoare</title>
+		<title type="syn" xml:lang="x-jat">Slayers TV</title>
+		<title xml:lang="en" type="syn">The Slayers</title>
+		<title type="official" xml:lang="it">Un incantesimo dischiuso tra i petali del tempo</title>
+		<title type="official" xml:lang="el">Ρίνα η Ξιφομάχος</title>
+		<title xml:lang="ru" type="official">Рубаки</title>
+		<title xml:lang="zh-Hans" type="syn">秀逗魔导士</title>
+	</anime>
+	<anime aid="40">
+		<title xml:lang="ko" type="syn">신비한 바다의 나디아</title>
+		<title type="syn" xml:lang="tl">Ang Mahiwagang Kwintas</title>
+		<title type="official" xml:lang="de">Die Macht des Zaubersteins</title>
+		<title type="main" xml:lang="x-jat">Fushigi no Umi no Nadia</title>
+		<title type="syn" xml:lang="it">Il mistero della pietra azzurra</title>
+		<title type="official" xml:lang="fi">Matka maapallon ympäri</title>
+		<title xml:lang="x-jat" type="short">Nadia</title>
+		<title type="syn" xml:lang="ca">Nadia: el Secret de l`Aigua Blau</title>
+		<title type="syn" xml:lang="es">Nadia: el Secreto del Agua Azul</title>
+		<title xml:lang="it" type="official">Nadia - Il mistero della pietra azzurra</title>
+		<title type="official" xml:lang="fr">Nadia, le secret de l`eau bleue</title>
+		<title type="official" xml:lang="tr">Nadia: Mavi Suyun Esrarı</title>
+		<title type="syn" xml:lang="en">Nadia of the Mysterious Seas</title>
+		<title type="syn" xml:lang="en">Nadia: Secret of Blue Water</title>
+		<title type="official" xml:lang="en">Nadia: The Secret of Blue Water</title>
+		<title xml:lang="x-jat" type="short">nadia tv</title>
+		<title xml:lang="cs" type="syn">Nadja z tajemných moří</title>
+		<title xml:lang="en" type="syn">The Secret of Blue Water</title>
+		<title type="official" xml:lang="ar">الماسة الزرقاء</title>
+		<title xml:lang="ru" type="syn">Надя c загадочного моря</title>
+		<title xml:lang="zh-Hans" type="syn">不可思议之海的娜迪娅</title>
+		<title xml:lang="zh" type="syn">冒險少女娜汀亞</title>
+		<title xml:lang="ja" type="official">ふしぎの海のナディア</title>
+	</anime>
+	<anime aid="42">
+		<title xml:lang="ja" type="syn">シャドウスキル</title>
+		<title type="official" xml:lang="en">Shadow Skill</title>
+		<title xml:lang="de" type="official">Shadow Skill</title>
+		<title xml:lang="x-jat" type="main">Shadow Skill (1998)</title>
+		<title type="syn" xml:lang="x-jat">Shadow Skill - Eigi</title>
+		<title type="official" xml:lang="fr">Shadow Skill - Frère et sœur d`armes</title>
+		<title xml:lang="x-jat" type="syn">Shadow Skill TV</title>
+		<title type="official" xml:lang="ja">SHADOW SKILL ~影技~ (1998)</title>
+		<title xml:lang="x-jat" type="short">ss</title>
+		<title type="short" xml:lang="x-jat">sstv</title>
+		<title xml:lang="x-jat" type="short">ss tv</title>
+	</anime>
+	<anime aid="43">
+		<title xml:lang="th" type="official">บลัด เดอะลาสท์แวมไพร์</title>
+		<title type="short" xml:lang="x-jat">Blood</title>
+		<title type="official" xml:lang="hu">Blood - Az utolsó vámpír</title>
+		<title type="official" xml:lang="es">Blood, el último vampiro</title>
+		<title xml:lang="ca" type="official">Blood, l`últim vampir</title>
+		<title type="official" xml:lang="pt">Blood: O Último Vampiro</title>
+		<title xml:lang="sv" type="syn">Blood - The Last Vampire</title>
+		<title xml:lang="fr" type="official">Blood - The Last Vampire</title>
+		<title xml:lang="it" type="official">Blood - The Last Vampire</title>
+		<title xml:lang="ja" type="official">BLOOD THE LAST VAMPIRE</title>
+		<title xml:lang="x-jat" type="main">Blood: The Last Vampire</title>
+		<title xml:lang="pl" type="official">Blood: The Last Vampire</title>
+		<title type="official" xml:lang="fi">Blood: The Last Vampire</title>
+		<title type="official" xml:lang="en">Blood: The Last Vampire</title>
+		<title type="official" xml:lang="de">Blood: The Last Vampire</title>
+		<title xml:lang="bg" type="syn">Blood: Последния вампир</title>
+		<title xml:lang="zh" type="official">Blood - 最后的吸血鬼</title>
+		<title type="short" xml:lang="en">BtLV</title>
+		<title xml:lang="tr" type="syn">Kan: Son Vampir</title>
+		<title xml:lang="lt" type="syn">Kraujas: Paskutinis vampyras</title>
+		<title type="official" xml:lang="ru">Кровь</title>
+		<title xml:lang="ru" type="syn">Кровь: Последний вампир</title>
+		<title type="syn" xml:lang="bg">Кръв: Последният вампир</title>
+	</anime>
+	<anime aid="44">
+		<title type="short" xml:lang="x-jat">Amon</title>
+		<title xml:lang="x-jat" type="main">Amon Devilman Mokushiroku</title>
+		<title type="syn" xml:lang="en">Apocalypse of Devilman</title>
+		<title xml:lang="x-jat" type="short">Devil Man</title>
+		<title xml:lang="ja" type="official">アモン デビルマン黙示録</title>
+	</anime>
+	<anime aid="45">
+		<title xml:lang="ja" type="syn">ガンスミスキャッツ</title>
+		<title type="syn" xml:lang="ja">ガン・スミス・キャッツ</title>
+		<title type="short" xml:lang="x-jat">gc</title>
+		<title type="short" xml:lang="x-jat">GSC</title>
+		<title type="official" xml:lang="ja">GUN SMITH CATS</title>
+		<title xml:lang="x-jat" type="main">Gun Smith Cats</title>
+		<title xml:lang="de" type="official">Gun Smith Cats</title>
+		<title xml:lang="en" type="official">Gunsmith Cats</title>
+		<title xml:lang="fr" type="official">Gunsmith Cats</title>
+	</anime>
+	<anime aid="46">
+		<title xml:lang="ja" type="official">ニア アンダーセブン</title>
+		<title type="short" xml:lang="x-jat">NieA</title>
+		<title xml:lang="x-jat" type="short">NieA 7</title>
+		<title type="official" xml:lang="de">NieA_7</title>
+		<title type="official" xml:lang="fr">NieA_7</title>
+		<title xml:lang="x-jat" type="main">NieA Under 7</title>
+	</anime>
+	<anime aid="47">
+		<title type="official" xml:lang="ja">スクライド</title>
+		<title xml:lang="x-jat" type="main">Scryed</title>
+		<title type="official" xml:lang="en">s-CRY-ed</title>
+		<title xml:lang="fr" type="official">s-CRY-ed</title>
+		<title type="syn" xml:lang="bg">s-Cry-ed</title>
+		<title type="official" xml:lang="pt-BR">s-CRY-ed</title>
+		<title xml:lang="zh-Hans" type="syn">分身战士</title>
+	</anime>
+	<anime aid="48">
+		<title type="syn" xml:lang="en">Dangerous Girl</title>
+		<title xml:lang="x-jat" type="short">ik</title>
+		<title xml:lang="x-jat" type="main">Ippatsu Kikimusume</title>
+		<title xml:lang="en" type="syn">Miss Critical Moment</title>
+		<title type="official" xml:lang="ja">イッパツ危機娘</title>
+	</anime>
+	<anime aid="49">
+		<title xml:lang="ja" type="official">ラブひな Again</title>
+		<title type="short" xml:lang="x-jat">LHA</title>
+		<title type="short" xml:lang="x-jat">LH Again</title>
+		<title xml:lang="en" type="official">Love Hina Again</title>
+		<title type="main" xml:lang="x-jat">Love Hina Again</title>
+		<title xml:lang="de" type="official">Love Hina Again</title>
+		<title type="syn" xml:lang="ru">Снова c любовью, Хина</title>
+		<title xml:lang="ru" type="syn">Снова любовь и Хина</title>
+	</anime>
+	<anime aid="50">
+		<title type="official" xml:lang="en">Argentosoma</title>
+		<title xml:lang="x-jat" type="main">Argento Soma</title>
+		<title type="official" xml:lang="fr">Argento Soma</title>
+		<title xml:lang="x-jat" type="short">Soma</title>
+		<title xml:lang="ja" type="official">アルジェントソーマ ΑΠΗΕΝΤΟ ΣΟΜΑ</title>
+		<title type="syn" xml:lang="el">Απήεντο Σομα</title>
+		<title type="syn" xml:lang="el">Απήεντο Σώμα</title>
+		<title type="syn" xml:lang="zh-Hans">沉默的未知</title>
+	</anime>
+	<anime aid="51">
+		<title xml:lang="ja" type="official">ラブひなクリスマススペシャル ~サイレント・イヴ~</title>
+		<title type="short" xml:lang="x-jat">lh christmas</title>
+		<title type="short" xml:lang="en">lhcs</title>
+		<title xml:lang="en" type="short">lhw</title>
+		<title xml:lang="en" type="official">Love Hina Christmas Movie</title>
+		<title type="official" xml:lang="fi">Love Hina Christmas Special</title>
+		<title type="official" xml:lang="de">Love Hina: Christmas Special</title>
+		<title type="main" xml:lang="x-jat">Love Hina Christmas Special: Silent Eve</title>
+		<title xml:lang="es" type="official">Love Hina: especial de Navidad</title>
+		<title xml:lang="fr" type="official">Love Hina Spécial - Christmas</title>
+		<title xml:lang="ru" type="syn">Любовь и Хина - рождественский спецвыпуск</title>
+		<title xml:lang="ru" type="syn">С любовью, Хина - рождественский спецвыпуск</title>
+	</anime>
+	<anime aid="52">
+		<title xml:lang="en" type="short">lhs</title>
+		<title xml:lang="en" type="short">lhss</title>
+		<title type="syn" xml:lang="es">Love Hina: especial de primavera</title>
+		<title xml:lang="x-jat" type="main">Love Hina Haru Special: Kimi Sakura Chiru Nakare!!</title>
+		<title type="official" xml:lang="fr">Love Hina Spécial - Spring</title>
+		<title type="official" xml:lang="en">Love Hina Spring Movie</title>
+		<title type="official" xml:lang="sv">Love Hina - Spring Special</title>
+		<title type="official" xml:lang="de">Love Hina: Spring Special</title>
+		<title xml:lang="en" type="syn">Love Hina Spring Special: Don`t Let the Blooming Blossoms Wither and Fall!</title>
+		<title type="syn" xml:lang="ru">Любовь и Хина - весенний спецвыпуск</title>
+		<title type="syn" xml:lang="ru">С любовью, Хина - весенний спецвыпуск</title>
+		<title xml:lang="ja" type="official">ラブひな春スペシャル ~キミサクラチルナカレ!!~</title>
+	</anime>
+	<anime aid="53">
+		<title xml:lang="ko" type="official">트라이건</title>
+		<title type="official" xml:lang="ja">トライガン</title>
+		<title xml:lang="pt-BR" type="official">Trigun</title>
+		<title type="official" xml:lang="es-LA">Trigun</title>
+		<title type="official" xml:lang="de">Trigun</title>
+		<title type="official" xml:lang="cs">Trigun</title>
+		<title xml:lang="pl" type="official">Trigun</title>
+		<title type="main" xml:lang="x-jat">Trigun</title>
+		<title type="official" xml:lang="es">Trigun</title>
+		<title type="official" xml:lang="it">Trigun</title>
+		<title type="official" xml:lang="ro">Trigun</title>
+		<title xml:lang="pt" type="official">Trigun</title>
+		<title type="official" xml:lang="hu">Trigun</title>
+		<title type="official" xml:lang="fr">Trigun</title>
+		<title xml:lang="en" type="official">Trigun</title>
+		<title xml:lang="ca" type="official">Trigun</title>
+		<title type="syn" xml:lang="x-jat">Trigun TV</title>
+		<title type="syn" xml:lang="he">טריגאן</title>
+		<title type="official" xml:lang="el">Ο Άνθρωπος των 60 Εκατομμυρίων Δολαρίων</title>
+		<title xml:lang="ru" type="syn">Трайган</title>
+		<title xml:lang="uk" type="syn">Трайґан</title>
+		<title type="official" xml:lang="ru">Триган</title>
+		<title xml:lang="uk" type="syn">Триган</title>
+		<title xml:lang="bg" type="syn">Тригун</title>
+		<title type="syn" xml:lang="ru">Тригун</title>
+	</anime>
+	<anime aid="54">
+		<title xml:lang="en" type="syn">Hanaukyo Maids</title>
+		<title xml:lang="x-jat" type="syn">Hanaukyou Maids</title>
+		<title type="main" xml:lang="x-jat">Hanaukyou Maid Tai</title>
+		<title type="syn" xml:lang="es">Hanaukyou Maid Tai</title>
+		<title type="syn" xml:lang="en">Hanaukyou Maid Team</title>
+		<title xml:lang="x-jat" type="short">HM</title>
+		<title type="syn" xml:lang="en">Maid in Hanaukyo</title>
+		<title type="official" xml:lang="fr">Monsieur est servi !</title>
+		<title type="official" xml:lang="ja">花右京メイド隊</title>
+	</anime>
+	<anime aid="55">
+		<title xml:lang="ja" type="official">エクスドライバー</title>
+		<title xml:lang="x-jat" type="short">ex-D</title>
+		<title type="official" xml:lang="en">eX-Driver</title>
+		<title xml:lang="x-jat" type="main">eX-Driver</title>
+		<title xml:lang="it" type="official">éX-Driver</title>
+		<title xml:lang="de" type="official">éX-Driver</title>
+		<title type="syn" xml:lang="ru">Экс-Драйвер OVA</title>
+	</anime>
+	<anime aid="56">
+		<title xml:lang="th" type="official">เดอะ ปริ้นซ์ ออฟ เทนนิส</title>
+		<title type="syn" xml:lang="th">เจ้าชายลูกสักหลาด</title>
+		<title type="syn" xml:lang="pt-BR">O Príncipe do Tênis</title>
+		<title xml:lang="en" type="short">PoT</title>
+		<title type="short" xml:lang="en">PoT TV</title>
+		<title xml:lang="ro" type="syn">Prinţul Tenisului</title>
+		<title type="syn" xml:lang="tr">Tenisin Prensi</title>
+		<title type="syn" xml:lang="x-jat">Tennis no Oujisama</title>
+		<title type="main" xml:lang="x-jat">Tennis no Ouji-sama</title>
+		<title xml:lang="en" type="official">The Prince of Tennis</title>
+		<title xml:lang="pt-BR" type="official">The Prince of Tennis</title>
+		<title xml:lang="fr" type="official">The Prince of Tennis</title>
+		<title xml:lang="x-jat" type="short">TnO</title>
+		<title type="syn" xml:lang="ar">أمير التنس</title>
+		<title xml:lang="he" type="syn">נסיך הטניס</title>
+		<title type="syn" xml:lang="ru">Принц тенниса</title>
+		<title xml:lang="ja" type="official">テニスの王子様</title>
+	</anime>
+	<anime aid="58">
+		<title xml:lang="ja" type="official">エイリアン9</title>
+		<title xml:lang="x-jat" type="short">A9</title>
+		<title xml:lang="x-jat" type="syn">Alien9</title>
+		<title type="main" xml:lang="x-jat">Alien 9</title>
+		<title type="syn" xml:lang="fr">Alien 9</title>
+		<title type="official" xml:lang="en">Alien Nine</title>
+		<title xml:lang="fr" type="official">Alien Nine</title>
+		<title xml:lang="ru" type="syn">Чужой 9</title>
+	</anime>
+	<anime aid="59">
+		<title type="official" xml:lang="ja">ヴァンパイアハンター</title>
+		<title xml:lang="en" type="short">DarkStalkers</title>
+		<title xml:lang="es" type="official">El cazavampiros</title>
+		<title xml:lang="en" type="official">Night Warriors: Darkstalkers` Revenge</title>
+		<title type="main" xml:lang="x-jat">Vampire Hunter</title>
+		<title type="official" xml:lang="pt">Vampire Hunter</title>
+		<title xml:lang="fr" type="official">Vampire Hunter - La vengeance des Darkstalkers</title>
+		<title type="syn" xml:lang="en">Vampire Hunter - The Animated Series</title>
+		<title xml:lang="ru" type="official">Ночные воины: Охотники на вампиров</title>
+	</anime>
+	<anime aid="60">
+		<title xml:lang="ko" type="syn">핸드 메이드 메이</title>
+		<title type="official" xml:lang="ja">ハンドメイド・メイ</title>
+		<title type="syn" xml:lang="ja">Hand Maid メイ</title>
+		<title xml:lang="fr" type="official">Hand Maid May</title>
+		<title type="main" xml:lang="x-jat">Hand Maid May</title>
+		<title type="short" xml:lang="x-jat">HMM</title>
+		<title type="syn" xml:lang="bg">Прислужничката Мей</title>
+	</anime>
+	<anime aid="61">
+		<title type="official" xml:lang="ko">공각기동대</title>
+		<title type="syn" xml:lang="pl">Duch w pancerzu</title>
+		<title type="official" xml:lang="sl">Duh v školjki</title>
+		<title xml:lang="lt" type="syn">Dvasia Šarvuose</title>
+		<title type="official" xml:lang="pl">Ghost in the Shell</title>
+		<title xml:lang="en" type="official">Ghost in the Shell</title>
+		<title type="official" xml:lang="ja">GHOST IN THE SHELL</title>
+		<title xml:lang="fr" type="official">Ghost in the Shell</title>
+		<title xml:lang="es-LA" type="syn">Ghost in the Shell</title>
+		<title type="official" xml:lang="de">Ghost in the Shell</title>
+		<title type="main" xml:lang="x-jat">Ghost in the Shell</title>
+		<title xml:lang="it" type="official">Ghost in the Shell</title>
+		<title type="official" xml:lang="fi">Ghost in the Shell - Aaveääni</title>
+		<title xml:lang="pt" type="official">Ghost in the Shell - Cidade Assombrada</title>
+		<title xml:lang="es-LA" type="official">Ghost in the Shell: Espectro Virtual</title>
+		<title xml:lang="x-jat" type="syn">Ghost in the Shell: Koukaku Kidoutai</title>
+		<title xml:lang="hu" type="official">Ghost in the Shell - Páncélba zárt szellem</title>
+		<title type="official" xml:lang="sv">Ghost in the Shell : the movie</title>
+		<title type="short" xml:lang="x-jat">GitS</title>
+		<title xml:lang="tr" type="syn">Kabuktaki Hayalet</title>
+		<title type="syn" xml:lang="x-jat">Koukaku Kidoutai</title>
+		<title type="syn" xml:lang="en">Mobile Armored Riot Police</title>
+		<title type="syn" xml:lang="en">Mobile Armoured Riot Police</title>
+		<title type="official" xml:lang="pt-BR">O Fantasma do Futuro</title>
+		<title xml:lang="hu" type="syn">Szellem a kagylóban</title>
+		<title type="official" xml:lang="he">הרוח במעטפת</title>
+		<title xml:lang="uk" type="syn">Дух в оболонці</title>
+		<title type="syn" xml:lang="ru">Дух в стальной плоти</title>
+		<title type="official" xml:lang="ru">Призрак в доспехах</title>
+		<title type="syn" xml:lang="ru">Призрак в компьютере</title>
+		<title type="syn" xml:lang="bg">Призрак в черупка</title>
+		<title xml:lang="ja" type="syn">攻殻機動隊</title>
+	</anime>
+	<anime aid="62">
+		<title type="official" xml:lang="ja">またまたセイバーマリオネットJ</title>
+		<title xml:lang="x-jat" type="main">Mata Mata Saber Marionette J</title>
+		<title type="official" xml:lang="en">Saber Marionette J Again</title>
+		<title xml:lang="de" type="official">Saber Marionette J Again</title>
+		<title xml:lang="x-jat" type="short">SMJA</title>
+	</anime>
+	<anime aid="63">
+		<title xml:lang="ko" type="syn">전영소녀</title>
+		<title type="syn" xml:lang="x-jat">Den`ei Shoujo Ai</title>
+		<title xml:lang="x-jat" type="main">Den`ei Shoujo Video Girl AI</title>
+		<title xml:lang="x-jat" type="short">dsa</title>
+		<title xml:lang="x-jat" type="short">vga</title>
+		<title type="short" xml:lang="x-jat">VGAi</title>
+		<title xml:lang="x-jat" type="short">VG ai</title>
+		<title xml:lang="en" type="official">Video Girl Ai</title>
+		<title xml:lang="fr" type="official">Video Girl Ai</title>
+		<title xml:lang="it" type="official">Video Girl Ai</title>
+		<title xml:lang="ja" type="official">電影少女 VIDEO・GIRL・AI</title>
+	</anime>
+	<anime aid="65">
+		<title xml:lang="ja" type="official">ぷにぷに☆ぽえみぃ</title>
+		<title type="short" xml:lang="x-jat">ppp</title>
+		<title xml:lang="x-jat" type="main">Puni Puni Poemi</title>
+		<title type="official" xml:lang="en">Puni Puni Poemy</title>
+	</anime>
+	<anime aid="66">
+		<title type="short" xml:lang="x-jat">Bloodlust</title>
+		<title xml:lang="ko" type="official">뱀파이어 헌터 D</title>
+		<title xml:lang="ja" type="official">バンパイアハンターD</title>
+		<title xml:lang="hu" type="official">D, a Vámpírvadász: Vérszomj</title>
+		<title xml:lang="ru" type="official">D: Жажда крови</title>
+		<title type="official" xml:lang="et">Vampiirikütt D: Verejanu</title>
+		<title xml:lang="tr" type="syn">Vampir Avcısı D: Kanşehveti</title>
+		<title xml:lang="es" type="syn">Vampire Hunter: Cazador De Espíritus</title>
+		<title type="official" xml:lang="da">Vampire Hunter D</title>
+		<title type="main" xml:lang="x-jat">Vampire Hunter D (2001)</title>
+		<title type="official" xml:lang="fr">Vampire Hunter D - Bloodlust</title>
+		<title type="official" xml:lang="de">Vampire Hunter D - Bloodlust</title>
+		<title xml:lang="fi" type="official">Vampire Hunter D: Bloodlust</title>
+		<title xml:lang="sv" type="official">Vampire Hunter D: Bloodlust</title>
+		<title type="official" xml:lang="en">Vampire Hunter D: Bloodlust</title>
+		<title xml:lang="pl" type="official">Vampire Hunter D: Żądza krwi</title>
+		<title type="syn" xml:lang="bg">Vampire Hunter D: Жажда за кръв</title>
+		<title xml:lang="lt" type="syn">Vampyrų Medžiotojas D: Kraujo troškimas</title>
+		<title xml:lang="x-jat" type="short">vhd2</title>
+	</anime>
+	<anime aid="67">
+		<title type="official" xml:lang="ja">マクロスプラス</title>
+		<title xml:lang="sv" type="official">Macross Plus</title>
+		<title xml:lang="x-jat" type="main">Macross Plus</title>
+		<title xml:lang="pt" type="official">Macross Plus</title>
+		<title type="official" xml:lang="fi">Macross Plus</title>
+		<title xml:lang="pl" type="official">Macross Plus</title>
+		<title type="official" xml:lang="fr">Macross Plus</title>
+		<title xml:lang="x-jat" type="short">MP</title>
+		<title xml:lang="uk" type="syn">Макрос плюс</title>
+		<title type="official" xml:lang="ru">Макросс Плюс</title>
+	</anime>
+	<anime aid="68">
+		<title xml:lang="ja" type="official">バブルガムクライシス</title>
+		<title xml:lang="x-jat" type="short">BGC</title>
+		<title xml:lang="x-jat" type="main">Bubblegum Crisis</title>
+		<title xml:lang="fr" type="official">Bubblegum Crisis</title>
+		<title xml:lang="de" type="official">Bubblegum Crisis</title>
+		<title type="official" xml:lang="en">Bubblegum Crisis</title>
+		<title type="syn" xml:lang="x-jat">Bubblegum Crisis 2032</title>
+		<title xml:lang="x-jat" type="syn">Bubblegum Crisis 2033</title>
+		<title type="syn" xml:lang="ru">Кризис каждый день</title>
+	</anime>
+	<anime aid="69">
+		<title xml:lang="ko" type="official">원피스</title>
+		<title type="syn" xml:lang="ja">ワンピース</title>
+		<title xml:lang="th" type="official">วันพีซ</title>
+		<title type="short" xml:lang="x-jat">1P</title>
+		<title type="official" xml:lang="it">All`arrembaggio!</title>
+		<title type="official" xml:lang="my">Budak Getah</title>
+		<title type="official" xml:lang="tr">Lastik Çocuk</title>
+		<title xml:lang="x-jat" type="short">OneP</title>
+		<title type="official" xml:lang="pt-BR">One Piece</title>
+		<title type="official" xml:lang="da">One Piece</title>
+		<title xml:lang="fi" type="official">One Piece</title>
+		<title type="official" xml:lang="es">One Piece</title>
+		<title type="official" xml:lang="ja">ONE PIECE</title>
+		<title xml:lang="pt" type="official">One Piece</title>
+		<title type="official" xml:lang="fr">One Piece</title>
+		<title xml:lang="id" type="official">One Piece</title>
+		<title type="official" xml:lang="en">One Piece</title>
+		<title type="official" xml:lang="no">One Piece</title>
+		<title xml:lang="tl" type="syn">One Piece</title>
+		<title xml:lang="x-jat" type="main">One Piece</title>
+		<title type="official" xml:lang="gl">One Piece</title>
+		<title xml:lang="de" type="official">One Piece</title>
+		<title xml:lang="hu" type="official">One Piece</title>
+		<title type="syn" xml:lang="x-jat">One Piece TV</title>
+		<title xml:lang="x-jat" type="short">OP</title>
+		<title type="short" xml:lang="x-jat">optv</title>
+		<title xml:lang="x-jat" type="short">OP TV</title>
+		<title xml:lang="tr" type="syn">Tek parça</title>
+		<title xml:lang="fa" type="official">وان پیس</title>
+		<title xml:lang="ar" type="official">ون بيس</title>
+		<title type="official" xml:lang="he">וואן פיס</title>
+		<title xml:lang="el" type="official">Ντρέικ και το Κυνήγι του Θησαυρού</title>
+		<title type="official" xml:lang="ru">Большой куш</title>
+		<title type="official" xml:lang="uk">Великий куш</title>
+		<title xml:lang="bg" type="syn">Едно Цяло</title>
+		<title xml:lang="ru" type="syn">Одним куском</title>
+		<title type="syn" xml:lang="mn">Уан Пийс</title>
+		<title type="syn" xml:lang="bg">Уан Пийс</title>
+		<title type="official" xml:lang="bd">ওয়ান পিস্</title>
+		<title type="short" xml:lang="zh">海贼</title>
+		<title xml:lang="zh-Hans" type="official">海贼王</title>
+	</anime>
+	<anime aid="70">
+		<title type="short" xml:lang="x-jat">Abenobashi</title>
+		<title xml:lang="it" type="official">Abenobashi - il Quartiere Commerciale di Magia</title>
+		<title type="official" xml:lang="de">Abenobashi - Magical Shopping Arcade</title>
+		<title type="syn" xml:lang="en">Abenobashi Magical Shopping District</title>
+		<title xml:lang="fr" type="official">Abenobashi Magical Shopping Street</title>
+		<title type="main" xml:lang="x-jat">Abenobashi Mahou Shoutengai</title>
+		<title type="short" xml:lang="x-jat">abesho</title>
+		<title type="short" xml:lang="x-jat">AMSA</title>
+		<title type="official" xml:lang="es">Distrito comercial magico Abenobashi</title>
+		<title xml:lang="en" type="official">Magical Shopping Arcade Abenobashi</title>
+		<title type="syn" xml:lang="en">Magical Shopping Street Abenobashi</title>
+		<title xml:lang="bg" type="syn">Абенобаши - вълшебният търговски квартал</title>
+		<title xml:lang="ru" type="official">Абэнобаси: волшебный торговый квартал</title>
+		<title type="syn" xml:lang="ru">Магический округ Абэнобаси</title>
+		<title xml:lang="ja" type="official">アベノ橋魔法☆商店街</title>
+		<title xml:lang="zh-Hans" type="syn">阿倍野桥魔法商店街</title>
+	</anime>
+	<anime aid="71">
+		<title type="syn" xml:lang="en">Irresponsible Captain Tylor - An Exceptional Episode</title>
+		<title xml:lang="x-jat" type="main">Musekinin Kanchou Tylor: Tokubetsu Hen - Hitoribocchi no Sensou</title>
+		<title type="official" xml:lang="en">The Irresponsible Captain Tylor: An Exceptional Episode</title>
+		<title type="official" xml:lang="de">Tylor - The Irresponsible Captain</title>
+		<title type="official" xml:lang="fr">Tylor - The irresponsible captain (OAV)</title>
+		<title xml:lang="ja" type="official">無責任艦長タイラー特別編 ひとりぼっちの戦争</title>
+	</anime>
+	<anime aid="72">
+		<title type="official" xml:lang="fr">Eat-man 98</title>
+		<title type="official" xml:lang="ja">EAT-MAN `98</title>
+		<title xml:lang="en" type="official">Eat-Man `98</title>
+		<title xml:lang="x-jat" type="main">Eat-Man `98</title>
+		<title type="syn" xml:lang="x-jat">Eatman 98</title>
+		<title type="official" xml:lang="he">`איטמן 98</title>
+	</anime>
+	<anime aid="73">
+		<title xml:lang="ko" type="official">바람의 검심 추억편</title>
+		<title type="official" xml:lang="es">Kenshin: El Guerrero Samurái - Recuerdos</title>
+		<title type="official" xml:lang="fr">Kenshin le vagabond - Le chapitre de la mémoire</title>
+		<title xml:lang="x-jat" type="short">Kenshin OAV</title>
+		<title xml:lang="x-jat" type="short">Kenshin OVA</title>
+		<title xml:lang="x-jat" type="short">kenshin ova 1</title>
+		<title xml:lang="it" type="official">Kenshin Samurai Vagabondo - Memorie del passato</title>
+		<title type="short" xml:lang="en">reminiscence</title>
+		<title type="short" xml:lang="x-jat">RK OAV</title>
+		<title xml:lang="x-jat" type="short">RK OVA</title>
+		<title xml:lang="en" type="short">RuroKen OVA 1</title>
+		<title type="main" xml:lang="x-jat">Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku Hen</title>
+		<title xml:lang="en" type="syn">Rurouni Kenshin: Recollection Arc</title>
+		<title type="syn" xml:lang="x-jat">Rurouni Kenshin - Tsuiokuhen OVA</title>
+		<title type="syn" xml:lang="en">Samurai X: Reminiscence</title>
+		<title type="official" xml:lang="en">Samurai X: Trust &amp; Betrayal</title>
+		<title xml:lang="lt" type="syn">Samurajus X: Pasitikėjimas ir išdavystė</title>
+		<title xml:lang="tr" type="syn">Samuray X: Güven ve İhanet</title>
+		<title type="syn" xml:lang="en">Trust and Betrayal</title>
+		<title type="syn" xml:lang="ar">ساموراي إكس: الثقة والخيانة</title>
+		<title xml:lang="ru" type="syn">Бродяга Кэнсин OVA-1</title>
+		<title type="syn" xml:lang="uk">Бурлака Кеншін: Романтичні оповідання про мечника епохи Мейджі - Спогади</title>
+		<title xml:lang="uk" type="syn">Руроуні Кеншін: Оповіді Мейджі - Спогади</title>
+		<title type="official" xml:lang="ja">るろうに剣心 -明治剣客浪漫譚- 追憶編</title>
+	</anime>
+	<anime aid="74">
+		<title type="short" xml:lang="x-jat">AiAo</title>
+		<title type="official" xml:lang="en">Ai Yori Aoshi</title>
+		<title type="main" xml:lang="x-jat">Ai yori Aoshi</title>
+		<title xml:lang="fr" type="official">Ai Yori Aoshi</title>
+		<title xml:lang="x-jat" type="short">AYA</title>
+		<title xml:lang="x-jat" type="short">aya1</title>
+		<title xml:lang="es" type="syn">Azul</title>
+		<title type="syn" xml:lang="ca">Blau</title>
+		<title xml:lang="en" type="syn">Bluer than Indigo</title>
+		<title xml:lang="it" type="syn">Sempre più Blu</title>
+		<title type="syn" xml:lang="ru">Синее синего</title>
+		<title type="official" xml:lang="ru">Темнее, чем индиго</title>
+		<title xml:lang="ja" type="official">藍より青し</title>
+		<title xml:lang="zh-Hans" type="syn">青出于蓝</title>
+	</anime>
+	<anime aid="75">
+		<title xml:lang="en" type="syn">A cheeky angel</title>
+		<title type="official" xml:lang="en">Cheeky Angel</title>
+		<title xml:lang="pl" type="syn">Tenshi na Konamaiki</title>
+		<title type="main" xml:lang="x-jat">Tenshi na Konamaiki</title>
+		<title type="short" xml:lang="x-jat">tnk</title>
+		<title xml:lang="ru" type="official">Нахальный ангел</title>
+		<title xml:lang="ja" type="official">天使な小生意気</title>
+		<title xml:lang="zh-Hans" type="syn">鲁莽天使</title>
+	</anime>
+	<anime aid="76">
+		<title xml:lang="x-jat" type="short">jc</title>
+		<title type="short" xml:lang="x-jat">Jubei Chan</title>
+		<title xml:lang="x-jat" type="short">Jubei-chan</title>
+		<title xml:lang="fr" type="official">Jubei Chan - The Ninja Girl - Le secret du Lovely Bandeau</title>
+		<title xml:lang="en" type="official">Jubei-chan the Ninja Girl: Secret of the Lovely Eyepatch</title>
+		<title type="main" xml:lang="x-jat">Juubee-chan: Lovely Gantai no Himitsu</title>
+		<title type="syn" xml:lang="x-jat">Juubei-chan: Lovely Gantai no Himitsu</title>
+		<title type="syn" xml:lang="ru">Дзюбэй-младшая [ТВ-1]</title>
+		<title xml:lang="ru" type="syn">Дзюбэй-тян - девушка-ниндзя: секрет милой повязки</title>
+		<title type="syn" xml:lang="zh-Hans">十兵卫—爱心眼罩的秘密</title>
+		<title xml:lang="ja" type="official">十兵衛ちゃん ーラブリー眼帯の秘密</title>
+	</anime>
+	<anime aid="77">
+		<title type="main" xml:lang="x-jat">Choujikuu Yousai Macross</title>
+		<title type="syn" xml:lang="pt-BR">Fortaleza Superdimensional Macross</title>
+		<title type="official" xml:lang="it">Fortezza superdimensionale Macross</title>
+		<title type="syn" xml:lang="pt-BR">Guerra das Galáxias</title>
+		<title type="short" xml:lang="en">Macross</title>
+		<title xml:lang="pt-BR" type="official">Macross</title>
+		<title xml:lang="fr" type="official">Macross</title>
+		<title type="syn" xml:lang="en">Macross, Super Dimensional Fortress</title>
+		<title xml:lang="pt-BR" type="syn">Robotech</title>
+		<title type="official" xml:lang="el">Robotech</title>
+		<title xml:lang="fr" type="syn">Robotech</title>
+		<title xml:lang="en" type="syn">Robotech</title>
+		<title type="official" xml:lang="es-LA">Robotech: La Saga de Macross</title>
+		<title xml:lang="en" type="syn">Robotech: The Macross Saga</title>
+		<title xml:lang="en" type="short">SDFM</title>
+		<title xml:lang="en" type="short">SDF Macross</title>
+		<title type="syn" xml:lang="en">Space Fortress Macross</title>
+		<title xml:lang="en" type="official">Super Dimension Fortress Macross</title>
+		<title type="syn" xml:lang="es">Superfortaleza Dimensional Macross</title>
+		<title type="syn" xml:lang="ar">قلعة الأبعاد الخارقة ماكروس</title>
+		<title xml:lang="uk" type="short">Макрос</title>
+		<title type="syn" xml:lang="zh-Hans">超时空要塞</title>
+		<title type="official" xml:lang="ja">超時空要塞マクロス</title>
+	</anime>
+	<anime aid="78">
+		<title xml:lang="ja" type="official">メトロポリス</title>
+		<title xml:lang="et" type="official">Metropol</title>
+		<title xml:lang="ro" type="official">Metropolis</title>
+		<title type="official" xml:lang="tr">Metropolis</title>
+		<title xml:lang="cs" type="official">Metropolis</title>
+		<title xml:lang="pl" type="official">Metropolis</title>
+		<title xml:lang="fi" type="official">Metropolis</title>
+		<title xml:lang="it" type="official">Metropolis</title>
+		<title type="main" xml:lang="x-jat">Metropolis</title>
+		<title xml:lang="pt" type="official">Metropolis</title>
+		<title xml:lang="sv" type="official">Metropolis</title>
+		<title type="official" xml:lang="lt">Metropolis</title>
+		<title type="official" xml:lang="en">Metropolis</title>
+		<title xml:lang="fr" type="official">Metropolis</title>
+		<title xml:lang="es-LA" type="official">Metrópolis</title>
+		<title type="official" xml:lang="pt-BR">Metrópolis</title>
+		<title type="official" xml:lang="hu">Metropolisz</title>
+		<title xml:lang="sv" type="syn">Ozamu Tesukas Metropolis</title>
+		<title xml:lang="de" type="official">Robotic Angel</title>
+		<title xml:lang="he" type="official">מטרופוליס</title>
+		<title xml:lang="ru" type="official">Метрополис</title>
+		<title type="syn" xml:lang="zh-Hans">大都会</title>
+		<title type="syn" xml:lang="zh-Hant">大都會</title>
+	</anime>
+	<anime aid="79">
+		<title type="official" xml:lang="pt-BR">Caçadores de Elfas</title>
+		<title type="official" xml:lang="es-LA">Cazadores de Duendes</title>
+		<title type="syn" xml:lang="es">Cazadores de Elfos</title>
+		<title type="official" xml:lang="fr">Ceux qui chassent des elfes</title>
+		<title type="main" xml:lang="x-jat">Elf o Karu Mono-tachi</title>
+		<title xml:lang="x-jat" type="syn">Elf wo Karu Mono-tachi</title>
+		<title type="syn" xml:lang="it">I Cacciatori di Elfi</title>
+		<title xml:lang="en" type="official">Those Who Hunt Elves</title>
+		<title xml:lang="en" type="short">TWHE</title>
+		<title type="short" xml:lang="en">TWHE1</title>
+		<title type="official" xml:lang="he">אלו הצדים שדונים</title>
+		<title xml:lang="ru" type="official">Ловцы эльфов</title>
+		<title type="syn" xml:lang="bg">Тези, които ловят елфи</title>
+		<title xml:lang="ru" type="syn">Те, Кто Охотятся на Эльфов</title>
+		<title xml:lang="zh-Hans" type="syn">妖精狩猎者</title>
+		<title xml:lang="ja" type="official">エルフを狩るモノたち</title>
+	</anime>
+	<anime aid="80">
+		<title type="official" xml:lang="pt-BR">Caçadores de Elfas (2)</title>
+		<title xml:lang="es-LA" type="official">Cazadores de Duendes 2</title>
+		<title xml:lang="fr" type="official">Ceux qui chassent des elfes 2</title>
+		<title xml:lang="x-jat" type="main">Elf o Karu Mono-tachi II</title>
+		<title xml:lang="x-jat" type="syn">Elf wo Karu Mono-tachi II</title>
+		<title xml:lang="en" type="official">Those Who Hunt Elves II</title>
+		<title xml:lang="en" type="short">TWHE2</title>
+		<title xml:lang="ru" type="official">Ловцы эльфов 2</title>
+		<title type="syn" xml:lang="bg">Тези, които ловят елфи II</title>
+		<title type="syn" xml:lang="ru">Те, Кто Охотятся на Эльфов II</title>
+		<title type="syn" xml:lang="zh-Hans">妖精狩猎者2</title>
+		<title type="official" xml:lang="ja">エルフを狩るモノたち II</title>
+	</anime>
+	<anime aid="81">
+		<title xml:lang="es" type="syn">Algo acerca de ti que perdí en algún lugar</title>
+		<title xml:lang="en" type="official">DNA2</title>
+		<title xml:lang="x-jat" type="short">DNA2</title>
+		<title type="short" xml:lang="x-jat">DNA^2</title>
+		<title xml:lang="it" type="official">DNA²</title>
+		<title type="official" xml:lang="ca">DNA²</title>
+		<title xml:lang="de" type="official">DNA²</title>
+		<title xml:lang="fr" type="official">DNA²</title>
+		<title xml:lang="pt-BR" type="official">DNA²</title>
+		<title xml:lang="ja" type="short">D.N.A²</title>
+		<title type="short" xml:lang="ja">D.N.A.²</title>
+		<title xml:lang="x-jat" type="main">DNA2: Dokoka de Nakushita Aitsu no Aitsu</title>
+		<title type="official" xml:lang="ja">D・N・A² ~何処かで失くしたあいつのアイツ~</title>
+		<title xml:lang="en" type="syn">DNA Squared</title>
+	</anime>
+	<anime aid="82">
+		<title xml:lang="fr" type="official">Dual</title>
+		<title xml:lang="x-jat" type="main">Dual! Parallel Runrun Monogatari</title>
+		<title type="official" xml:lang="en">Dual! Parallel Trouble Adventures</title>
+		<title type="syn" xml:lang="es">Dual! Una Historia Paralela</title>
+		<title type="syn" xml:lang="ru">Опасные приключения в параллельной реальности</title>
+		<title type="official" xml:lang="ja">デュアル! ぱられルンルン物語</title>
+	</anime>
+	<anime aid="83">
+		<title type="official" xml:lang="lt">Džin Ro: Vilko brigada</title>
+		<title xml:lang="x-jat" type="short">Jinroh</title>
+		<title type="syn" xml:lang="x-jat">Jin Roh</title>
+		<title xml:lang="es" type="official">Jin-Roh</title>
+		<title xml:lang="de" type="official">Jin-Roh</title>
+		<title type="syn" xml:lang="es-LA">Jin-Roh: La Brigada Lobo</title>
+		<title xml:lang="fr" type="official">Jin Roh la brigade des loups</title>
+		<title xml:lang="sv" type="official">Jin Roh the Wolf Brigade</title>
+		<title type="syn" xml:lang="en">Jin-Roh, the Wolf Brigade</title>
+		<title type="official" xml:lang="en">Jin-Roh: The Wolf Brigade</title>
+		<title type="official" xml:lang="fi">Jin-Roh: The Wolf Brigade</title>
+		<title type="official" xml:lang="it">Jin-Roh - Uomini e Lupi</title>
+		<title xml:lang="x-jat" type="main">Jin-Rou</title>
+		<title xml:lang="x-jat" type="short">jr</title>
+		<title xml:lang="uk" type="syn">Загін вовків</title>
+		<title type="official" xml:lang="ru">Оборотни</title>
+		<title type="syn" xml:lang="uk">Перевертень</title>
+		<title type="official" xml:lang="ja">人狼 JIN-ROH</title>
+	</anime>
+	<anime aid="84">
+		<title xml:lang="th" type="official">ฮิคารุ เซียนโกะ</title>
+		<title type="short" xml:lang="x-jat">HikaGo</title>
+		<title xml:lang="en" type="official">Hikaru no Go</title>
+		<title xml:lang="de" type="official">Hikaru no Go</title>
+		<title type="official" xml:lang="fr">Hikaru no Go</title>
+		<title type="main" xml:lang="x-jat">Hikaru no Go</title>
+		<title type="short" xml:lang="x-jat">HnG</title>
+		<title type="official" xml:lang="he">היקארו נו גו</title>
+		<title type="syn" xml:lang="ru">Хикару и Го</title>
+		<title type="syn" xml:lang="zh-Hans">棋魂</title>
+		<title xml:lang="ja" type="official">ヒカルの碁</title>
+	</anime>
+	<anime aid="85">
+		<title type="official" xml:lang="ja">スターオーシャンEX</title>
+		<title xml:lang="x-jat" type="short">SoEx</title>
+		<title type="official" xml:lang="en">Star Ocean EX</title>
+		<title xml:lang="x-jat" type="main">Star Ocean Ex</title>
+	</anime>
+	<anime aid="86">
+		<title type="official" xml:lang="ko">사무라이 디퍼 쿄우</title>
+		<title xml:lang="ja" type="official">SAMURAI DEEPER キョウ</title>
+		<title type="official" xml:lang="fr">Samurai Deeper Kyo</title>
+		<title type="official" xml:lang="en">Samurai Deeper Kyo</title>
+		<title xml:lang="pl" type="official">Samurai Deeper Kyo</title>
+		<title xml:lang="x-jat" type="main">Samurai Deeper Kyou</title>
+		<title xml:lang="x-jat" type="short">SDK</title>
+	</anime>
+	<anime aid="87">
+		<title type="short" xml:lang="en">CP</title>
+		<title xml:lang="en" type="syn">Curious Play</title>
+		<title type="official" xml:lang="fr">Fushigi Yûgi</title>
+		<title xml:lang="en" type="official">Fushigi Yugi: The Mysterious Play</title>
+		<title xml:lang="de" type="official">Fushigi Yûgi - The Mysterious Play</title>
+		<title xml:lang="x-jat" type="main">Fushigi Yuugi</title>
+		<title xml:lang="pt" type="official">Fushigi Yuugi: O Jogo Misterioso</title>
+		<title xml:lang="ja" type="short">fuyu</title>
+		<title xml:lang="ja" type="short">FY</title>
+		<title xml:lang="tr" type="syn">Gizemli Oyun</title>
+		<title xml:lang="pl" type="official">Tajemnica przeszłości</title>
+		<title xml:lang="ar" type="official">السراب</title>
+		<title xml:lang="ar" type="syn">المسرحية الغامضة</title>
+		<title xml:lang="uk" type="syn">Таємнича гра</title>
+		<title type="official" xml:lang="ru">Таинственная игра</title>
+		<title type="syn" xml:lang="zh-Hans">不可思议游戏</title>
+		<title xml:lang="ja" type="official">ふしぎ遊戯</title>
+	</anime>
+	<anime aid="88">
+		<title xml:lang="x-jat" type="main">Koutetsu Tenshi Kurumi</title>
+		<title type="syn" xml:lang="x-jat">KTK</title>
+		<title type="short" xml:lang="x-jat">Kurumi</title>
+		<title xml:lang="fr" type="official">Kurumi, l`ange d`acier</title>
+		<title type="short" xml:lang="x-jat">kurumi tv</title>
+		<title xml:lang="en" type="short">SAK</title>
+		<title type="short" xml:lang="en">SAK1</title>
+		<title type="official" xml:lang="pt-BR">Steel Angel Kurumi</title>
+		<title type="official" xml:lang="en">Steel Angel Kurumi</title>
+		<title type="official" xml:lang="ja">鋼鉄天使くるみ</title>
+	</anime>
+	<anime aid="89">
+		<title type="main" xml:lang="x-jat">Koutetsu Tenshi Kurumi 2-shiki</title>
+		<title type="syn" xml:lang="x-jat">KTK2</title>
+		<title type="short" xml:lang="x-jat">Kurumi2</title>
+		<title xml:lang="en" type="short">sak2</title>
+		<title xml:lang="en" type="syn">sak 2</title>
+		<title xml:lang="en" type="official">Steel Angel Kurumi 2</title>
+		<title type="official" xml:lang="pt-BR">Steel Angel Kurumi 2</title>
+		<title xml:lang="ja" type="official">鋼鉄天使くるみ2式</title>
+	</anime>
+	<anime aid="90">
+		<title xml:lang="ja" type="short">るろけん</title>
+		<title xml:lang="th" type="official">ซามูไรพเนจร</title>
+		<title type="short" xml:lang="en">kenshin</title>
+		<title type="official" xml:lang="nl">Kenshin</title>
+		<title xml:lang="es" type="official">Kenshin: El Guerrero Samurái</title>
+		<title xml:lang="fr" type="official">Kenshin, le vagabond</title>
+		<title type="official" xml:lang="it">Kenshin Samurai Vagabondo</title>
+		<title type="short" xml:lang="en">kenshin tv</title>
+		<title xml:lang="en" type="short">rk</title>
+		<title xml:lang="en" type="short">rktv</title>
+		<title xml:lang="en" type="short">rk tv</title>
+		<title xml:lang="en" type="short">RuroKen</title>
+		<title type="short" xml:lang="en">RuroKen TV</title>
+		<title type="official" xml:lang="en">Rurouni Kenshin</title>
+		<title xml:lang="en" type="syn">Rurouni Kenshin - Legend of Kyoto</title>
+		<title type="main" xml:lang="x-jat">Rurouni Kenshin: Meiji Kenkaku Romantan</title>
+		<title xml:lang="en" type="syn">Rurouni Kenshin: Romance of a Meiji Swordsman</title>
+		<title type="syn" xml:lang="en">Rurouni Kenshin - Tales of the Meiji</title>
+		<title xml:lang="en" type="syn">Rurouni Kenshin TV</title>
+		<title type="syn" xml:lang="en">Rurouni Kenshin - Wandering Samurai</title>
+		<title xml:lang="es-LA" type="official">Samurai X</title>
+		<title xml:lang="el" type="official">Samurai X</title>
+		<title xml:lang="ro" type="official">Samurai X</title>
+		<title type="official" xml:lang="pt">Samurai X</title>
+		<title xml:lang="pt-BR" type="official">Samurai X</title>
+		<title xml:lang="lt" type="official">Samurajai X</title>
+		<title xml:lang="tr" type="official">Samuray X</title>
+		<title type="syn" xml:lang="en">Wanderer Kenshin</title>
+		<title xml:lang="ar" type="syn">الرحالة كينشن</title>
+		<title type="official" xml:lang="ar">ساموراي إكس</title>
+		<title type="syn" xml:lang="ru">Бродяга Кэнсин</title>
+		<title xml:lang="uk" type="syn">Руроуні Кеншін ~Оповіді Мейджі~</title>
+		<title xml:lang="bg" type="syn">Самурай Х</title>
+		<title type="short" xml:lang="ja">るろ剣</title>
+		<title xml:lang="ja" type="official">るろうに剣心 -明治剣客浪漫譚-</title>
+		<title xml:lang="zh-Hans" type="syn">浪客剑心</title>
+	</anime>
+	<anime aid="91">
+		<title type="official" xml:lang="ja">ゲートキーパーズ</title>
+		<title xml:lang="x-jat" type="syn">Gatekeepers</title>
+		<title type="official" xml:lang="en">Gate Keepers</title>
+		<title xml:lang="x-jat" type="main">Gate Keepers</title>
+		<title type="official" xml:lang="fr">Gate Keepers</title>
+		<title type="short" xml:lang="x-jat">GK</title>
+		<title xml:lang="zh-Hans" type="official">捍衛者</title>
+	</anime>
+	<anime aid="92">
+		<title type="official" xml:lang="ko">샤만킹</title>
+		<title xml:lang="ja" type="official">シャーマンキング</title>
+		<title type="official" xml:lang="th">ชาแมนคิง ราชันแห่งภูต</title>
+		<title xml:lang="hr" type="official">Kralj Šamana</title>
+		<title type="official" xml:lang="cs">Král šamanů</title>
+		<title xml:lang="pl" type="official">Król szamanów</title>
+		<title type="official" xml:lang="ro">Regele Șaman</title>
+		<title xml:lang="hu" type="official">Sámán Király</title>
+		<title xml:lang="tr" type="official">Şaman Kral</title>
+		<title type="official" xml:lang="lt">Šamanų Valdovas</title>
+		<title type="official" xml:lang="pt">Shaman King</title>
+		<title xml:lang="es-LA" type="official">Shaman King</title>
+		<title type="official" xml:lang="da">Shaman King</title>
+		<title type="official" xml:lang="de">Shaman King</title>
+		<title xml:lang="pt-BR" type="official">Shaman King</title>
+		<title xml:lang="x-jat" type="main">Shaman King</title>
+		<title type="official" xml:lang="fr">Shaman King</title>
+		<title xml:lang="en" type="official">Shaman King</title>
+		<title type="short" xml:lang="x-jat">SK</title>
+		<title type="official" xml:lang="vi">Vua phép thuật</title>
+		<title type="official" xml:lang="ar">زعيم المحاربين</title>
+		<title xml:lang="he" type="official">שאמן קינג</title>
+		<title xml:lang="el" type="official">Ο Σαμάνος Πρίγκιπας</title>
+		<title xml:lang="bg" type="official">Краля на Шаманите</title>
+		<title xml:lang="ru" type="official">Шаман Кинг</title>
+	</anime>
+	<anime aid="93">
+		<title xml:lang="ja" type="official">あぃまぃみぃ! ストロベリー・エッグ</title>
+		<title xml:lang="x-jat" type="syn">Ai Mai Mi ! Strawberry Egg</title>
+		<title xml:lang="x-jat" type="short">AMMSE</title>
+		<title xml:lang="x-jat" type="short">IMMSE</title>
+		<title type="main" xml:lang="x-jat">I My Me! Strawberry Egg</title>
+		<title type="official" xml:lang="fr">I My Me - strawberry-eggs</title>
+		<title xml:lang="en" type="official">I My Me! Strawberry Eggs</title>
+		<title xml:lang="ru" type="official">Ну и ну! Земляничные яйца</title>
+	</anime>
+	<anime aid="94">
+		<title type="official" xml:lang="ja">グラビテーション (2000)</title>
+		<title type="official" xml:lang="ro">Gravitation</title>
+		<title type="official" xml:lang="fr">Gravitation</title>
+		<title type="official" xml:lang="de">Gravitation</title>
+		<title xml:lang="pl" type="official">Gravitation</title>
+		<title type="official" xml:lang="cs">Gravitation</title>
+		<title type="official" xml:lang="hu">Gravitation</title>
+		<title type="main" xml:lang="x-jat">Gravitation (2000)</title>
+		<title type="syn" xml:lang="x-jat">Gravitation TV</title>
+		<title type="syn" xml:lang="bg">Гравитация (2000)</title>
+		<title xml:lang="ru" type="syn">Притяжение</title>
+	</anime>
+	<anime aid="95">
+		<title xml:lang="ko" type="official">슬레이어즈 넥스트</title>
+		<title xml:lang="pl" type="official">Magiczni wojownicy 2</title>
+		<title xml:lang="x-jat" type="short">next</title>
+		<title type="official" xml:lang="ja">スレイヤーズ NEXT</title>
+		<title type="official" xml:lang="hu">Slayers - A kis boszorkány</title>
+		<title xml:lang="en" type="official">Slayers Next</title>
+		<title type="official" xml:lang="de">Slayers Next</title>
+		<title xml:lang="x-jat" type="main">Slayers Next</title>
+		<title xml:lang="fr" type="official">Slayers Next</title>
+		<title type="short" xml:lang="x-jat">SN</title>
+		<title xml:lang="ru" type="official">Рубаки Next</title>
+		<title xml:lang="zh-Hans" type="syn">秀逗魔导士next</title>
+	</anime>
+	<anime aid="96">
+		<title type="official" xml:lang="ja">ウィッチハンター ロビン</title>
+		<title xml:lang="tr" type="syn">Cadı Avcısı Robin</title>
+		<title xml:lang="es" type="syn">Cazadora de Brujas Robin</title>
+		<title type="syn" xml:lang="lt">Raganų Medžiotoja Robin</title>
+		<title xml:lang="x-jat" type="short">Robin</title>
+		<title type="short" xml:lang="x-jat">WHR</title>
+		<title xml:lang="en" type="official">Witch Hunter Robin</title>
+		<title type="official" xml:lang="pt">Witch Hunter Robin</title>
+		<title type="official" xml:lang="fr">Witch Hunter Robin</title>
+		<title xml:lang="it" type="official">Witch Hunter Robin</title>
+		<title type="official" xml:lang="de">Witch Hunter Robin</title>
+		<title xml:lang="x-jat" type="main">Witch Hunter Robin</title>
+		<title xml:lang="ar" type="syn">روبن صائدة السحرة</title>
+		<title type="official" xml:lang="bg">Ловецът на вещери Робин</title>
+		<title type="syn" xml:lang="uk">Мисливиця на відьом Робін</title>
+		<title type="syn" xml:lang="ru">Робин охотница на ведьм</title>
+		<title xml:lang="zh-Hans" type="syn">魔女猎人罗宾</title>
+	</anime>
+	<anime aid="97">
+		<title type="short" xml:lang="x-jat">Bianca</title>
+		<title xml:lang="it" type="official">Sol Bianca L`eredità Perduta</title>
+		<title type="main" xml:lang="x-jat">Sol Bianca: Taiyou no Fune</title>
+		<title type="official" xml:lang="en">Sol Bianca - The Legacy</title>
+		<title type="official" xml:lang="fr">Sol Bianca - The Legacy</title>
+		<title xml:lang="ru" type="official">Sol Bianca: Сокровища погибших планет</title>
+		<title type="official" xml:lang="ja">Sol Bianca ~太陽の船~</title>
+		<title type="syn" xml:lang="x-jat">Taiyou no Fune Sol Bianca</title>
+		<title xml:lang="ja" type="syn">太陽の船 ソルビアンカ</title>
+		<title xml:lang="ja" type="syn">太陽の船ソルビアンカ</title>
+	</anime>
+	<anime aid="98">
+		<title type="official" xml:lang="th">นักรบวิปลาส</title>
+		<title type="syn" xml:lang="th">เบอร์เซิร์ค</title>
+		<title xml:lang="en" type="official">Berserk</title>
+		<title xml:lang="fi" type="official">Berserk</title>
+		<title type="official" xml:lang="es">Berserk</title>
+		<title xml:lang="sv" type="syn">Berserk</title>
+		<title type="official" xml:lang="it">Berserk</title>
+		<title type="official" xml:lang="fr">Berserk</title>
+		<title type="official" xml:lang="pl">Berserk</title>
+		<title xml:lang="de" type="official">Berserk</title>
+		<title type="syn" xml:lang="lt">Berserkas</title>
+		<title type="short" xml:lang="x-jat">KDB</title>
+		<title type="main" xml:lang="x-jat">Kenpuu Denki Berserk</title>
+		<title type="syn" xml:lang="lv">Leģendārais Paukotājs</title>
+		<title type="syn" xml:lang="fa">آشفته</title>
+		<title xml:lang="fa" type="official">برسرک</title>
+		<title xml:lang="ar" type="syn">بيرسيرك</title>
+		<title type="syn" xml:lang="he">ברזרק</title>
+		<title xml:lang="uk" type="syn">Берсерк</title>
+		<title xml:lang="ru" type="official">Берсерк</title>
+		<title xml:lang="bg" type="syn">Берсерк</title>
+		<title type="syn" xml:lang="bg">неустрашим войн</title>
+		<title xml:lang="ja" type="official">剣風伝奇ベルセルク</title>
+	</anime>
+	<anime aid="99">
+		<title type="official" xml:lang="ja">シリアルエクスペリメンツレイン</title>
+		<title xml:lang="es-LA" type="official">Lain</title>
+		<title xml:lang="x-jat" type="short">Lain</title>
+		<title type="short" xml:lang="x-jat">SEL</title>
+		<title xml:lang="x-jat" type="short">SE Lain</title>
+		<title type="official" xml:lang="de">Serial Experiments Lain</title>
+		<title type="official" xml:lang="en">Serial Experiments Lain</title>
+		<title type="official" xml:lang="it">Serial Experiments Lain</title>
+		<title xml:lang="x-jat" type="main">Serial Experiments Lain</title>
+		<title type="official" xml:lang="es">Serial Experiments Lain</title>
+		<title xml:lang="pt-BR" type="official">Serial Experiments Lain</title>
+		<title xml:lang="fr" type="official">Serial Experiments Lain</title>
+		<title type="syn" xml:lang="lt">Serijiniai Eksperimentai Lain</title>
+		<title xml:lang="pl" type="official">Wirtualna Lain</title>
+		<title type="short" xml:lang="uk">Лейн</title>
+		<title type="syn" xml:lang="uk">Серійні експерименти Лейн</title>
+		<title type="official" xml:lang="ru">Эксперименты Лэйн</title>
+	</anime>
+	<anime aid="100">
+		<title xml:lang="th" type="official">วัยรุ่น วุ่นรัก</title>
+		<title xml:lang="x-jat" type="short">Boys Be</title>
+		<title type="official" xml:lang="de">Boys Be...</title>
+		<title type="official" xml:lang="en">Boys Be...</title>
+		<title xml:lang="x-jat" type="main">Boys Be...</title>
+		<title xml:lang="it" type="official">Boys Be...</title>
+		<title xml:lang="es" type="official">Boys Be...</title>
+		<title type="official" xml:lang="fr">Boys Be...</title>
+		<title xml:lang="ja" type="official">BOYS BE・・・</title>
+		<title xml:lang="ru" type="syn">Мальчишки есть мальчишки</title>
+		<title type="syn" xml:lang="zh-Hans">爱情白皮书</title>
+	</anime>
+	<anime aid="101">
+		<title xml:lang="en" type="syn">Dimension Movement of Nazca</title>
+		<title xml:lang="x-jat" type="main">Jikuu Tenshou Nazca</title>
+		<title xml:lang="fr" type="official">Nazca</title>
+		<title type="official" xml:lang="en">Nazca</title>
+		<title xml:lang="el" type="official">Οι Ξιφομάχοι του Πεπρωμένου</title>
+		<title type="official" xml:lang="ja">時空転抄ナスカ</title>
+	</anime>
+	<anime aid="102">
+		<title xml:lang="ko" type="official">카드캡터 체리</title>
+		<title type="syn" xml:lang="ko">카드캡터 사쿠라</title>
+		<title type="official" xml:lang="ja">カードキャプターさくら</title>
+		<title xml:lang="th" type="official">การ์ดแคปเตอร์ ซากุระ</title>
+		<title xml:lang="en" type="syn">Cardcaptors</title>
+		<title type="syn" xml:lang="nl">Cardcaptors</title>
+		<title type="official" xml:lang="de">Card Captor Sakura</title>
+		<title type="official" xml:lang="sv">Cardcaptor Sakura</title>
+		<title xml:lang="de" type="syn">Cardcaptor Sakura</title>
+		<title type="main" xml:lang="x-jat">Cardcaptor Sakura</title>
+		<title xml:lang="en" type="official">Cardcaptor Sakura</title>
+		<title type="official" xml:lang="nl">Cardcaptor Sakura</title>
+		<title type="short" xml:lang="x-jat">CCS</title>
+		<title type="short" xml:lang="x-jat">CCSTV</title>
+		<title xml:lang="x-jat" type="short">CCS TV</title>
+		<title type="syn" xml:lang="en">Clow Master Sakura</title>
+		<title type="official" xml:lang="it">Pesca la tua carta Sakura</title>
+		<title type="official" xml:lang="pt">Sakura, a Caçadora de Cartas</title>
+		<title type="official" xml:lang="es-LA">Sakura Card Captor</title>
+		<title xml:lang="pt-BR" type="official">Sakura Card Captors</title>
+		<title type="official" xml:lang="es">Sakura, Cazadora de Cartas</title>
+		<title xml:lang="fr" type="official">Sakura, chasseuse de cartes</title>
+		<title type="official" xml:lang="ro">Sakura , Stăpâna Cărţilor Magice</title>
+		<title xml:lang="vi" type="official">Thủ lĩnh thẻ bài</title>
+		<title type="official" xml:lang="pl">Zdobywczyni kart Sakura</title>
+		<title xml:lang="ar" type="syn">آسرة البطاقات ساكورا</title>
+		<title xml:lang="he" type="official">סאקורה</title>
+		<title xml:lang="el" type="official">Οι Περιπέτειες της Νίκης</title>
+		<title type="syn" xml:lang="ru">Ловец карт Сакура</title>
+		<title xml:lang="uk" type="syn">Сакура - мисливець за картами</title>
+		<title xml:lang="ru" type="syn">Сакура - собирательница карт</title>
+		<title type="syn" xml:lang="zh-Hans">魔卡少女樱</title>
+	</anime>
+	<anime aid="103">
+		<title xml:lang="en" type="syn">Bodyguard of the Wind</title>
+		<title xml:lang="en" type="official">Kaze no Yojimbo</title>
+		<title type="main" xml:lang="x-jat">Kaze no Youjinbou</title>
+		<title type="short" xml:lang="x-jat">KnY</title>
+		<title type="syn" xml:lang="pl">Strażnik Wiatru</title>
+		<title xml:lang="ja" type="official">旋風の用心棒</title>
+	</anime>
+	<anime aid="104">
+		<title type="official" xml:lang="ko">별의 목소리</title>
+		<title type="official" xml:lang="ja">ほしのこえ</title>
+		<title type="official" xml:lang="th">เสียงเพรียกจากดวงดาว</title>
+		<title xml:lang="pl" type="official">Głosy z odległej gwiazdy</title>
+		<title xml:lang="cs" type="official">Hlasy z hvězd</title>
+		<title type="short" xml:lang="x-jat">hnc</title>
+		<title type="short" xml:lang="x-jat">hoshi</title>
+		<title xml:lang="x-jat" type="main">Hoshi no Koe</title>
+		<title type="official" xml:lang="et">Kauge tähe hääl</title>
+		<title xml:lang="it" type="official">La Voce delle Stelle</title>
+		<title type="syn" xml:lang="nl">Stemmen van een Afgelegen Ster</title>
+		<title type="syn" xml:lang="de">Stimmen eines fernen Sterns</title>
+		<title type="official" xml:lang="de">The voices of a distant star</title>
+		<title xml:lang="fr" type="official">The Voices of a Distant Star</title>
+		<title xml:lang="lt" type="syn">Tolimosios Žvaigždės Balsai</title>
+		<title type="syn" xml:lang="es">Voces de una Estrella Lejana</title>
+		<title type="short" xml:lang="en">voices</title>
+		<title type="official" xml:lang="en">Voices of a Distant Star</title>
+		<title type="syn" xml:lang="ar">أصوات نجم بعيد</title>
+		<title xml:lang="he" type="syn">קולו של כוכב</title>
+		<title xml:lang="bg" type="syn">Гласовете на далечните звезди</title>
+		<title xml:lang="ru" type="official">Голос далёкой звезды</title>
+		<title type="syn" xml:lang="uk">Голос зірок</title>
+		<title type="syn" xml:lang="ja">星の声</title>
+	</anime>
+	<anime aid="105">
+		<title type="syn" xml:lang="x-jat">Read or Die OVA</title>
+		<title type="short" xml:lang="x-jat">RoD</title>
+		<title type="short" xml:lang="en">R.O.D</title>
+		<title type="syn" xml:lang="ja">R.O.D リード・オア・ダイ</title>
+		<title xml:lang="x-jat" type="short">rod ova</title>
+		<title type="official" xml:lang="en">R.O.D - Read or Die</title>
+		<title type="official" xml:lang="fr">R.O.D - Read or Die</title>
+		<title xml:lang="de" type="official">R.O.D - Read or Die</title>
+		<title xml:lang="ja" type="official">R.O.D READ OR DIE</title>
+		<title type="main" xml:lang="x-jat">R.O.D: Read or Die</title>
+		<title type="official" xml:lang="ru">Прочти или умри</title>
+		<title xml:lang="uk" type="syn">Читай або помри</title>
+	</anime>
+	<anime aid="106">
+		<title xml:lang="ko" type="official">아즈망가 대왕</title>
+		<title xml:lang="th" type="official">อสึมังกะ โรงเรียนป่วน นักเรียนเป๋อ</title>
+		<title type="short" xml:lang="x-jat">AD</title>
+		<title xml:lang="vi" type="syn">AZ Manga King</title>
+		<title type="short" xml:lang="x-jat">azu</title>
+		<title type="short" xml:lang="x-jat">AzuDai</title>
+		<title type="short" xml:lang="x-jat">Azudai TV</title>
+		<title xml:lang="x-jat" type="short">Azumanga</title>
+		<title type="official" xml:lang="fr">Azu Manga Daioh</title>
+		<title xml:lang="en" type="official">Azumanga Daioh</title>
+		<title type="official" xml:lang="de">Azumanga Daioh: The Animation</title>
+		<title xml:lang="x-jat" type="main">Azumanga Daiou The Animation (2002)</title>
+		<title type="official" xml:lang="vi">Nữ Sinh Trung Học</title>
+		<title type="syn" xml:lang="ar">أزومانجا دايوه</title>
+		<title type="short" xml:lang="ru">Адзуманга</title>
+		<title xml:lang="ru" type="syn">Адзуманга Дайо</title>
+		<title type="short" xml:lang="uk">Азуманґа</title>
+		<title xml:lang="uk" type="syn">Азуманґа даійо</title>
+		<title xml:lang="bg" type="syn">Азуманга Дайо: Анимацията (2002)</title>
+		<title type="official" xml:lang="ja">あずまんが大王 THE ANIMATION (2002)</title>
+		<title type="syn" xml:lang="zh">阿滋漫画大王</title>
+	</anime>
+	<anime aid="107">
+		<title type="official" xml:lang="de">Arjuna</title>
+		<title type="official" xml:lang="es-LA">Arjuna</title>
+		<title type="official" xml:lang="en">Arjuna</title>
+		<title xml:lang="pt-BR" type="official">Arjuna</title>
+		<title type="official" xml:lang="fr">Arjuna</title>
+		<title type="official" xml:lang="pl">Arjuna - córka Ziemi</title>
+		<title type="main" xml:lang="x-jat">Chikyuu Shoujo Arjuna</title>
+		<title type="syn" xml:lang="en">Earth Girl Arjuna</title>
+		<title type="syn" xml:lang="en">Earth Maiden Arjuna</title>
+		<title type="short" xml:lang="en">EGA</title>
+		<title xml:lang="ru" type="official">Арджуна</title>
+		<title type="syn" xml:lang="ru">Земная Дева Арджуна</title>
+		<title type="syn" xml:lang="bg">Земното момиче Арджуна</title>
+		<title type="official" xml:lang="ja">地球少女アルジュナ</title>
+	</anime>
+	<anime aid="108">
+		<title xml:lang="ja" type="official">ギャラクシーエンジェル</title>
+		<title xml:lang="th" type="official">แองเจิ้ลสาว พิทักษ์จักรวาล</title>
+		<title xml:lang="x-jat" type="short">GA</title>
+		<title xml:lang="x-jat" type="short">ga1</title>
+		<title type="main" xml:lang="x-jat">Galaxy Angel</title>
+		<title xml:lang="pt-BR" type="official">Galaxy Angel</title>
+		<title xml:lang="en" type="official">Galaxy Angel</title>
+		<title type="syn" xml:lang="zh-Hans">银河天使队</title>
+	</anime>
+	<anime aid="109">
+		<title xml:lang="ja" type="official">まほろまてぃっく Automatic Maiden</title>
+		<title type="syn" xml:lang="en">Automatic Maiden</title>
+		<title xml:lang="fr" type="official">Mahoromatic</title>
+		<title xml:lang="de" type="official">Mahoromatic - Automatic Maiden</title>
+		<title xml:lang="en" type="official">Mahoromatic: Automatic Maiden</title>
+		<title type="main" xml:lang="x-jat">Mahoromatic: Automatic Maiden</title>
+		<title xml:lang="x-jat" type="short">MM</title>
+		<title type="official" xml:lang="ru">Махороматик: Автоматическая девушка</title>
+		<title type="syn" xml:lang="zh-Hans">魔力女仆真幌</title>
+	</anime>
+	<anime aid="110">
+		<title xml:lang="ja" type="official">ナコルル ~あのひとからのおくりもの~</title>
+		<title type="short" xml:lang="x-jat">nakoruru</title>
+		<title type="main" xml:lang="x-jat">Nakoruru: Ano Hito kara no Okurimono</title>
+	</anime>
+	<anime aid="111">
+		<title xml:lang="ko" type="official">전투요정 유키카제</title>
+		<title xml:lang="en" type="syn">Battle Fairy Yukikaze</title>
+		<title xml:lang="x-jat" type="main">Sentou Yousei Yukikaze</title>
+		<title type="official" xml:lang="en">Yukikaze</title>
+		<title xml:lang="fr" type="official">Yukikaze</title>
+		<title type="official" xml:lang="de">Yukikaze</title>
+		<title xml:lang="en" type="syn">Yukikaze Operation</title>
+		<title type="syn" xml:lang="ru">Боевая фея Вьюга</title>
+		<title type="official" xml:lang="ja">戦闘妖精雪風</title>
+	</anime>
+	<anime aid="112">
+		<title xml:lang="ko" type="official">센과 치히로의 행방불명</title>
+		<title type="official" xml:lang="hr">Avanture male Chihiro</title>
+		<title xml:lang="pt" type="official">A Viagem de Chihiro</title>
+		<title xml:lang="pt-BR" type="official">A Viagem de Chihiro</title>
+		<title type="official" xml:lang="cs">Cesta do fantazie</title>
+		<title type="official" xml:lang="sk">Cesta do fantázie</title>
+		<title type="short" xml:lang="x-jat">Chihiro</title>
+		<title type="official" xml:lang="no">Chihiro Og Heksene</title>
+		<title type="official" xml:lang="da">Chihiro Og Heksene</title>
+		<title xml:lang="de" type="official">Chihiros Reise ins Zauberland</title>
+		<title type="official" xml:lang="hu">Chihiro Szellemországban</title>
+		<title type="official" xml:lang="sl">Čudežno potovanje</title>
+		<title xml:lang="nl" type="official">De reis van Chihiro</title>
+		<title type="official" xml:lang="es-LA">El Viaje de Chihiro</title>
+		<title type="official" xml:lang="es">El Viaje de Chihiro</title>
+		<title type="official" xml:lang="lv">Gariem līdzi</title>
+		<title type="official" xml:lang="fi">Henkien kätkemä</title>
+		<title type="official" xml:lang="it">La Città Incantata</title>
+		<title type="official" xml:lang="fr">Le voyage de Chihiro</title>
+		<title xml:lang="tr" type="official">Ruhların Kaçışı</title>
+		<title type="short" xml:lang="en">SA</title>
+		<title type="syn" xml:lang="en">Sen and Chihiro`s Spiriting Away</title>
+		<title xml:lang="x-jat" type="short">Sen to Chihiro</title>
+		<title type="main" xml:lang="x-jat">Sen to Chihiro no Kamikakushi</title>
+		<title type="official" xml:lang="en">Spirited Away</title>
+		<title xml:lang="sv" type="official">Spirited Away</title>
+		<title xml:lang="pl" type="official">Spirited Away: W krainie bogów</title>
+		<title type="short" xml:lang="x-jat">StCnK</title>
+		<title xml:lang="lt" type="official">Stebuklingi Šihiros nuotykiai Dvasių pasaulyje</title>
+		<title xml:lang="et" type="official">Vaimudest viidud</title>
+		<title type="syn" xml:lang="vi">Vùng đất linh hồn</title>
+		<title xml:lang="pl" type="syn">W Krainie Bogów</title>
+		<title xml:lang="sr" type="official">Začarani grad</title>
+		<title type="official" xml:lang="ar">شيهيرو</title>
+		<title type="official" xml:lang="he">המסע המופלא</title>
+		<title xml:lang="el" type="official">Ταξίδι στη Χώρα των Θαυμάτων</title>
+		<title type="official" xml:lang="bg">Отнесени от Духове</title>
+		<title xml:lang="uk" type="short">Сен та Чіхіро</title>
+		<title xml:lang="uk" type="syn">Сен та Чіхіро в полоні у духів</title>
+		<title xml:lang="ru" type="official">Унесённые призраками</title>
+		<title xml:lang="zh-Hans" type="official">千与千寻</title>
+		<title xml:lang="ja" type="official">千と千尋の神隠し</title>
+		<title xml:lang="zh-Hant" type="official">千與千尋</title>
+	</anime>
+	<anime aid="113">
+		<title xml:lang="ja" type="syn">サイカノ</title>
+		<title xml:lang="th" type="short">ไซดาโนะ</title>
+		<title xml:lang="th" type="official">อาวุธสุดท้ายคือเธอ-ไซดาโนะ</title>
+		<title xml:lang="fr" type="official">L`arme ultime</title>
+		<title xml:lang="it" type="official">Lei, l`arma finale</title>
+		<title xml:lang="cs" type="syn">Má dívka, superzbraň</title>
+		<title xml:lang="x-jat" type="short">Saikano</title>
+		<title type="official" xml:lang="de">Saikano</title>
+		<title type="official" xml:lang="pt-BR">Saikano</title>
+		<title type="official" xml:lang="en">Saikano</title>
+		<title xml:lang="x-jat" type="short">SaiKano TV</title>
+		<title xml:lang="x-jat" type="syn">Saishuu Heiki Kanojo</title>
+		<title type="main" xml:lang="x-jat">Saishuuheiki Kanojo</title>
+		<title xml:lang="en" type="syn">She ~ the ultimate weapon ~</title>
+		<title xml:lang="en" type="syn">The last love song on this little planet</title>
+		<title xml:lang="ar" type="syn">سايكانو</title>
+		<title type="syn" xml:lang="he">סאיקאנו</title>
+		<title type="syn" xml:lang="ru">Моя девушка - совершенное оружие</title>
+		<title xml:lang="uk" type="syn">Моя дівчина - суперзброя</title>
+		<title xml:lang="uk" type="syn">Саікаку</title>
+		<title type="syn" xml:lang="ru">Сайкано</title>
+		<title type="official" xml:lang="ja">最終兵器彼女</title>
+	</anime>
+	<anime aid="114">
+		<title type="syn" xml:lang="ro">Acum si atunci, aici si acolo</title>
+		<title type="syn" xml:lang="en">Here and There</title>
+		<title xml:lang="x-jat" type="short">imaboku</title>
+		<title type="main" xml:lang="x-jat">Ima, Soko ni Iru Boku</title>
+		<title xml:lang="x-jat" type="syn">Ima, Sokoni Iru Boku</title>
+		<title xml:lang="x-jat" type="short">ISIB</title>
+		<title type="short" xml:lang="x-jat">isnib</title>
+		<title type="official" xml:lang="fr">L`autre monde</title>
+		<title xml:lang="en" type="short">NaTHaT</title>
+		<title type="official" xml:lang="en">Now and Then, Here and There</title>
+		<title type="official" xml:lang="de">Now and Then, Here and There</title>
+		<title xml:lang="en" type="short">NTHT</title>
+		<title type="official" xml:lang="tr">Şimdi ve Sonra, Burada ve Orada</title>
+		<title xml:lang="ar" type="syn">الآن وبعدئذ، هنا وهناك</title>
+		<title type="syn" xml:lang="ru">Здесь и сейчас, тут и там</title>
+		<title type="syn" xml:lang="ru">Сейчас и потом, здесь и там</title>
+		<title xml:lang="uk" type="syn">Тепер і там</title>
+		<title xml:lang="bg" type="official">Тук и сега</title>
+		<title type="official" xml:lang="ja">今, そこにいる僕</title>
+		<title xml:lang="zh-Hans" type="syn">此时此刻的我</title>
+	</anime>
+	<anime aid="115">
+		<title xml:lang="de" type="official">Amazing Nurse Nanako</title>
+		<title xml:lang="en" type="official">Amazing Nurse Nanako</title>
+		<title type="main" xml:lang="x-jat">Nanako Kaitai Shinsho</title>
+		<title xml:lang="it" type="official">Nanako - Manuale di genetica criminale</title>
+		<title xml:lang="fr" type="official">Nanako, manuel de génétique criminelle</title>
+		<title xml:lang="ja" type="official">菜々子解体診書</title>
+	</anime>
+	<anime aid="116">
+		<title xml:lang="ja" type="official">こみっくパーティー</title>
+		<title type="main" xml:lang="x-jat">Comic Party</title>
+		<title type="official" xml:lang="de">Comic Party</title>
+		<title xml:lang="en" type="official">Comic Party</title>
+		<title xml:lang="x-jat" type="short">comipa</title>
+		<title type="short" xml:lang="x-jat">cp</title>
+	</anime>
+	<anime aid="117">
+		<title type="official" xml:lang="ja">フリクリ</title>
+		<title type="official" xml:lang="ko">프리크리</title>
+		<title xml:lang="es" type="official">FLCL</title>
+		<title type="official" xml:lang="fr">FLCL</title>
+		<title xml:lang="en" type="official">FLCL</title>
+		<title type="official" xml:lang="it">FLCL</title>
+		<title xml:lang="de" type="official">FLCL</title>
+		<title type="syn" xml:lang="en">Fooley Cooley</title>
+		<title type="syn" xml:lang="en">Fooly Cooly</title>
+		<title xml:lang="fr" type="syn">Fuli Culi</title>
+		<title xml:lang="x-jat" type="syn">Furi Curi</title>
+		<title type="main" xml:lang="x-jat">Furi Kuri</title>
+		<title xml:lang="fa" type="official">باحال و احمقانه</title>
+		<title type="syn" xml:lang="fa">فولی کولی</title>
+		<title xml:lang="ru" type="syn">Фури Кури</title>
+		<title type="syn" xml:lang="bg">Фури Кури</title>
+		<title xml:lang="uk" type="syn">Фурі Курі</title>
+	</anime>
+	<anime aid="118">
+		<title type="short" xml:lang="en">ABJ</title>
+		<title type="short" xml:lang="x-jat">ajimu</title>
+		<title type="syn" xml:lang="en">Ajimu Beach Story</title>
+		<title type="main" xml:lang="x-jat">Ajimu: Kaigan Monogatari</title>
+		<title xml:lang="ru" type="syn">Адзиму - пляжная история</title>
+		<title type="official" xml:lang="ja">あじむ ~海岸物語~</title>
+	</anime>
+	<anime aid="119">
+		<title type="short" xml:lang="x-jat">Canvas</title>
+		<title xml:lang="en" type="syn">Canvas Motif of Sepia</title>
+		<title xml:lang="x-jat" type="syn">Canvas ~Sepia-iro no Motif~</title>
+		<title type="main" xml:lang="x-jat">Canvas: Sepia-iro no Motif</title>
+		<title type="official" xml:lang="ja">Canvas ~セピア色のモチーフ~</title>
+	</anime>
+	<anime aid="120">
+		<title type="short" xml:lang="ja">メモオフ</title>
+		<title xml:lang="ja" type="syn">メモリーズオフ</title>
+		<title xml:lang="x-jat" type="short">memoff</title>
+		<title type="short" xml:lang="x-jat">memooff</title>
+		<title xml:lang="x-jat" type="main">Memories Off</title>
+		<title type="official" xml:lang="ja">Memories Off</title>
+		<title type="short" xml:lang="x-jat">MO</title>
+		<title type="short" xml:lang="x-jat">MOFF</title>
+	</anime>
+	<anime aid="121">
+		<title xml:lang="ja" type="official">うさぎちゃんでキュー</title>
+		<title type="syn" xml:lang="ja">うさぎちゃんでCue!!</title>
+		<title xml:lang="en" type="syn">It`s my Rabbit and It`s Cue!!</title>
+		<title type="short" xml:lang="x-jat">UdC</title>
+		<title type="short" xml:lang="x-jat">Usagi</title>
+		<title xml:lang="x-jat" type="short">Usagichan</title>
+		<title type="short" xml:lang="x-jat">Usagi-chan</title>
+		<title type="main" xml:lang="x-jat">Usagi-chan de Cue!!</title>
+	</anime>
+	<anime aid="122">
+		<title type="main" xml:lang="x-jat">Urda</title>
+		<title xml:lang="ja" type="official">URDA -ウルダ-</title>
+	</anime>
+	<anime aid="123">
+		<title xml:lang="ja" type="official">スレイヤーズぷれみあむ</title>
+		<title type="syn" xml:lang="en">Slayers Movie 5</title>
+		<title type="main" xml:lang="x-jat">Slayers Premium</title>
+		<title type="official" xml:lang="de">Slayers Premium -The Movie-</title>
+		<title type="syn" xml:lang="ru">Первосортные Рубаки</title>
+	</anime>
+	<anime aid="124">
+		<title type="short" xml:lang="x-jat">AnM</title>
+		<title xml:lang="x-jat" type="main">Asagiri no Miko</title>
+		<title type="official" xml:lang="en">Shrine of the Morning Mist</title>
+		<title type="official" xml:lang="ja">朝霧の巫女</title>
+	</anime>
+	<anime aid="125">
+		<title xml:lang="ja" type="syn">レイヴ</title>
+		<title xml:lang="x-jat" type="short">GAR</title>
+		<title type="main" xml:lang="x-jat">Groove Adventure Rave</title>
+		<title xml:lang="ja" type="official">GROOVE ADVENTURE RAVE</title>
+		<title xml:lang="x-jat" type="syn">RAVE</title>
+		<title type="official" xml:lang="fr">Rave</title>
+		<title xml:lang="pt-BR" type="official">Rave Master</title>
+		<title xml:lang="en" type="official">Rave Master</title>
+		<title xml:lang="mn" type="syn">RAVE мастер</title>
+		<title xml:lang="x-jat" type="syn">the groove adventure RAVE</title>
+		<title type="syn" xml:lang="bg">Пътешествието на Рейв</title>
+		<title xml:lang="ru" type="syn">Рэйв Мастер</title>
+	</anime>
+	<anime aid="126">
+		<title xml:lang="ja" type="official">ホイッスル!</title>
+		<title xml:lang="it" type="official">Dream Team</title>
+		<title xml:lang="es" type="official">Dream Team</title>
+		<title type="official" xml:lang="pt">Dream Team</title>
+		<title xml:lang="x-jat" type="syn">Whistle</title>
+		<title type="official" xml:lang="fr">Whistle!</title>
+		<title xml:lang="x-jat" type="main">Whistle!</title>
+	</anime>
+	<anime aid="127">
+		<title type="official" xml:lang="th">เมจิคไนท์ เรย์เอิร์ธ</title>
+		<title type="official" xml:lang="pt">As Guerreiras Mágicas de Rayearth</title>
+		<title xml:lang="pt-BR" type="official">Guerreiras Mágicas de Rayearth</title>
+		<title type="official" xml:lang="es-LA">Las Guerreras Mágicas</title>
+		<title xml:lang="es" type="official">Las Guerreras Mágicas</title>
+		<title xml:lang="en" type="official">Magic Knight Rayearth</title>
+		<title type="official" xml:lang="fr">Magic Knight RayEarth</title>
+		<title xml:lang="x-jat" type="main">Magic Knight Rayearth</title>
+		<title xml:lang="it" type="official">Magic Knight Rayearth</title>
+		<title xml:lang="x-jat" type="syn">Mahou Kishi Rayearth</title>
+		<title type="short" xml:lang="x-jat">MKR</title>
+		<title type="short" xml:lang="x-jat">MKRE</title>
+		<title type="short" xml:lang="x-jat">MKRTV</title>
+		<title xml:lang="it" type="syn">Una Porta Socchiusa ai Confini del Sole</title>
+		<title type="official" xml:lang="pl">Wojowniczki z Krainy Marzeń</title>
+		<title xml:lang="bg" type="syn">Рейърт и магическите рицари</title>
+		<title type="official" xml:lang="ja">魔法騎士[マジックナイト]レイアース</title>
+		<title xml:lang="zh-Hans" type="syn">魔法骑士</title>
+	</anime>
+	<anime aid="128">
+		<title type="official" xml:lang="ja">アーケードゲーマーふぶき</title>
+		<title type="main" xml:lang="x-jat">Arcade Gamer Fubuki</title>
+		<title type="short" xml:lang="x-jat">fubuki</title>
+	</anime>
+	<anime aid="129">
+		<title type="official" xml:lang="ko">더 파이팅</title>
+		<title type="official" xml:lang="th">ก้าวแรกสู่สังเวียน</title>
+		<title xml:lang="es-LA" type="official">Espíritu de Lucha</title>
+		<title type="official" xml:lang="en">Fighting Spirit</title>
+		<title xml:lang="en" type="syn">Fighting Spirit TV</title>
+		<title type="syn" xml:lang="x-jat">Hajime no Ippo</title>
+		<title type="main" xml:lang="x-jat">Hajime no Ippo: The Fighting!</title>
+		<title xml:lang="x-jat" type="short">HnI</title>
+		<title type="short" xml:lang="x-jat">ippo</title>
+		<title type="official" xml:lang="fr">Ippo le challenger</title>
+		<title xml:lang="ar" type="syn">هاجيمي نو إيبو</title>
+		<title xml:lang="bg" type="syn">Боен дух: Борбата</title>
+		<title type="official" xml:lang="bg">Боен дух: Борбата!</title>
+		<title xml:lang="ja" type="official">はじめの一歩 THE FIGHTING!</title>
+	</anime>
+	<anime aid="130">
+		<title type="official" xml:lang="ja">おたくのビデオ</title>
+		<title type="short" xml:lang="x-jat">onv</title>
+		<title xml:lang="en" type="official">Otaku no Video</title>
+		<title type="official" xml:lang="it">Otaku no Video</title>
+		<title type="main" xml:lang="x-jat">Otaku no Video</title>
+		<title type="official" xml:lang="fr">Otaku no Video</title>
+		<title type="official" xml:lang="nl">Otaku no Video</title>
+		<title xml:lang="de" type="official">Otaku No Video</title>
+		<title type="syn" xml:lang="ru">Фильм об отаку 1982 &amp; 1985</title>
+	</anime>
+	<anime aid="131">
+		<title type="short" xml:lang="x-jat">anc</title>
+		<title type="main" xml:lang="x-jat">Ayashi no Ceres</title>
+		<title xml:lang="it" type="official">Ayashi no Ceres</title>
+		<title xml:lang="fr" type="official">Ayashi no Ceres</title>
+		<title type="short" xml:lang="x-jat">Ceres</title>
+		<title xml:lang="en" type="syn">Ceres Celestial Legend</title>
+		<title type="official" xml:lang="en">Ceres: Celestial Legend</title>
+		<title xml:lang="tr" type="syn">Ceres`in Kutsal Efsanesi</title>
+		<title type="official" xml:lang="es">Ceres, La Leyenda Celestial</title>
+		<title type="syn" xml:lang="en">Mysterious Ceres</title>
+		<title xml:lang="en" type="syn">Unearthly Ceres</title>
+		<title type="syn" xml:lang="ru">Подозрительная Церера</title>
+		<title xml:lang="ja" type="official">妖しのセレス</title>
+		<title xml:lang="zh-Hans" type="syn">梦幻妖子</title>
+	</anime>
+	<anime aid="132">
+		<title xml:lang="ja" type="official">ハンター×ハンター (1999)</title>
+		<title xml:lang="fr" type="official">Hunter X Hunter</title>
+		<title xml:lang="pt-BR" type="official">Hunter X Hunter</title>
+		<title xml:lang="pt" type="official">Hunter x Hunter</title>
+		<title xml:lang="it" type="official">Hunter X Hunter</title>
+		<title type="official" xml:lang="en">Hunter x Hunter</title>
+		<title type="syn" xml:lang="id">Hunter x Hunter</title>
+		<title type="main" xml:lang="x-jat">Hunter x Hunter (1999)</title>
+		<title xml:lang="en" type="syn">HunterxHunter (1999)</title>
+		<title xml:lang="en" type="syn">Hunter x Hunter: Phantom Troupe Arc</title>
+		<title type="syn" xml:lang="en">Hunter x Hunter: Yorknew City Arc</title>
+		<title xml:lang="x-jat" type="syn">Hunter x Hunter: Yorkshin City</title>
+		<title xml:lang="x-jat" type="short">HxH</title>
+		<title type="short" xml:lang="x-jat">hxh99</title>
+		<title xml:lang="x-jat" type="short">HxHTV</title>
+		<title xml:lang="x-jat" type="short">HxH TV</title>
+		<title xml:lang="th" type="official">ฮันเตอร์ x ฮันเตอร์</title>
+		<title xml:lang="ar" type="official">القناص</title>
+		<title xml:lang="ru" type="syn">Охотник х Охотник</title>
+	</anime>
+	<anime aid="133">
+		<title type="official" xml:lang="ja">ドラゴンドライブ</title>
+		<title xml:lang="x-jat" type="short">DD</title>
+		<title type="main" xml:lang="x-jat">Dragon Drive</title>
+	</anime>
+	<anime aid="134">
+		<title type="short" xml:lang="x-jat">luminous</title>
+		<title type="main" xml:lang="x-jat">Saint Luminous Jogakuin</title>
+		<title type="short" xml:lang="en">SLMHS</title>
+		<title xml:lang="en" type="official">St. Luminous Mission High School</title>
+		<title type="official" xml:lang="ja">聖ルミナス女学院</title>
+	</anime>
+	<anime aid="135">
+		<title type="short" xml:lang="ja">イニD</title>
+		<title type="short" xml:lang="x-jat">id</title>
+		<title xml:lang="x-jat" type="short">ID1st</title>
+		<title type="short" xml:lang="x-jat">IDFS</title>
+		<title type="short" xml:lang="x-jat">inid</title>
+		<title xml:lang="x-jat" type="short">ini-d</title>
+		<title type="official" xml:lang="fr">Initial D</title>
+		<title xml:lang="pt" type="official">Initial D</title>
+		<title xml:lang="pt-BR" type="official">Initial D</title>
+		<title type="main" xml:lang="x-jat">Initial D</title>
+		<title type="syn" xml:lang="x-jat">Initial D First Stage</title>
+		<title type="official" xml:lang="en">Initial D: First Stage</title>
+		<title type="official" xml:lang="ja">頭文字[イニシャル]D</title>
+	</anime>
+	<anime aid="136">
+		<title xml:lang="x-jat" type="short">One</title>
+		<title xml:lang="x-jat" type="main">One: Kagayaku Kisetsu e</title>
+		<title type="official" xml:lang="ja">ONE ~輝く季節へ~</title>
+	</anime>
+	<anime aid="137">
+		<title xml:lang="fr" type="official">Chroniques de la guerre de Lodoss : La légende du chevalier héroïque</title>
+		<title xml:lang="fr" type="syn">Chroniques de Lodoss : La légende du chevalier héroïque</title>
+		<title type="syn" xml:lang="vi">Ký sự chiến tranh Lodoss : Thời đại dũng sĩ</title>
+		<title xml:lang="x-jat" type="main">Lodoss-tou Senki: Eiyuu Kishi Den</title>
+		<title type="short" xml:lang="x-jat">lodoss tv</title>
+		<title type="official" xml:lang="en">Record of Lodoss War: Chronicles of the Heroic Knight</title>
+		<title type="official" xml:lang="de">Record of Lodoss War: Chronicles of the Heroic Knight</title>
+		<title type="syn" xml:lang="de">Record of Lodoss War: Chronicles of the Heroic Knights</title>
+		<title type="syn" xml:lang="en">Record of Lodoss War TV</title>
+		<title type="short" xml:lang="en">rolw tv</title>
+		<title xml:lang="ja" type="official">ロードス島戦記 英雄騎士伝</title>
+		<title xml:lang="zh-Hans" type="syn">罗德岛战记TV 英雄骑士传</title>
+	</anime>
+	<anime aid="138">
+		<title type="official" xml:lang="en">Sakura Diaries</title>
+		<title xml:lang="es" type="official">Sakura Mail</title>
+		<title type="official" xml:lang="fr">Sakura Mail</title>
+		<title xml:lang="de" type="official">Sakura Mail</title>
+		<title xml:lang="it" type="official">Sakura Mail</title>
+		<title xml:lang="x-jat" type="main">Sakura Tsuushin</title>
+		<title type="official" xml:lang="ja">桜通信</title>
+	</anime>
+	<anime aid="139">
+		<title type="official" xml:lang="ja">フォトン</title>
+		<title type="short" xml:lang="en">Idiot</title>
+		<title type="main" xml:lang="x-jat">Photon</title>
+		<title xml:lang="en" type="official">Photon: The Idiot Adventures</title>
+		<title xml:lang="ar" type="syn">فوتون</title>
+		<title xml:lang="bg" type="syn">Идеотските приключения на Фотон</title>
+		<title xml:lang="ru" type="syn">Фотон: Приключения идиота</title>
+	</anime>
+	<anime aid="140">
+		<title xml:lang="es" type="official">Escuela de Brujas</title>
+		<title type="official" xml:lang="it">Il club della magia!</title>
+		<title xml:lang="en" type="syn">Magic User`s Club</title>
+		<title xml:lang="en" type="syn">Magic User`s Club TV</title>
+		<title type="official" xml:lang="en">Magic User`s Club! TV Series</title>
+		<title type="main" xml:lang="x-jat">Mahou Tsukai Tai! (1999)</title>
+		<title type="syn" xml:lang="x-jat">Mahou Tsukai Tai TV</title>
+		<title xml:lang="x-jat" type="short">MTT TV</title>
+		<title xml:lang="en" type="short">MUC TV</title>
+		<title type="syn" xml:lang="ru">Клуб любителей магии [ТВ]</title>
+		<title xml:lang="ja" type="official">魔法使いTai! (1999)</title>
+	</anime>
+	<anime aid="141">
+		<title xml:lang="en" type="syn">Magic Users Club!</title>
+		<title type="syn" xml:lang="en">Magic User`s Club OVA</title>
+		<title type="syn" xml:lang="en">Magic Users Club OVA</title>
+		<title type="official" xml:lang="en">Magic User`s Club! OVA Series</title>
+		<title xml:lang="de" type="official">Maho Tsukai Tai! Magic User`s Club</title>
+		<title type="main" xml:lang="x-jat">Mahou Tsukai Tai!</title>
+		<title type="syn" xml:lang="x-jat">Mahou Tsukai Tai OVA</title>
+		<title type="short" xml:lang="x-jat">MTT OVA</title>
+		<title type="short" xml:lang="en">MUC OVA</title>
+		<title type="official" xml:lang="ru">Клуб любителей магии</title>
+		<title type="syn" xml:lang="ru">Клуб любителей магии OVA</title>
+		<title type="official" xml:lang="ja">魔法使いTai!</title>
+	</anime>
+	<anime aid="142">
+		<title xml:lang="en" type="official">If I See You in My Dreams</title>
+		<title type="official" xml:lang="es">Si Te Veo En Mis Sueños</title>
+		<title type="short" xml:lang="x-jat">YDATV</title>
+		<title type="main" xml:lang="x-jat">Yume de Aetara</title>
+		<title xml:lang="x-jat" type="syn">Yume de Aetara TV</title>
+		<title type="official" xml:lang="ja">夢で逢えたら</title>
+	</anime>
+	<anime aid="143">
+		<title xml:lang="ja" type="syn">ホーンテッドじゃんくしょん</title>
+		<title xml:lang="ja" type="official">HAUNTEDじゃんくしょん</title>
+		<title type="main" xml:lang="x-jat">Haunted Junction</title>
+		<title xml:lang="he" type="official">הונטד ג`ונקשיון</title>
+		<title xml:lang="ru" type="syn">Перекрёсток духов</title>
+	</anime>
+	<anime aid="144">
+		<title xml:lang="ko" type="official">이누야샤</title>
+		<title xml:lang="th" type="official">อินุยาฉะ เทพอสูร จิ้งจอกเงิน</title>
+		<title xml:lang="ca" type="official">InuYasha</title>
+		<title xml:lang="cs" type="official">Inuyasha</title>
+		<title type="official" xml:lang="hu">Inuyasha</title>
+		<title type="official" xml:lang="it">Inuyasha</title>
+		<title xml:lang="es" type="official">Inuyasha</title>
+		<title xml:lang="en" type="official">InuYasha</title>
+		<title type="official" xml:lang="ro">Inuyasha</title>
+		<title xml:lang="fr" type="official">InuYasha</title>
+		<title xml:lang="x-jat" type="main">Inuyasha</title>
+		<title type="official" xml:lang="es-LA">Inuyasha</title>
+		<title xml:lang="pt-BR" type="official">InuYasha</title>
+		<title xml:lang="pt" type="official">Inuyasha</title>
+		<title type="official" xml:lang="de">Inu Yasha</title>
+		<title type="syn" xml:lang="x-jat">Inu Yasha</title>
+		<title xml:lang="x-jat" type="syn">Inuyasha TV</title>
+		<title type="short" xml:lang="x-jat">IY</title>
+		<title xml:lang="x-jat" type="short">IYTV</title>
+		<title type="syn" xml:lang="vi">Khuyển dạ xoa</title>
+		<title type="official" xml:lang="fa">اینویاشا</title>
+		<title xml:lang="ar" type="official">إينوياشا</title>
+		<title type="official" xml:lang="he">אינויאשה</title>
+		<title xml:lang="ru" type="syn">Инуяся</title>
+		<title xml:lang="bg" type="syn">Инуяша</title>
+		<title xml:lang="ru" type="syn">Инуяша</title>
+		<title type="official" xml:lang="zh-Hant">犬夜叉</title>
+		<title type="official" xml:lang="zh-Hans">犬夜叉</title>
+		<title type="official" xml:lang="ja">犬夜叉</title>
+	</anime>
+	<anime aid="145">
+		<title xml:lang="x-jat" type="short">ID2nd</title>
+		<title type="short" xml:lang="x-jat">IDSS</title>
+		<title type="official" xml:lang="fr">Initial D - 2eme étape</title>
+		<title xml:lang="pt" type="official">Initial D Second Stage</title>
+		<title xml:lang="x-jat" type="main">Initial D Second Stage</title>
+		<title xml:lang="en" type="official">Initial D: Second Stage</title>
+		<title xml:lang="zh-Hans" type="syn">头文字D第二部</title>
+		<title type="official" xml:lang="ja">頭文字[イニシャル]D Second Stage</title>
+	</anime>
+	<anime aid="146">
+		<title type="official" xml:lang="ja">ロックマンエグゼ</title>
+		<title xml:lang="th" type="official">ร็อกแมน EXE</title>
+		<title xml:lang="pt" type="official">Megaman</title>
+		<title type="official" xml:lang="gl">Megaman</title>
+		<title xml:lang="el" type="official">Megaman</title>
+		<title type="official" xml:lang="de">MegaMan NT Warrior</title>
+		<title xml:lang="ro" type="official">Megaman NT Warrior</title>
+		<title xml:lang="nl" type="official">Megaman NT Warrior</title>
+		<title type="official" xml:lang="fr">MegaMan NT Warrior</title>
+		<title xml:lang="hu" type="official">Megaman NT Warrior</title>
+		<title xml:lang="en" type="official">MegaMan: NT Warrior</title>
+		<title type="official" xml:lang="pl">MegaMan: NT Warrior</title>
+		<title type="syn" xml:lang="x-jat">Rockman EXE</title>
+		<title type="main" xml:lang="x-jat">Rockman.EXE</title>
+		<title type="official" xml:lang="ar">ميجا مان محارب النت</title>
+		<title type="official" xml:lang="he">מגה מן: לוחם הרשת</title>
+	</anime>
+	<anime aid="147">
+		<title xml:lang="es" type="short">Alita</title>
+		<title type="short" xml:lang="en">Alita</title>
+		<title xml:lang="ca" type="official">Alita, àngel de combat</title>
+		<title type="official" xml:lang="es">Alita, ángel de combate</title>
+		<title xml:lang="en" type="official">Battle Angel</title>
+		<title type="official" xml:lang="sv">Battle Angel Alita</title>
+		<title xml:lang="en" type="syn">Battle Angel Alita</title>
+		<title type="official" xml:lang="de">Battle Angel Alita</title>
+		<title type="official" xml:lang="fr">Gunnm</title>
+		<title xml:lang="x-jat" type="short">Gunnm</title>
+		<title xml:lang="x-jat" type="main">Hyper Future Vision: Gunnm</title>
+		<title xml:lang="ja" type="official">HYPER FUTURE VISION 銃夢 GUNNM</title>
+		<title type="syn" xml:lang="lt">Kovingasis Angelas Alita</title>
+		<title type="syn" xml:lang="bg">Бойният Ангел - Алита</title>
+	</anime>
+	<anime aid="148">
+		<title xml:lang="en" type="syn">Condor Hero</title>
+		<title type="official" xml:lang="en">Legend of the Condor Hero</title>
+		<title xml:lang="en" type="short">LoCH</title>
+		<title xml:lang="x-zht" type="official">Shen Diao Xia Lu</title>
+		<title xml:lang="x-jat" type="main">Shin Chou Kyou Ryo: Condor Hero</title>
+		<title type="syn" xml:lang="ja">神周鳥侠侶 ~コンドル・ヒーロー~</title>
+		<title type="official" xml:lang="ja">神鵰侠侶 コンドルヒーロー</title>
+		<title xml:lang="zh-Hant" type="syn">神鵰俠侶</title>
+	</anime>
+	<anime aid="149">
+		<title type="official" xml:lang="ja">ドラゴンハーフ</title>
+		<title type="official" xml:lang="de">Dragon Half</title>
+		<title xml:lang="x-jat" type="main">Dragon Half</title>
+		<title xml:lang="en" type="official">Dragon Half</title>
+		<title xml:lang="lt" type="syn">Pusiau Drakonas</title>
+	</anime>
+	<anime aid="150">
+		<title xml:lang="ja" type="official">おるちゅばんエビちゅ</title>
+		<title type="short" xml:lang="x-jat">Ebichu</title>
+		<title xml:lang="en" type="syn">Ebichu Minds the House</title>
+		<title xml:lang="x-jat" type="main">Oruchuban Ebichu</title>
+	</anime>
+	<anime aid="151">
+		<title type="official" xml:lang="en">Elf Princess Rane</title>
+		<title xml:lang="en" type="syn">Fairy Princess Ren</title>
+		<title type="short" xml:lang="en">FPRen</title>
+		<title xml:lang="x-jat" type="main">Yousei Hime Ren</title>
+		<title xml:lang="ja" type="official">妖精姫レーン</title>
+	</anime>
+	<anime aid="153">
+		<title xml:lang="ko" type="syn">오렌지로드</title>
+		<title xml:lang="ja" type="official">きまぐれオレンジ☆ロード</title>
+		<title xml:lang="it" type="syn">Capricciosa Orange Road</title>
+		<title type="official" xml:lang="it">È quasi magia Johnny</title>
+		<title type="official" xml:lang="es">Johnny y sus amigos</title>
+		<title type="main" xml:lang="x-jat">Kimagure Orange Road</title>
+		<title xml:lang="x-jat" type="syn">Kimagure Orange Road TV</title>
+		<title type="short" xml:lang="x-jat">KOR</title>
+		<title type="short" xml:lang="x-jat">kor tv</title>
+		<title xml:lang="fr" type="syn">Max &amp; compagnie</title>
+		<title type="official" xml:lang="fr">Max et compagnie</title>
+		<title xml:lang="sv" type="official">Orange Road - Superfamiljen</title>
+		<title xml:lang="tr" type="official">Portakal Yolu</title>
+		<title type="official" xml:lang="fi">Superperhe</title>
+		<title type="syn" xml:lang="ru">Капризы Апельсиновой улицы [ТВ]</title>
+		<title type="syn" xml:lang="ja">橙路</title>
+	</anime>
+	<anime aid="154">
+		<title type="official" xml:lang="ja">パーフェクトブルー</title>
+		<title xml:lang="tr" type="syn">Kusursuz Mavi</title>
+		<title type="syn" xml:lang="vi">Màu của Ảo giác</title>
+		<title xml:lang="hu" type="official">Perfect Blue</title>
+		<title xml:lang="en" type="official">Perfect Blue</title>
+		<title xml:lang="de" type="official">Perfect Blue</title>
+		<title type="official" xml:lang="pl">Perfect Blue</title>
+		<title xml:lang="it" type="official">Perfect Blue</title>
+		<title xml:lang="cs" type="official">Perfect Blue</title>
+		<title type="official" xml:lang="fr">Perfect Blue</title>
+		<title xml:lang="x-jat" type="main">Perfect Blue</title>
+		<title xml:lang="et" type="official">Perfect Blue</title>
+		<title type="syn" xml:lang="uk">Ідеальна блакить</title>
+		<title type="syn" xml:lang="bg">Перфектно синьо</title>
+	</anime>
+	<anime aid="155">
+		<title xml:lang="ja" type="official">スレイヤーズすぺしゃる</title>
+		<title type="syn" xml:lang="pl">Slayers: Księga zaklęć</title>
+		<title xml:lang="x-jat" type="main">Slayers Special</title>
+		<title type="official" xml:lang="de">Slayers Special - The Book of Spells</title>
+		<title type="official" xml:lang="en">Slayers: The Book of Spells</title>
+	</anime>
+	<anime aid="156">
+		<title xml:lang="x-jat" type="short">FFU</title>
+		<title type="official" xml:lang="ja">FF:U -ファイナルファンタジー:アンリミテッド-</title>
+		<title type="official" xml:lang="fr">Final Fantasy Unlimited</title>
+		<title xml:lang="x-jat" type="main">Final Fantasy Unlimited</title>
+		<title type="official" xml:lang="sv">Final Fantasy: Unlimited</title>
+		<title type="official" xml:lang="en">Final Fantasy: Unlimited</title>
+		<title xml:lang="fi" type="official">Final Fantasy: Unlimited</title>
+		<title type="official" xml:lang="de">Final Fantasy: Unlimited</title>
+		<title xml:lang="ru" type="official">Последняя фантазия: Всемогущий</title>
+	</anime>
+	<anime aid="157">
+		<title xml:lang="en" type="short">PA</title>
+		<title type="short" xml:lang="x-jat">PAAB</title>
+		<title type="official" xml:lang="en">Psychic Academy</title>
+		<title type="main" xml:lang="x-jat">Psychic Academy Aura Banshou</title>
+		<title type="syn" xml:lang="x-jat">Psychic Academy Ourabanshou</title>
+		<title xml:lang="ja" type="syn">φchic academy</title>
+		<title type="syn" xml:lang="ja">Ψchic academy</title>
+		<title xml:lang="ja" type="official">サイキックアカデミー煌羅万象</title>
+	</anime>
+	<anime aid="158">
+		<title type="syn" xml:lang="ko">비탄의 건강 우량아</title>
+		<title type="official" xml:lang="es">Amigas para Todo</title>
+		<title xml:lang="en" type="short">F3</title>
+		<title xml:lang="fr" type="syn">F3 - Ménage à trois</title>
+		<title xml:lang="en" type="short">FFF</title>
+		<title xml:lang="en" type="official">Frantic, Frustrated &amp; Female</title>
+		<title xml:lang="x-jat" type="main">Nageki no Kenkou Yuuryouji</title>
+		<title xml:lang="en" type="syn">The Lament of an Otherwise Healthy Girl</title>
+		<title xml:lang="ja" type="official">嘆きの健康優良児</title>
+	</anime>
+	<anime aid="159">
+		<title xml:lang="x-jat" type="main">Kuro no Danshou</title>
+		<title type="official" xml:lang="fr">La passion pourpre</title>
+		<title type="syn" xml:lang="x-jat">Mystery of Necronomicon</title>
+		<title type="official" xml:lang="en">Mystery of the Necronomicon</title>
+		<title type="syn" xml:lang="ru">Загадка Некрономикона</title>
+		<title type="official" xml:lang="ja">黒の断章</title>
+	</anime>
+	<anime aid="160">
+		<title type="short" xml:lang="x-jat">UFO</title>
+		<title xml:lang="x-jat" type="main">UFO Princess Valkyrie</title>
+		<title xml:lang="x-unk" type="syn">UFO Princess Walküre</title>
+		<title xml:lang="x-jat" type="syn">UFO Princess Walkyure</title>
+		<title type="syn" xml:lang="x-jat">UFO Princess Warukyure</title>
+		<title type="official" xml:lang="en">UFO Ultramaiden Valkyrie</title>
+		<title xml:lang="ja" type="official">円盤皇女ワるきゅーレ</title>
+	</anime>
+	<anime aid="161">
+		<title type="official" xml:lang="ko">베리베리 뮤우뮤우</title>
+		<title xml:lang="th" type="official">ขบวนการ เหมียวเหมียว</title>
+		<title type="official" xml:lang="pt-BR">As Super Gatinhas</title>
+		<title type="official" xml:lang="x-kot">Berry Berry Mew Mew</title>
+		<title type="official" xml:lang="sr">Družina Mjau - Mjau</title>
+		<title xml:lang="cs" type="official">Kočičí síla</title>
+		<title type="short" xml:lang="x-jat">mew</title>
+		<title xml:lang="it" type="official">Mew Mew Amiche Vincenti</title>
+		<title type="syn" xml:lang="el">Mew Mew Power</title>
+		<title xml:lang="en" type="official">Mew Mew Power</title>
+		<title type="official" xml:lang="fr">Mew Mew Power</title>
+		<title xml:lang="pt" type="official">Mew Mew Power</title>
+		<title type="official" xml:lang="es-LA">Miau Miau Power</title>
+		<title type="official" xml:lang="hr">Mijau Mijau Družina</title>
+		<title xml:lang="ro" type="official">Puterea echipei Miau-Miau</title>
+		<title type="short" xml:lang="x-jat">TMM</title>
+		<title type="main" xml:lang="x-jat">Tokyo Mew Mew</title>
+		<title type="official" xml:lang="hu">Vadmacska kommandó</title>
+		<title xml:lang="al" type="official">Vajzat Mjau - Mbrojtëset e Planetit</title>
+		<title type="official" xml:lang="fa">توکیو میو میو</title>
+		<title type="syn" xml:lang="ar">طوكيو مياو مياو</title>
+		<title type="official" xml:lang="he">טוקיו מיו מיו</title>
+		<title xml:lang="bg" type="official">Силата Миу Миу</title>
+		<title xml:lang="ru" type="syn">Токио Мяу Мяу</title>
+		<title xml:lang="ja" type="official">東京ミュウミュウ</title>
+		<title type="official" xml:lang="zh">東京喵喵</title>
+	</anime>
+	<anime aid="162">
+		<title type="official" xml:lang="pt">Cavaleiros das Estrelas</title>
+		<title xml:lang="sk" type="official">Hviezdny šerif Saber Rider</title>
+		<title xml:lang="pl" type="official">Jeździec Srebrnej Szabli</title>
+		<title xml:lang="de" type="short">Saber Rider</title>
+		<title xml:lang="en" type="syn">Saber Rider</title>
+		<title type="official" xml:lang="en">Saber Rider and the Star Sheriffs</title>
+		<title xml:lang="de" type="official">Saber Rider and the Star Sheriffs</title>
+		<title xml:lang="pt-BR" type="official">Saber Rider e os Guardiões do Espaço</title>
+		<title xml:lang="ro" type="official">Saber Rider şi Şerifii Stelari</title>
+		<title type="official" xml:lang="fr">Sab-Rider - Le chevalier au sabre</title>
+		<title type="official" xml:lang="fi">Sapeliratsastaja</title>
+		<title type="official" xml:lang="it">Sceriffi delle Stelle</title>
+		<title type="main" xml:lang="x-jat">Sei Juushi Bismarck</title>
+		<title type="short" xml:lang="en">sratss</title>
+		<title type="official" xml:lang="tr">Uzay Şövalyeleri</title>
+		<title type="official" xml:lang="ar">حماة الكواكب</title>
+		<title type="official" xml:lang="he">סייבר ריידר</title>
+		<title xml:lang="el" type="official">Ο Σερίφης του Διαστήματος</title>
+		<title type="official" xml:lang="bg">Конникът и звездните шерифи</title>
+		<title type="syn" xml:lang="ru">Космический Рыцарь и Звёздные Шерифы</title>
+		<title xml:lang="ja" type="official">星銃士 ビスマルク</title>
+	</anime>
+	<anime aid="163">
+		<title type="syn" xml:lang="fr">Fushigi Yûgi OAV</title>
+		<title type="syn" xml:lang="en">Fushigi Yugi OVA - The Mysterious Play</title>
+		<title xml:lang="fr" type="official">Fushigi Yûgi - The Mysterious Play</title>
+		<title xml:lang="en" type="official">Fushigi Yugi: The Mysterious Play (1996)</title>
+		<title xml:lang="x-jat" type="main">Fushigi Yuugi (1996)</title>
+		<title xml:lang="x-jat" type="syn">Fushigi Yuugi OVA 1</title>
+		<title xml:lang="de" type="official">Fushigi Yuugi - The Mysterious Play OVA</title>
+		<title xml:lang="x-jat" type="short">FY OVA1</title>
+		<title type="official" xml:lang="pl">Tajemnica przeszłości OVA</title>
+		<title type="syn" xml:lang="en">The Mysterious Play - OVA 1</title>
+		<title type="syn" xml:lang="ru">Таинственная игра OVA-1</title>
+		<title type="official" xml:lang="ja">ふしぎ遊戯 (1996)</title>
+	</anime>
+	<anime aid="164">
+		<title xml:lang="en" type="official">Fushigi Yugi: The Mysterious Play (1997)</title>
+		<title type="official" xml:lang="fr">Fushigi Yûgi - The Mysterious Play - 2</title>
+		<title xml:lang="de" type="official">Fushigi Yûgi - The Mysterious Play - New OVA</title>
+		<title xml:lang="x-jat" type="main">Fushigi Yuugi: Dai Ni Bu</title>
+		<title xml:lang="x-jat" type="syn">Fushigi Yuugi OVA 2</title>
+		<title type="short" xml:lang="x-jat">FY OVA2</title>
+		<title xml:lang="pl" type="official">Tajemnica przeszłości OVA 2</title>
+		<title xml:lang="en" type="syn">The Mysterious Play - OVA 2</title>
+		<title type="syn" xml:lang="ru">Таинственная игра OVA-2</title>
+		<title type="official" xml:lang="ja">ふしぎ遊戯 第二部</title>
+	</anime>
+	<anime aid="165">
+		<title xml:lang="fr" type="official">Fushigi Yûgi - Eikoden</title>
+		<title xml:lang="en" type="official">Fushigi Yugi: The Mysterious Play - Eikoden - The Legend of Eternal Light</title>
+		<title type="main" xml:lang="x-jat">Fushigi Yuugi: Eikouden</title>
+		<title xml:lang="x-jat" type="syn">Fushigi Yuugi OVA 3</title>
+		<title xml:lang="x-jat" type="short">FY OVA3</title>
+		<title xml:lang="pl" type="official">Tajemnica przeszłości OVA 3</title>
+		<title xml:lang="en" type="syn">The Mysterious Play - Eikoden</title>
+		<title xml:lang="ja" type="official">ふしぎ遊戯 -永光伝-</title>
+	</anime>
+	<anime aid="166">
+		<title xml:lang="ja" type="official">アップル・シード</title>
+		<title type="official" xml:lang="fr">Appleseed</title>
+		<title xml:lang="x-jat" type="main">Appleseed</title>
+		<title xml:lang="en" type="official">Appleseed</title>
+		<title xml:lang="de" type="official">Appleseed - Kampf um die Freiheit</title>
+		<title xml:lang="ru" type="syn">Яблочное зёрнышко OVA</title>
+	</anime>
+	<anime aid="167">
+		<title xml:lang="en" type="official">All Purpose Cultural Cat Girl Nuku Nuku</title>
+		<title type="main" xml:lang="x-jat">Bannou Bunka Nekomusume</title>
+		<title type="short" xml:lang="x-jat">bbn</title>
+		<title xml:lang="en" type="syn">Catgirl Nuku Nuku OVA</title>
+		<title xml:lang="es" type="official">La invencible Nuku Nuku</title>
+		<title xml:lang="fr" type="official">L`invincible Nuku Nuku</title>
+		<title type="official" xml:lang="it">Nuku Nuku l`invincibile ragazza-gatto</title>
+		<title xml:lang="ru" type="syn">Универсальная современная девyшка-кошка OVA-1</title>
+		<title xml:lang="ja" type="official">万能文化猫娘</title>
+	</anime>
+	<anime aid="168">
+		<title xml:lang="x-jat" type="syn">Kashou no Tsuki</title>
+		<title xml:lang="x-jat" type="main">Kashou no Tsuki: Aki Kyougen</title>
+		<title type="syn" xml:lang="en">Moon of The Fiery Night</title>
+		<title xml:lang="en" type="syn">Moon of The Fiery Night: Autumn Farce</title>
+		<title type="official" xml:lang="ja">火宵の月 ~秋狂言~</title>
+	</anime>
+	<anime aid="169">
+		<title type="official" xml:lang="fr">Chroniques de la guerre de Lodoss</title>
+		<title type="official" xml:lang="it">Cronache della Guerra di Lodoss</title>
+		<title type="syn" xml:lang="pt-BR">Crônicas da Guerra de Lodoss</title>
+		<title xml:lang="es" type="syn">Crónicas de la guerra de Lodoss</title>
+		<title type="official" xml:lang="pl">Kronika wojny na Lodoss</title>
+		<title type="syn" xml:lang="fr">Les chroniques de la guerre de Lodoss</title>
+		<title xml:lang="x-jat" type="short">Lodoss</title>
+		<title type="syn" xml:lang="en">Lodoss OVA</title>
+		<title xml:lang="x-jat" type="main">Lodoss-tou Senki</title>
+		<title xml:lang="en" type="official">Record of Lodoss War</title>
+		<title type="official" xml:lang="de">Record of Lodoss War</title>
+		<title type="short" xml:lang="en">RoLW</title>
+		<title type="short" xml:lang="en">RoLW OVA</title>
+		<title xml:lang="el" type="official">Ο Πόλεμος του Lodoss</title>
+		<title type="official" xml:lang="ja">ロードス島戦記</title>
+		<title xml:lang="zh-Hans" type="syn">罗德岛战记ova</title>
+	</anime>
+	<anime aid="170">
+		<title xml:lang="x-jat" type="short">AL</title>
+		<title xml:lang="en" type="official">Angelic Layer</title>
+		<title type="official" xml:lang="fr">Angelic Layer</title>
+		<title xml:lang="pl" type="official">Angelic Layer</title>
+		<title type="official" xml:lang="de">Angelic Layer</title>
+		<title type="official" xml:lang="pt-BR">Angelic Layer</title>
+		<title type="syn" xml:lang="en">Battle Doll Angelic Layer</title>
+		<title type="main" xml:lang="x-jat">Kidou Tenshi Angelic Layer</title>
+		<title type="short" xml:lang="x-jat">KTEL</title>
+		<title type="official" xml:lang="ru">Арена Ангелов</title>
+		<title type="syn" xml:lang="bg">Арената на Ангелите</title>
+		<title xml:lang="zh-Hans" type="syn">机动天使</title>
+		<title xml:lang="ja" type="official">機動天使エンジェリックレイヤー</title>
+	</anime>
+	<anime aid="171">
+		<title xml:lang="en" type="syn">Future Hero Next Generation Outlaw Star</title>
+		<title xml:lang="en" type="short">OLS</title>
+		<title xml:lang="x-jat" type="short">OS</title>
+		<title xml:lang="pt" type="official">Outlaw Star</title>
+		<title xml:lang="fr" type="official">Outlaw Star</title>
+		<title type="official" xml:lang="en">Outlaw Star</title>
+		<title xml:lang="x-jat" type="main">Seihou Bukyou Outlaw Star</title>
+		<title type="syn" xml:lang="en">Starward Warrior Knight Outlaw Star</title>
+		<title type="syn" xml:lang="ru">Звёздные рыцари со Звезды изгоев</title>
+		<title type="official" xml:lang="ja">星方武侠アウトロースター</title>
+	</anime>
+	<anime aid="172">
+		<title type="main" xml:lang="x-jat">Kyuuketsuki Miyu</title>
+		<title type="official" xml:lang="ca">Miyu, la princesa vampir</title>
+		<title xml:lang="x-jat" type="short">Miyu ova</title>
+		<title xml:lang="fr" type="syn">Princesse vampire Miyu</title>
+		<title type="official" xml:lang="pl">Vampire Princess</title>
+		<title type="official" xml:lang="pt-BR">Vampire Princess</title>
+		<title xml:lang="fr" type="official">Vampire princesse Miyu</title>
+		<title type="official" xml:lang="en">Vampire Princess Miyu</title>
+		<title xml:lang="de" type="official">Vampire Princess Miyu</title>
+		<title type="official" xml:lang="ja">吸血姫美夕</title>
+	</anime>
+	<anime aid="173">
+		<title xml:lang="fr" type="official">Hunter X Hunter - Original Video Animation</title>
+		<title xml:lang="x-jat" type="main">Hunter x Hunter: Original Video Animation</title>
+		<title xml:lang="x-jat" type="syn">Hunter X Hunter OVA 1</title>
+		<title xml:lang="x-jat" type="short">HxH OVA</title>
+		<title xml:lang="ja" type="official">ハンターxハンター Original Video Animation</title>
+		<title type="official" xml:lang="th">ฮันเตอร์ x ฮันเตอร์ OVA</title>
+	</anime>
+	<anime aid="174">
+		<title xml:lang="ko" type="syn">애자매</title>
+		<title xml:lang="x-jat" type="main">Ai Shimai: Futari no Kajitsu</title>
+		<title type="official" xml:lang="es">Hermanas Inmorales</title>
+		<title xml:lang="en" type="official">Immoral Sisters</title>
+		<title xml:lang="fr" type="official">Liaisons immorales</title>
+		<title type="official" xml:lang="el">Ανήθικες Αδερφές</title>
+		<title xml:lang="ja" type="official">愛姉妹~二人の果実~</title>
+	</anime>
+	<anime aid="175">
+		<title type="syn" xml:lang="en">Angel`s Tail</title>
+		<title xml:lang="x-jat" type="syn">Angel Tail</title>
+		<title xml:lang="en" type="syn">Angel Tails</title>
+		<title type="official" xml:lang="en">Angel Tales</title>
+		<title type="short" xml:lang="en">at</title>
+		<title type="main" xml:lang="x-jat">Otogi Story Tenshi no Shippo</title>
+		<title type="syn" xml:lang="x-jat">Tenshi no Shippo</title>
+		<title xml:lang="x-jat" type="short">TnS</title>
+		<title type="official" xml:lang="ja">おとぎストーリー 天使のしっぽ</title>
+	</anime>
+	<anime aid="177">
+		<title xml:lang="ja" type="official">ヴァンドレッド</title>
+		<title type="main" xml:lang="x-jat">VanDread</title>
+		<title type="official" xml:lang="en">Vandread</title>
+		<title xml:lang="pt-BR" type="official">Vandread</title>
+		<title type="official" xml:lang="pt">VanDread</title>
+		<title type="official" xml:lang="fr">VanDread</title>
+		<title type="official" xml:lang="pl">Vandread</title>
+		<title xml:lang="en" type="syn">Vandread 1st Stage</title>
+		<title type="syn" xml:lang="en">Vandread Stage One</title>
+		<title type="syn" xml:lang="ar">فاندريد</title>
+		<title type="syn" xml:lang="bg">Вандред</title>
+		<title type="official" xml:lang="ru">Вандред</title>
+	</anime>
+	<anime aid="178">
+		<title type="official" xml:lang="ja">ヴァンドレッド the second stage</title>
+		<title xml:lang="x-jat" type="short">v2s</title>
+		<title type="short" xml:lang="x-jat">vandread2</title>
+		<title xml:lang="x-jat" type="syn">VanDread 2</title>
+		<title type="syn" xml:lang="x-jat">VanDread 2nd Stage</title>
+		<title xml:lang="x-jat" type="main">VanDread the Second Stage</title>
+		<title xml:lang="fr" type="official">VanDread the Second Stage</title>
+		<title type="official" xml:lang="en">Vandread: The Second Stage</title>
+		<title xml:lang="ar" type="syn">فاندريد 2</title>
+		<title type="syn" xml:lang="bg">Вандред : Втори Сезон</title>
+		<title type="official" xml:lang="ru">Вандред: Второй уровень</title>
+		<title type="syn" xml:lang="uk">Вандред: другий рівень</title>
+	</anime>
+	<anime aid="179">
+		<title xml:lang="x-jat" type="short">Boogiepop</title>
+		<title xml:lang="fr" type="official">Boogiepop Phantom</title>
+		<title xml:lang="pt-BR" type="official">Boogiepop Phantom</title>
+		<title type="official" xml:lang="en">Boogiepop Phantom</title>
+		<title xml:lang="it" type="official">Boogiepop Phantom</title>
+		<title xml:lang="es-LA" type="official">Boogiepop Phantom</title>
+		<title type="main" xml:lang="x-jat">Boogiepop wa Warawanai: Boogiepop Phantom</title>
+		<title type="short" xml:lang="x-jat">BP</title>
+		<title type="official" xml:lang="he">בוגיפופ</title>
+		<title type="short" xml:lang="ru">Бугипоп</title>
+		<title xml:lang="ru" type="syn">Бугипоп никогда не смеется</title>
+		<title xml:lang="uk" type="syn">Бугіпоп-Фантом</title>
+		<title xml:lang="bg" type="syn">Фантомът Бугипоп никога не се смее</title>
+		<title type="syn" xml:lang="zh-Hans">幻影死神</title>
+		<title xml:lang="ja" type="official">ブギーポップは笑わない Boogiepop Phantom</title>
+	</anime>
+	<anime aid="180">
+		<title type="short" xml:lang="ja">ナデシコ</title>
+		<title xml:lang="x-jat" type="main">Kidou Senkan Nadesico</title>
+		<title type="official" xml:lang="es-LA">Martian Successor Nadesico</title>
+		<title type="official" xml:lang="en">Martian Successor Nadesico</title>
+		<title type="official" xml:lang="pt-BR">Martian Successor Nadesico</title>
+		<title xml:lang="fr" type="official">Martian Successor Nadesico</title>
+		<title type="short" xml:lang="x-jat">Nadesico</title>
+		<title type="syn" xml:lang="ru">Космический крейсер Лютик</title>
+		<title type="syn" xml:lang="zh-Hans">机动战舰</title>
+		<title type="syn" xml:lang="zh-Hans">机动战舰抚子</title>
+		<title type="official" xml:lang="ja">機動戦艦ナデシコ</title>
+	</anime>
+	<anime aid="181">
+		<title xml:lang="ja" type="short">ベルばら</title>
+		<title type="official" xml:lang="ja">ベルサイユのばら</title>
+		<title type="official" xml:lang="pt-BR">A Rosa de Versalhes</title>
+		<title type="short" xml:lang="x-jat">berubara</title>
+		<title type="short" xml:lang="de">Lady Oscar</title>
+		<title xml:lang="pt" type="official">Lady Oscar</title>
+		<title xml:lang="pl" type="official">Lady Oscar</title>
+		<title xml:lang="it" type="official">Lady Oscar</title>
+		<title xml:lang="en" type="syn">Lady Oscar</title>
+		<title type="official" xml:lang="fr">Lady Oscar</title>
+		<title xml:lang="fi" type="official">Lady Oscar</title>
+		<title xml:lang="de" type="official">Lady Oscar - Die Rose von Versailles</title>
+		<title type="official" xml:lang="es-LA">Lady Oscar: La rosa de Versalles</title>
+		<title xml:lang="sv" type="syn">Lady Oskar</title>
+		<title type="syn" xml:lang="fr">La rose de Versailles</title>
+		<title xml:lang="en" type="short">LO</title>
+		<title type="syn" xml:lang="en">Rose of Versailles</title>
+		<title type="short" xml:lang="en">RoV</title>
+		<title type="syn" xml:lang="pl">Róża Wersalu</title>
+		<title type="official" xml:lang="en">The Rose of Versailles</title>
+		<title type="short" xml:lang="en">TRoV</title>
+		<title type="short" xml:lang="x-jat">verbara</title>
+		<title type="main" xml:lang="x-jat">Versailles no Bara</title>
+		<title type="official" xml:lang="tr">Versay`ın Gülü</title>
+		<title xml:lang="x-jat" type="short">VnB</title>
+		<title xml:lang="fa" type="syn">رُز ورسای</title>
+		<title type="official" xml:lang="ar">ليدي أوسكار</title>
+		<title type="syn" xml:lang="ru">Роза Версаля</title>
+	</anime>
+	<anime aid="183">
+		<title xml:lang="x-jat" type="short">R=D</title>
+		<title type="official" xml:lang="fr">RUN=DIM</title>
+		<title type="official" xml:lang="ja">RUN=DIM</title>
+		<title xml:lang="x-jat" type="main">RUN=DIM</title>
+		<title type="official" xml:lang="es">RUN=DIM</title>
+	</anime>
+	<anime aid="184">
+		<title xml:lang="en" type="syn">Escaflowne</title>
+		<title xml:lang="es" type="short">Escaflowne</title>
+		<title xml:lang="de" type="syn">Escaflowne</title>
+		<title xml:lang="x-jat" type="short">escaflowne tv</title>
+		<title xml:lang="it" type="official">I cieli di Escaflowne</title>
+		<title type="official" xml:lang="ca">La Visió de l`Escaflowne</title>
+		<title xml:lang="es" type="official">La Visión de Escaflowne</title>
+		<title xml:lang="es-LA" type="official">La Visión de Escaflowne</title>
+		<title xml:lang="x-jat" type="main">Tenkuu no Escaflowne</title>
+		<title type="official" xml:lang="en">The Vision of Escaflowne</title>
+		<title type="short" xml:lang="x-jat">TnE</title>
+		<title type="official" xml:lang="fr">Vision d`Escaflowne</title>
+		<title type="official" xml:lang="de">Vision of Escaflowne</title>
+		<title type="official" xml:lang="pl">Vision of Escaflowne</title>
+		<title type="short" xml:lang="en">VoE</title>
+		<title xml:lang="bg" type="syn">Видението за Ескафлоне</title>
+		<title xml:lang="ru" type="syn">Видение Эскафлона</title>
+		<title xml:lang="ja" type="official">天空のエスカフローネ</title>
+	</anime>
+	<anime aid="185">
+		<title xml:lang="th" type="official">กันบัสเตอร์</title>
+		<title type="syn" xml:lang="en">Aim for the top!</title>
+		<title type="official" xml:lang="de">Gunbuster</title>
+		<title type="official" xml:lang="fr">Gunbuster</title>
+		<title xml:lang="en" type="official">Gunbuster</title>
+		<title type="official" xml:lang="ja">トップをねらえ! GunBuster</title>
+		<title type="syn" xml:lang="en">gunbuster 1</title>
+		<title xml:lang="it" type="official">Punta al Top! - Gunbuster</title>
+		<title type="short" xml:lang="x-jat">top1</title>
+		<title type="syn" xml:lang="x-jat">Top o Nerae</title>
+		<title type="main" xml:lang="x-jat">Top o Nerae! Gunbuster</title>
+		<title xml:lang="x-jat" type="syn">Top wo Nerae</title>
+		<title xml:lang="x-jat" type="syn">Top wo Nerae!</title>
+		<title type="syn" xml:lang="tr">Zirveyi Hedefle! Avcı Silah</title>
+		<title type="syn" xml:lang="ru">Дотянись до Неба</title>
+	</anime>
+	<anime aid="186">
+		<title xml:lang="ko" type="syn">오! 나의 여신님 ~작다는 것은 편리해~</title>
+		<title type="main" xml:lang="x-jat">Aa! Megami-sama! Chicchaitte Koto wa Benri Da ne!</title>
+		<title xml:lang="en" type="syn">Ah! My Goddess: Being Small is Convenient</title>
+		<title type="official" xml:lang="fr">Ah! My Mini Goddess</title>
+		<title xml:lang="x-jat" type="short">ams: chikobene</title>
+		<title type="short" xml:lang="en">mini goddess</title>
+		<title xml:lang="de" type="official">Mini-Göttinnen</title>
+		<title xml:lang="en" type="official">The Adventures of Mini-Goddess</title>
+		<title type="syn" xml:lang="ru">Моя богиня! Приключения Мини-Богинь</title>
+		<title type="official" xml:lang="ja">ああっ女神さまっ 小っちゃいって事は便利だねっ</title>
+	</anime>
+	<anime aid="187">
+		<title type="official" xml:lang="en">Magical Meow Meow Taruto</title>
+		<title type="main" xml:lang="x-jat">Magical Nyan Nyan Taruto</title>
+		<title xml:lang="x-jat" type="syn">Mahou Shoujo Neko Taruto</title>
+		<title xml:lang="en" type="short">MMMT</title>
+		<title type="short" xml:lang="x-jat">MNNT</title>
+		<title xml:lang="x-jat" type="short">Taruto</title>
+		<title type="syn" xml:lang="ru">Магическая Девочка-Кошка Таруто</title>
+		<title xml:lang="ja" type="official">魔法少女猫[まじかる にゃん にゃん]たると</title>
+	</anime>
+	<anime aid="188">
+		<title xml:lang="ja" type="official">クールディバイシスシリーズ</title>
+		<title type="syn" xml:lang="ja">クール・ディバイシスシリーズ</title>
+		<title type="official" xml:lang="de">Cool Devices</title>
+		<title xml:lang="fr" type="official">Cool Devices</title>
+		<title xml:lang="en" type="official">Cool Devices</title>
+		<title xml:lang="es" type="syn">Cool Devices</title>
+		<title type="main" xml:lang="x-jat">Cool Devices Series</title>
+		<title type="syn" xml:lang="fr">La poupée du vice</title>
+	</anime>
+	<anime aid="189">
+		<title type="syn" xml:lang="ko">워즈 워스</title>
+		<title xml:lang="ja" type="official">ワーズ・ワース</title>
+		<title xml:lang="de" type="syn">Berauschende Orchidee</title>
+		<title type="official" xml:lang="de">Das Geheimnis der Steinplatten</title>
+		<title type="official" xml:lang="fr">Le seigneur des Gomorrhes</title>
+		<title xml:lang="es" type="official">Profecías de perversión</title>
+		<title type="main" xml:lang="x-jat">Words Worth</title>
+		<title xml:lang="en" type="official">Words Worth</title>
+		<title type="syn" xml:lang="ru">Заветные Слова</title>
+	</anime>
+	<anime aid="190">
+		<title xml:lang="ja" type="official">ジェネレイターガウル</title>
+		<title xml:lang="x-jat" type="short">Gawl</title>
+		<title type="main" xml:lang="x-jat">Generator Gawl</title>
+		<title xml:lang="fr" type="official">Generator Gawl</title>
+		<title type="official" xml:lang="he">הלוחמים מהעתיד</title>
+		<title type="syn" xml:lang="ru">Генератор Гаул</title>
+		<title type="syn" xml:lang="ru">Генератор Гоул</title>
+	</anime>
+	<anime aid="191">
+		<title type="official" xml:lang="ko">반항하지마</title>
+		<title type="syn" xml:lang="lt">Didysis mokytojas Onizuka</title>
+		<title xml:lang="de" type="official">Great Teacher Onizuka</title>
+		<title type="official" xml:lang="pl">Great Teacher Onizuka</title>
+		<title type="official" xml:lang="en">Great Teacher Onizuka</title>
+		<title type="main" xml:lang="x-jat">GTO</title>
+		<title xml:lang="ja" type="official">GTO(グレート・ティーチャー・オニヅカ)</title>
+		<title xml:lang="it" type="official">G.T.O. - Great Teacher Onizuka</title>
+		<title type="official" xml:lang="fr">GTO - Great Teacher Onizuka</title>
+		<title type="syn" xml:lang="tr">Harika Öğretmen Onizuka</title>
+		<title type="syn" xml:lang="lt">Nuostabusis Mokytojas Onizuka</title>
+		<title type="syn" xml:lang="pl">Wspaniały belfer Onizuka</title>
+		<title type="syn" xml:lang="ar">المدرس العظيم أونيزوكا</title>
+		<title xml:lang="fa" type="official">معلم کبیر اونیزوکا</title>
+		<title xml:lang="ru" type="syn">Великий учитель Онидзука</title>
+		<title type="syn" xml:lang="bg">Великият учител Онизука</title>
+		<title type="official" xml:lang="uk">Крутий вчитель Онідзука</title>
+		<title xml:lang="ru" type="official">Крутой учитель Онидзука</title>
+	</anime>
+	<anime aid="192">
+		<title type="official" xml:lang="fr">Infinite Ryvius</title>
+		<title type="official" xml:lang="en">Infinite Ryvius</title>
+		<title xml:lang="en" type="short">IR</title>
+		<title xml:lang="x-jat" type="short">mnr</title>
+		<title xml:lang="x-jat" type="main">Mugen no Ryvius</title>
+		<title xml:lang="x-jat" type="short">Ryvius</title>
+		<title type="syn" xml:lang="zh-Hans">无限的未知</title>
+		<title type="official" xml:lang="ja">無限のリヴァイアス</title>
+	</anime>
+	<anime aid="193">
+		<title type="official" xml:lang="ja">らんま1/2 熱闘編</title>
+		<title xml:lang="ca" type="official">Ranma</title>
+		<title xml:lang="es" type="official">Ranma</title>
+		<title xml:lang="x-unk" type="syn">Ranma ½ (1989)</title>
+		<title xml:lang="en" type="official">Ranma 1/2 (1989)</title>
+		<title xml:lang="pt" type="official">Ranma 1/2 (Continuação)</title>
+		<title xml:lang="x-jat" type="syn">Ranma 1/2 Nettouhen</title>
+		<title type="main" xml:lang="x-jat">Ranma 1/2 Nettou Hen</title>
+		<title xml:lang="fr" type="official">Ranma 1/2 (suite)</title>
+		<title type="official" xml:lang="de">Ranma 1/2 (Teil 2)</title>
+		<title type="syn" xml:lang="x-jat">Ranma Nibun No Ichi: Nettohen</title>
+		<title type="syn" xml:lang="ar">رانما1/2</title>
+		<title xml:lang="he" type="official">רנמה 1/2</title>
+		<title type="syn" xml:lang="ru">Ранма 1/2 (1989-1992)</title>
+		<title type="official" xml:lang="zh-Hans">乱马1/2 热斗篇</title>
+		<title type="official" xml:lang="zh-Hant">亂馬1/2 熱鬥篇</title>
+	</anime>
+	<anime aid="194">
+		<title xml:lang="ja" type="official">ももいろシスターズ</title>
+		<title type="main" xml:lang="x-jat">Momoiro Sisters</title>
+	</anime>
+	<anime aid="195">
+		<title type="official" xml:lang="es">Kenshin, El Guerrero Samurai: Final</title>
+		<title type="official" xml:lang="fr">Kenshin le vagabond - Le chapitre de l`expiation</title>
+		<title xml:lang="x-jat" type="short">kenshin ova 2</title>
+		<title type="short" xml:lang="en">Kenshin Reflection</title>
+		<title type="official" xml:lang="de">Kenshin - The Chapter of Atonement</title>
+		<title xml:lang="en" type="short">RuroKen OVA 2</title>
+		<title xml:lang="x-jat" type="main">Rurouni Kenshin: Meiji Kenkaku Romantan - Seisou Hen</title>
+		<title xml:lang="x-jat" type="syn">Rurouni Kenshin OVA 2</title>
+		<title xml:lang="en" type="syn">Rurouni Kenshin - Reflection</title>
+		<title type="syn" xml:lang="x-jat">Rurouni Kenshin: Seisouhen</title>
+		<title xml:lang="x-jat" type="syn">Rurouni Kenshin: Seisou Hen</title>
+		<title type="syn" xml:lang="en">Rurouni Kenshin: Time Arc</title>
+		<title type="official" xml:lang="en">Samurai X: Reflection</title>
+		<title type="short" xml:lang="x-jat">Seisouhen</title>
+		<title xml:lang="ja" type="official">るろうに剣心 -明治剣客浪漫譚- 星霜編</title>
+	</anime>
+	<anime aid="196">
+		<title type="syn" xml:lang="pt">As Asas de Honneamise</title>
+		<title type="official" xml:lang="lt">Hanėjų Sparnai</title>
+		<title type="short" xml:lang="x-jat">Honneamise</title>
+		<title type="official" xml:lang="cs">Křídla Honneamise</title>
+		<title type="syn" xml:lang="es">Las Alas de Honneamise</title>
+		<title xml:lang="it" type="official">Le Ali di Honneamise</title>
+		<title xml:lang="fr" type="official">Les ailes d`Honneamise</title>
+		<title xml:lang="x-jat" type="main">Ouritsu Uchuugun: Honneamise no Tsubasa</title>
+		<title type="official" xml:lang="en">Royal Space Force: The Wings of Honneamise</title>
+		<title type="syn" xml:lang="en">Star Quest</title>
+		<title type="syn" xml:lang="en">The Wings of Honneamise</title>
+		<title type="syn" xml:lang="en">Wings of Honneamise</title>
+		<title type="official" xml:lang="fi">Wings of Honneamise</title>
+		<title xml:lang="de" type="official">Wings of Honneamise - Eroberung des Universums</title>
+		<title xml:lang="en" type="syn">Wings of Honneamise: The Royal Space Force</title>
+		<title type="short" xml:lang="en">WoH</title>
+		<title xml:lang="ru" type="syn">Королевские космические силы - Крылья Хоннеамиз</title>
+		<title type="official" xml:lang="ru">Королевский десант</title>
+		<title xml:lang="zh-Hans" type="syn">王立宇宙军</title>
+		<title xml:lang="ja" type="official">王立宇宙軍 オネアミスの翼</title>
+	</anime>
+	<anime aid="197">
+		<title type="official" xml:lang="pl">Iria</title>
+		<title xml:lang="x-jat" type="short">Iria</title>
+		<title xml:lang="de" type="official">Iria</title>
+		<title xml:lang="fr" type="official">Iria</title>
+		<title type="official" xml:lang="it">Iria - Zeiram the Animation</title>
+		<title type="syn" xml:lang="x-jat">Iria Zeiram The Animation</title>
+		<title type="main" xml:lang="x-jat">Iria: Zeiram - The Animation</title>
+		<title xml:lang="x-jat" type="short">Iria Zeriam</title>
+		<title type="official" xml:lang="en">Iria: Zerim the Animation</title>
+		<title type="syn" xml:lang="ja">I・Я・I・A</title>
+		<title xml:lang="ja" type="official">イ・リ・ア ゼイラム The Animation</title>
+		<title xml:lang="ar" type="official">ليريا</title>
+		<title type="official" xml:lang="he">איריאה</title>
+	</anime>
+	<anime aid="198">
+		<title xml:lang="en" type="official">801 T.T.S. Airbats</title>
+		<title type="short" xml:lang="en">airbats</title>
+		<title xml:lang="x-jat" type="main">Aozora Shoujotai</title>
+		<title xml:lang="en" type="syn">Blue Sky Girl Squadron</title>
+		<title xml:lang="ja" type="official">青空少女隊</title>
+	</anime>
+	<anime aid="199">
+		<title type="syn" xml:lang="pt-BR">As Razões Dele, os Motivos Dela</title>
+		<title type="official" xml:lang="fr">Entre elle et lui</title>
+		<title xml:lang="en" type="official">His and Her Circumstances</title>
+		<title type="syn" xml:lang="en">His &amp; Her Circumstances</title>
+		<title type="official" xml:lang="pl">Jego i Jej Okoliczności</title>
+		<title type="syn" xml:lang="x-jat">KareKano</title>
+		<title type="short" xml:lang="x-jat">Kare Kano</title>
+		<title xml:lang="es" type="official">Kare Kano</title>
+		<title xml:lang="pt-BR" type="syn">Kare Kano</title>
+		<title xml:lang="de" type="official">Kare Kano - Mein Geheimnis Dein Geheimnis</title>
+		<title xml:lang="x-jat" type="main">Kareshi Kanojo no Jijou</title>
+		<title xml:lang="x-jat" type="syn">Kareshi Kanojyo no Jijyo</title>
+		<title xml:lang="x-jat" type="short">KKNJ</title>
+		<title type="syn" xml:lang="es">Las circunstancias de él y ella</title>
+		<title xml:lang="it" type="official">Le situazioni di Lui &amp; Lei</title>
+		<title type="syn" xml:lang="fa">موقعیت این و آن</title>
+		<title type="official" xml:lang="ru">Его и Её обстоятельства</title>
+		<title type="syn" xml:lang="bg">Неговите и нейните обстоятелства</title>
+		<title type="syn" xml:lang="ru">С его стороны - с её стороны</title>
+		<title xml:lang="zh-Hans" type="syn">他和她的故事</title>
+		<title type="official" xml:lang="ja">彼氏彼女の事情</title>
+	</anime>
+	<anime aid="200">
+		<title type="syn" xml:lang="tr">Amnezi Adında Bir Rüzgar</title>
+		<title type="official" xml:lang="en">A Wind Named Amnesia</title>
+		<title xml:lang="es" type="official">El viento de Amnesia</title>
+		<title type="main" xml:lang="x-jat">Kaze no Na wa Amnesia</title>
+		<title type="syn" xml:lang="x-jat">Kaze no Na wa Amunejia</title>
+		<title xml:lang="de" type="official">The Wind of Amnesia - Wind des Vergessens</title>
+		<title type="official" xml:lang="fr">Wind of Amnesia</title>
+		<title xml:lang="bg" type="syn">Вятърът на забравата</title>
+		<title type="official" xml:lang="ja">風の名はアムネジア</title>
+	</anime>
+</animetitles>
+
+<!-- Created: Thu Feb 15 03:00:14 2018 (10989 anime, 56184 titles) -->

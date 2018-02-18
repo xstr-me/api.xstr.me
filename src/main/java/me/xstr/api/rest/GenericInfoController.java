@@ -1,11 +1,11 @@
-package me.xstr.xstrapi.rest;
+package me.xstr.api.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.xstr.xstrapi.model.GenericInfo;
+import me.xstr.api.domain.GenericInfo;
 
 @RestController
 public class GenericInfoController {

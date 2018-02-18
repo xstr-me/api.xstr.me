@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "xstr.main.datasource.",
+    "type": "java.lang.String",
+    "description": "Configuration for the main data source stores only usefull data"
+  },
+  {
+    "name": "xstr.main.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.main.datasource.username'"
+  },
+  {
+    "name": "xstr.main.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.main.datasource.url'"
+  },
+  {
+    "name": "xstr.main.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.main.datasource.driver-class-name'"
+  },
+  {
+    "name": "xstr.batch.job.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.job.datasource.url'"
+  },
+  {
+    "name": "xstr.batch.job.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.job.datasource.username'"
+  },
+  {
+    "name": "xstr.batch.job.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.job.datasource.driver-class-name'"
+  },
+  {
+    "name": "xstr.batch.staging.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.staging.datasource.url'"
+  },
+  {
+    "name": "xstr.batch.staging.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.staging.datasource.username'"
+  },
+  {
+    "name": "xstr.batch.staging.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.staging.datasource.driver-class-name'"
+  },
+  {
+    "name": "xstr.batch.cron.highfreq",
+    "type": "java.lang.String",
+    "description": "A description for 'xstr.batch.cron.highfreq'"
+  }
+]}

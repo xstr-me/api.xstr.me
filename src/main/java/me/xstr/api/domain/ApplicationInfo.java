@@ -1,4 +1,4 @@
-package me.xstr.xstrapi.model;
+package me.xstr.api.domain;
 
 public class ApplicationInfo {
 
