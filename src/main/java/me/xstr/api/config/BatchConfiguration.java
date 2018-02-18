@@ -32,6 +32,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.boot.autoconfigure.batch.BatchDatabaseInitializer;
 import org.springframework.boot.autoconfigure.batch.BatchProperties;
 import org.springframework.core.io.ClassPathResource;
@@ -48,6 +49,7 @@ import me.xstr.api.batch.PersonItemProcessor;
 
 @Configuration
 @EnableBatchProcessing
+@Import(BatchSchedulerConfiguration.class)
 public class BatchConfiguration extends DefaultBatchConfigurer {
 	
 	private static final Logger log = LoggerFactory.getLogger(BatchConfiguration.class);
