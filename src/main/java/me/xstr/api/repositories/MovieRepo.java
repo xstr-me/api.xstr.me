@@ -2,16 +2,16 @@ package me.xstr.api.repositories;
 
 import java.util.List;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import me.xstr.api.domain.TmdbMovie;
+import me.xstr.api.models.Movie;
 
 @Repository
-public interface MovieRepo extends CrudRepository<TmdbMovie, Integer> {
+public interface MovieRepo extends JpaRepository<Movie, Integer> {
 
-	TmdbMovie findOneById(long id);
-	List<TmdbMovie> findById(long id);
-	List<TmdbMovie> findByTitle(String title);
+	Movie findOneById(int id);
+	List<Movie> findById(int id);
+	List<Movie> findByOriginalTitle(String title);
 
 }

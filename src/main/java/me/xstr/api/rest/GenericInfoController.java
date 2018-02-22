@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.xstr.api.domain.GenericInfo;
+import me.xstr.api.models.GenericInfo;
 
 @RestController
 public class GenericInfoController {

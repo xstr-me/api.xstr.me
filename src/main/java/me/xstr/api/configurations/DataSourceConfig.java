@@ -1,4 +1,4 @@
-package me.xstr.api.config;
+package me.xstr.api.configurations;
 
 import javax.sql.DataSource;
 

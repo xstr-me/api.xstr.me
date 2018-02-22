@@ -53,5 +53,15 @@
     "name": "xstr.batch.cron.highfreq",
     "type": "java.lang.String",
     "description": "A description for 'xstr.batch.cron.highfreq'"
+  },
+  {
+    "name": "springfox.documentation.swagger.v2.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.path'"
+  },
+  {
+    "name": "api.version",
+    "type": "java.lang.String",
+    "description": "A description for 'api.version'"
   }
 ]}

@@ -2,20 +2,19 @@ package me.xstr.api.services;
 
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import me.xstr.api.domain.TmdbMovie;
+import me.xstr.api.models.Movie;
 
-public interface TmdbMovieService {
+public interface MovieService {
 	@Transactional(readOnly = true)
-	List<TmdbMovie> findAll();
+	List<Movie> findAll();
 
 	@Transactional(readOnly = true)
-	TmdbMovie findOneById(Integer id);
+	Movie findOneById(int id);
 	
 	@Transactional(readOnly = true)
-	List<TmdbMovie> findByTitle(String title);
+	List<Movie> findByOriginalTitle(String title);
 
 }

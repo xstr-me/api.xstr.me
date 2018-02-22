@@ -1,4 +1,4 @@
-package me.xstr.api.config;
+package me.xstr.api.configurations;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

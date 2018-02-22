@@ -1,4 +1,4 @@
-package me.xstr.api.domain;
+package me.xstr.api.models;
 
 
 import lombok.AllArgsConstructor;

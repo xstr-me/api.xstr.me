@@ -2,7 +2,6 @@ package me.xstr.api.rest;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -11,15 +10,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import me.xstr.api.domain.TmdbMovie;
-import me.xstr.api.domain.XstrMovie;
-import me.xstr.api.services.TmdbMovieService;
+import me.xstr.api.models.Movie;
+import me.xstr.api.models.XstrMovie;
+import me.xstr.api.services.MovieService;
 
 @RestController
-public class XstrMovieController {
+public class MovieController {
 	
 	@Autowired
-	TmdbMovieService tmdbMovieService;
+	MovieService movieService;
 	
 	@CrossOrigin(origins = "*")
     @GetMapping(value = "/mv/list")
@@ -36,14 +35,8 @@ public class XstrMovieController {
 	
 	@CrossOrigin(origins = "*")
     @GetMapping(value = "/mv/{id}")
-	public XstrMovie xstrMovie(@PathVariable(value="id") long id) {
-		return new XstrMovie(id, "sfds", "dsd");
-	}
-	
-	@CrossOrigin(origins = "*")
-    @GetMapping(value = "/tmdb/{id}")
-	public TmdbMovie tmdbMovie(@PathVariable(value="id") int id) {
-		return tmdbMovieService.findOneById(id);
+	public Movie movie(@PathVariable(value="id") int id) {
+		return movieService.findOneById(id);
 	}
 	
 
