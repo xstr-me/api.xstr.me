@@ -11,6 +11,28 @@
 	<name>api.xstr.me</name>
 	<description>the API for xstr.me</description>
 
+	<organization>
+		<name>Xstr.Me</name>
+		<url>https://xstr.me</url>
+	</organization>
+
+	<scm>
+		<url>https://github.com/guedouari/api.xstr.me/</url>
+		<connection>https://github.com/guedouari/api.xstr.me.git</connection>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/guedouari/api.xstr.me/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
+
+	<ciManagement>
+		<system>Travis-CI</system>
+		<url>https://travis-ci.org/guedouari/api.xstr.me</url>
+	</ciManagement>
+
+	<url>https://api.xstr.me</url>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -163,6 +185,4 @@
 
 		</plugins>
 	</build>
-
-
 </project>

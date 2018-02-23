@@ -1,4 +1,4 @@
-package me.xstr.api.rest;
+package me.xstr.api.restcontrollers;
 
 import java.util.concurrent.atomic.AtomicLong;
 

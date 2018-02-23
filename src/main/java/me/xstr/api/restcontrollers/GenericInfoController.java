@@ -1,4 +1,4 @@
-package me.xstr.api.rest;
+package me.xstr.api.restcontrollers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

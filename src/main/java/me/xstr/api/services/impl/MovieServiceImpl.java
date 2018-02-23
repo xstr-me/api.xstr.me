@@ -1,5 +1,6 @@
 package me.xstr.api.services.impl;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class MovieServiceImpl implements MovieService {
 
 	@Override
 	public List<Movie> findAll() {
-		return (List<Movie>) movieRepo.findAll();
+		return movieRepo.findAll();
 	}
 
 	@Override
@@ -26,7 +27,7 @@ public class MovieServiceImpl implements MovieService {
 
 	@Override
 	public java.util.List<Movie> findByOriginalTitle(String title) {
-		return null;
+		return Collections.emptyList();
 	}
 	
 	@Autowired

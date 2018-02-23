@@ -8,6 +8,10 @@ addons:
     token: $sonarcloud_token
 before_install:
   - pip install --user codecov
+script:
+  - mvn clean
+  - mvn test
+  - mvn install -Dproject.packaging=war
 after_success:
   - codecov
   - mvn sonar:sonar
@@ -15,7 +19,7 @@ deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
   file_glob: true
-  file: target/*.jar
+  file: target/*.war
   skip_cleanup: true
   on:
     tags: true
