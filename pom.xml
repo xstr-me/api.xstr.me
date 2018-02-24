@@ -6,7 +6,7 @@
 	<groupId>me.xstr</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>${xstr.packaging}</packaging>
 
 	<name>api.xstr.me</name>
 	<description>the API for xstr.me</description>
@@ -41,6 +41,8 @@
 	</parent>
 
 	<properties>
+		<xstr.packaging>jar</xstr.packaging>
+		<xstr.password>changeme</xstr.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
@@ -78,6 +80,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>
@@ -184,5 +191,41 @@
 			</plugin>
 
 		</plugins>
+
 	</build>
+
+	<profiles>
+
+		<profile>
+			<id>dev</id>
+			<!-- <activation> <activeByDefault>true</activeByDefault> </activation> -->
+			<properties>
+				<activatedProperties>dev</activatedProperties>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>server</id>
+			<properties>
+				<activatedProperties>server</activatedProperties>
+				<xstr.packaging>war</xstr.packaging>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>openshift</id>
+			<properties>
+				<activatedProperties>openshift</activatedProperties>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>heroku</id>
+			<properties>
+				<activatedProperties>heroku</activatedProperties>
+			</properties>
+		</profile>
+
+	</profiles>
+
 </project>

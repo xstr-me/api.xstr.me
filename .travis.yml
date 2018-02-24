@@ -11,7 +11,7 @@ before_install:
 script:
   - mvn clean
   - mvn test
-  - mvn install -Dproject.packaging=war
+  - mvn install -Pserver
 after_success:
   - codecov
   - mvn sonar:sonar
