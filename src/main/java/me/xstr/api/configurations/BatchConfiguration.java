@@ -19,7 +19,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.boot.autoconfigure.batch.BatchDatabaseInitializer;
+import org.springframework.boot.autoconfigure.batch.BatchDataSourceInitializer;
 import org.springframework.boot.autoconfigure.batch.BatchProperties;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -49,9 +49,9 @@ public class BatchConfiguration extends DefaultBatchConfigurer {
 	}
 
 	@Bean
-	public BatchDatabaseInitializer batchDatabaseInitializer(@Qualifier("batchDataSource") DataSource batchDataSource,
+	public BatchDataSourceInitializer batchDatabaseInitializer(@Qualifier("batchDataSource") DataSource batchDataSource,
 			ResourceLoader resourceLoader, BatchProperties batchProperties) {
-		return new BatchDatabaseInitializer(batchDataSource, resourceLoader, batchProperties);
+		return new BatchDataSourceInitializer(batchDataSource, resourceLoader, batchProperties);
 	}
 
 	@Autowired

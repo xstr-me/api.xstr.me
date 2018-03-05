@@ -26,10 +26,13 @@ public class SimpleDemoJob {
 	@Autowired
 	Step imdbRawMediaStep;
 	
+	@Autowired
+	Step anidbRawTitlesStep;
+	
 	@Bean
 	public Job importUserJob(JobCompletionNotificationListener listener) {
 		return jobBuilderFactory.get("importUserJob").incrementer(new RunIdIncrementer()).listener(listener)
-				.flow(imdbRawMediaStep).end().build();
+				.flow(imdbRawMediaStep).next(anidbRawTitlesStep).end().build();
 	}
 
 }

@@ -2,29 +2,33 @@ package me.xstr.api.models;
 
 import java.util.Date;
 
+import javax.persistence.CascadeType;
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.FetchType;
+import javax.persistence.OneToOne;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
+@EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 @NoArgsConstructor
-public class Movie {
+@Entity
+@DiscriminatorValue("1")
+public class Movie extends XstrMedia {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2217417306484271138L;
+	protected String shortTitle;
+	protected Date releaseDate;
+	protected String originalLanguage;
 
-	private int tmdbId;
-	private int imdbId;
-	private String originalTitle;
-	private Date releaseDate;
-	private String originalLanguage;
-
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE, mappedBy = "movie", optional = true)
+	private ImdbMovieRating imdbMovieRating;
 }

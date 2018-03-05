@@ -6,14 +6,21 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import me.xstr.api.models.ImdbMedia;
+import me.xstr.api.models.ImdbMovieRating;
 import me.xstr.api.models.Movie;
+import me.xstr.api.repositories.ImdbMovieRatingRepo;
 import me.xstr.api.repositories.MovieRepo;
 import me.xstr.api.services.MovieService;
 
 @Service
 public class MovieServiceImpl implements MovieService {
-	
+
+	@Autowired
 	private MovieRepo movieRepo;
+
+	@Autowired
+	private ImdbMovieRatingRepo imdbMovieRatingRepo;
 
 	@Override
 	public List<Movie> findAll() {
@@ -26,13 +33,31 @@ public class MovieServiceImpl implements MovieService {
 	}
 
 	@Override
+	public Movie getOne(int id) {
+		return movieRepo.getOne(id);
+	}
+
+	@Override
 	public java.util.List<Movie> findByOriginalTitle(String title) {
 		return Collections.emptyList();
 	}
-	
-	@Autowired
-	public void setMovieRepo(MovieRepo movieRepo) {
-		this.movieRepo = movieRepo;
+
+	@Override
+	public Movie findOneByImdbRatingId(int id) {
+		return imdbMovieRatingRepo.findOneByImdbId(id).getMovie();
+	}
+
+	@Override
+	public Movie save(Movie movie) {
+		return movieRepo.save(movie);
+	}
+
+	@Override
+	public Movie saveImdbMovie(ImdbMedia imdbMedia) {
+		ImdbMovieRating imdbMovieRating = new ImdbMovieRating(imdbMedia.getImdbId());
+		Movie movie = new Movie(imdbMedia.getOriginalTitle(), null, imdbMedia.getPrimaryTitle(),null);
+		imdbMovieRating.setMovie(movie);
+		return imdbMovieRatingRepo.save(imdbMovieRating).getMovie();
 	}
 
 }

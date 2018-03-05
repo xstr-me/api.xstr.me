@@ -11,19 +11,20 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
-	
+
 	@Value("${xstr.password}")
 	private String password;
-	
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
-        .antMatchers("/", "/info", "/mv/*", "/api-doc").permitAll()
-        .anyRequest().authenticated().and().httpBasic();
+				.antMatchers("/", "/info", "/mv/*", "/api-*", "/configuration/ui", "/swagger-resources",
+						"/swagger-ui.html", "/webjars/**")
+				.permitAll().anyRequest().authenticated().and().httpBasic();
 	}
 
 	@Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("user").password(password).roles("USER","ACTUATOR");
+		auth.inMemoryAuthentication().withUser("user").password(password).roles("USER", "ACTUATOR");
 	}
 }

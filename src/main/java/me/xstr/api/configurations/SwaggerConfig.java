@@ -36,7 +36,7 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("me.xstr.api.rest"))
+                .apis(RequestHandlerSelectors.basePackage("me.xstr.api.restcontrollers"))
                 // .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo());

@@ -19,7 +19,7 @@ public class ImdbRawMediaReader extends FlatFileItemReader<ImdbRawMedia> {
 		BeanWrapperFieldSetMapper<ImdbRawMedia> beanWrapperFieldSetMapper = new BeanWrapperFieldSetMapper<>();
 		beanWrapperFieldSetMapper.setTargetType(ImdbRawMedia.class);
 
-		DelimitedLineTokenizer delimitedLineTokenizer = new DelimitedLineTokenizer("\t");
+		ImdbTsvDelimitedLineTokenizer delimitedLineTokenizer = new ImdbTsvDelimitedLineTokenizer();
 		delimitedLineTokenizer.setNames(new String[] { "tconst", "titleType", "primaryTitle", "originalTitle",
 				"isAdult", "startYear", "endYear", "runtimeMinutes", "genres" });
 
@@ -29,7 +29,7 @@ public class ImdbRawMediaReader extends FlatFileItemReader<ImdbRawMedia> {
 
 		super.setResource(new ClassPathResource("data/imdb/title.basics.tsv"));
 		super.setLineMapper(defaultLineMapper);
-		super.setCurrentItemCount(180);
+		super.setCurrentItemCount(399);
 	}
 
 }
