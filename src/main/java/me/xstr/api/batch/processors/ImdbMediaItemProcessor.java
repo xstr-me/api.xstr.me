@@ -8,9 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
-import org.springframework.util.NumberUtils;
-import org.springframework.util.StringUtils;
-
 import me.xstr.api.models.ImdbMedia;
 import me.xstr.api.models.ImdbMediaType;
 import me.xstr.api.models.ImdbRawMedia;

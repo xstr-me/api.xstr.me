@@ -14,9 +14,6 @@ import javax.persistence.InheritanceType;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Version;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

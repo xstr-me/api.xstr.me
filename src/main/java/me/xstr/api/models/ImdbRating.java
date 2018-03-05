@@ -2,23 +2,14 @@ package me.xstr.api.models;
 
 import java.io.Serializable;
 
-import javax.persistence.CascadeType;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.Index;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.JoinColumn;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.MapsId;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

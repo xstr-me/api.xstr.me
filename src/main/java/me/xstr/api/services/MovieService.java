@@ -6,7 +6,6 @@ import java.util.List;
 import org.springframework.transaction.annotation.Transactional;
 
 import me.xstr.api.models.ImdbMedia;
-import me.xstr.api.models.ImdbMovieRating;
 import me.xstr.api.models.Movie;
 
 public interface MovieService {
