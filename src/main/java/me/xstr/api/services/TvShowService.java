@@ -6,29 +6,30 @@ import java.util.List;
 import org.springframework.transaction.annotation.Transactional;
 
 import me.xstr.api.models.Movie;
+import me.xstr.api.models.TvShow;
 import me.xstr.api.models.imdb.ImdbMedia;
 
-public interface MovieService {
+public interface TvShowService {
 	
 	@Transactional(readOnly = true)
-	Movie getOne(int id);
+	TvShow getOne(int id);
 	
 	@Transactional(readOnly = true)
-	List<Movie> findAll();
+	List<TvShow> findAll();
 
 	@Transactional(readOnly = true)
-	Movie findOneById(int id);
+	TvShow findOneById(int id);
 
 	@Transactional(readOnly = true)
-	Movie findOneByImdbRatingId(int id);
+	TvShow findOneByImdbRatingId(int id);
 	
 	@Transactional(readOnly = true)
-	List<Movie> findByOriginalTitle(String title);
+	List<TvShow> findByOriginalTitle(String title);
 	
 	@Transactional
-	Movie save(Movie movie);
+	TvShow save(TvShow tvShow);
 	
 	@Transactional
-	Movie saveImdbMovie(ImdbMedia imdbMedia);
+	TvShow saveImdbTvShow(ImdbMedia imdbMedia);
 
 }

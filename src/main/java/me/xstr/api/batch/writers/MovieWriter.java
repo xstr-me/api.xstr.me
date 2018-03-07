@@ -6,16 +6,16 @@ import org.springframework.batch.item.data.RepositoryItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.imdb.ImdbMedia;
-import me.xstr.api.repositories.ImdbMediaRepo;
+import me.xstr.api.models.Movie;
+import me.xstr.api.repositories.MovieRepo;
 
 @Component
-public class ImdbMediaWriter extends RepositoryItemWriter<ImdbMedia> {
+public class MovieWriter extends RepositoryItemWriter<Movie> {
 
 	@Autowired
-	private ImdbMediaRepo repository;
+	private MovieRepo repository;
 
-	public ImdbMediaWriter() {
+	public MovieWriter() {
 		super();
 		
 		super.setMethodName("save");

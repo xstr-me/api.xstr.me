@@ -6,7 +6,7 @@ import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.ImdbRawMedia;
+import me.xstr.api.models.imdb.ImdbRawMedia;
 
 @Component
 public class ImdbRawMediaReader extends FlatFileItemReader<ImdbRawMedia> {

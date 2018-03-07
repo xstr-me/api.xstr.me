@@ -5,7 +5,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.AnidbRawTitles;
+import me.xstr.api.models.anidb.AnidbRawTitles;
 
 @Component
 public class AnidbRawTitlesReader extends StaxEventItemReader<AnidbRawTitles> {

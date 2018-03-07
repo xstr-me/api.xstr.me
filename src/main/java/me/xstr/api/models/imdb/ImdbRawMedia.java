@@ -1,4 +1,4 @@
-package me.xstr.api.models;
+package me.xstr.api.models.imdb;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

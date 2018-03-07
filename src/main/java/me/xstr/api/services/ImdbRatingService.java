@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import me.xstr.api.models.ImdbRating;
+import me.xstr.api.models.imdb.ImdbRating;
 
 public interface ImdbRatingService {
 	@Transactional(readOnly = true)

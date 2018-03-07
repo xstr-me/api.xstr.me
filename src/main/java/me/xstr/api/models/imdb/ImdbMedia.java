@@ -1,4 +1,4 @@
-package me.xstr.api.models;
+package me.xstr.api.models.imdb;
 
 import java.util.Date;
 
@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.xstr.api.models.MediaType;
 
 @Entity
 @Data
@@ -19,9 +20,9 @@ import lombok.NoArgsConstructor;
 public class ImdbMedia {
 	
 	@Id
-    private int imdbId;
-	@Enumerated(EnumType.STRING)
-    private Enum<ImdbMediaType> titleType;    
+    private int imdbId;    
+    @Column(length=10)
+    private String titleType;    
     @Column(length=25)
     private String primaryTitle;
     @Column(length=25)

@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import me.xstr.api.models.ImdbMedia;
-import me.xstr.api.models.ImdbMovieRating;
 import me.xstr.api.models.Movie;
+import me.xstr.api.models.imdb.ImdbMedia;
+import me.xstr.api.models.imdb.ImdbMovieRating;
 import me.xstr.api.repositories.ImdbMovieRatingRepo;
 import me.xstr.api.repositories.MovieRepo;
 import me.xstr.api.services.MovieService;
@@ -54,10 +54,13 @@ public class MovieServiceImpl implements MovieService {
 
 	@Override
 	public Movie saveImdbMovie(ImdbMedia imdbMedia) {
-		ImdbMovieRating imdbMovieRating = new ImdbMovieRating(imdbMedia.getImdbId());
-		Movie movie = new Movie(imdbMedia.getOriginalTitle(), null, imdbMedia.getPrimaryTitle(),null);
-		imdbMovieRating.setMovie(movie);
-		return imdbMovieRatingRepo.save(imdbMovieRating).getMovie();
+		//ImdbMovieRating imdbMovieRating = new ImdbMovieRating(imdbMedia.getImdbId());
+		//Movie movie = new Movie();
+		//movie.setShortTitle(imdbMedia.getOriginalTitle());
+		//movie.setOriginalLanguage("en");
+		//imdbMovieRating.setMovie(movie);
+		//return imdbMovieRatingRepo.save(imdbMovieRating).getMovie();
+		return movieRepo.save(new Movie(imdbMedia));
 	}
 
 }

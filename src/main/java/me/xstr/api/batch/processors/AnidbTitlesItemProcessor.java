@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.AnidbRawTitles;
-import me.xstr.api.models.AnidbTitles;
+import me.xstr.api.models.anidb.AnidbRawTitles;
+import me.xstr.api.models.anidb.AnidbTitles;
 
 @Component
 public class AnidbTitlesItemProcessor implements ItemProcessor<AnidbRawTitles, AnidbTitles> {

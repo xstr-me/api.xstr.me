@@ -4,10 +4,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import me.xstr.api.models.imdb.ImdbMovieRating;
+import me.xstr.api.models.imdb.ImdbTvShowRating;
 
 @Repository
-public interface ImdbRatingRepo extends JpaRepository<ImdbMovieRating, Integer> {
+public interface ImdbTvShowRatingRepo extends JpaRepository<ImdbTvShowRating, Integer> {
 
-	ImdbMovieRating findOneByImdbId(int id);
+	ImdbTvShowRating findOneByImdbId(int id);
 
 }
