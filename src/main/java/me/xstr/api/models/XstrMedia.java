@@ -15,7 +15,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToOne;
 import javax.persistence.Version;
 
@@ -23,7 +22,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import me.xstr.api.models.imdb.ImdbMovieRating;
+import me.xstr.api.models.imdb.ImdbMedia;
 import me.xstr.api.models.imdb.ImdbRating;
 
 
@@ -31,13 +30,19 @@ import me.xstr.api.models.imdb.ImdbRating;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@MappedSuperclass
+@Entity
 @Inheritance(strategy=InheritanceType.JOINED)
 @DiscriminatorColumn(
 name="mediatype",
 discriminatorType=DiscriminatorType.STRING)
 //@JsonIdentityInfo(generator=ObjectIdGenerators.UUIDGenerator.class, property="@id")
 public class XstrMedia implements Serializable {
+	
+	public XstrMedia(ImdbMedia imdbMedia) {
+		this.setShortTitle(imdbMedia.getOriginalTitle());
+		this.setOriginalLanguage("en");
+		this.setReleaseDate(imdbMedia.getStartYear());
+	}
 
 	/**
 	 * 
@@ -55,5 +60,8 @@ public class XstrMedia implements Serializable {
     
     @Version
     protected int version;
+
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "xstrMedia", optional = true)
+	protected ImdbRating imdbRating;
 
 }

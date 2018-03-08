@@ -18,7 +18,7 @@ public class AnidbRawTitlesReader extends StaxEventItemReader<AnidbRawTitles> {
 		super.setResource(new ClassPathResource("data/anidb/anime-titles.xml"));
 		super.setFragmentRootElementName("anime");
 		super.setUnmarshaller(jaxb2Marshaller);
-		super.setCurrentItemCount(191);
+		super.setCurrentItemCount(1);
 	}
 
 }

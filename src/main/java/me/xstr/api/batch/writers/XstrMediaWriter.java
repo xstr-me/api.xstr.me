@@ -1,28 +1,29 @@
-/*package me.xstr.api.batch.writers;
+package me.xstr.api.batch.writers;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import javax.annotation.PostConstruct;
 
-import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.data.RepositoryItemWriter;
-import org.springframework.batch.item.support.CompositeItemWriter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.Movie;
-import me.xstr.api.models.TvShow;
-import me.xstr.api.models.XstrMedia;
+import me.xstr.api.models.imdb.ImdbRating;
+import me.xstr.api.repositories.ImdbRatingRepo;
 
 @Component
-public class XstrMediaWriter extends CompositeItemWriter<XstrMedia> {
+public class XstrMediaWriter extends RepositoryItemWriter<ImdbRating> {
 
+	@Autowired
+	private ImdbRatingRepo repository;
 
 	public XstrMediaWriter() {
 		super();
-		MovieWriter movieWriter = new MovieWriter();
-		TvShowWriter tvShowWriter = new TvShowWriter();
-		List<ItemWriter<? extends XstrMedia>> delegates = Arrays.asList(movieWriter, tvShowWriter);
-		// super.setDelegates(delegates);
+		
+		super.setMethodName("save");
 	}
 
-}*/
+	@PostConstruct
+	public void setRepository() {
+		super.setRepository(repository);
+	}
+
+}

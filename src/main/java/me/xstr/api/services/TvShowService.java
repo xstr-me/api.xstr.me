@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import me.xstr.api.models.Movie;
 import me.xstr.api.models.TvShow;
 import me.xstr.api.models.imdb.ImdbMedia;
 

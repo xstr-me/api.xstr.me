@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 
 import me.xstr.api.models.TvShow;
 import me.xstr.api.models.imdb.ImdbMedia;
-import me.xstr.api.models.imdb.ImdbTvShowRating;
-import me.xstr.api.repositories.ImdbTvShowRatingRepo;
 import me.xstr.api.repositories.TvShowRepo;
 import me.xstr.api.services.TvShowService;
 
@@ -18,9 +16,6 @@ public class TvShowServiceImpl implements TvShowService {
 
 	@Autowired
 	private TvShowRepo tvShowRepo;
-
-	@Autowired
-	private ImdbTvShowRatingRepo imdbTvShowRatingRepo;
 
 	@Override
 	public List<TvShow> findAll() {
@@ -44,7 +39,7 @@ public class TvShowServiceImpl implements TvShowService {
 
 	@Override
 	public TvShow findOneByImdbRatingId(int id) {
-		return imdbTvShowRatingRepo.findOneByImdbId(id).getTvShow();
+		return null ; // imdbTvShowRatingRepo.findOneByImdbId(id).getTvShow();
 	}
 
 	@Override
@@ -54,12 +49,12 @@ public class TvShowServiceImpl implements TvShowService {
 
 	@Override
 	public TvShow saveImdbTvShow(ImdbMedia imdbMedia) {
-		ImdbTvShowRating imdbTvShowRating = new ImdbTvShowRating(imdbMedia.getImdbId());
-		TvShow tvShow = new TvShow();
-		tvShow.setShortTitle(imdbMedia.getOriginalTitle());
-		tvShow.setOriginalLanguage("en");
-		imdbTvShowRating.setTvShow(tvShow);
-		return imdbTvShowRatingRepo.save(imdbTvShowRating).getTvShow();
+		// ImdbTvShowRating imdbTvShowRating = new ImdbTvShowRating(imdbMedia.getImdbId());
+		// TvShow tvShow = new TvShow();
+		// tvShow.setShortTitle(imdbMedia.getOriginalTitle());
+		// tvShow.setOriginalLanguage("en");
+		// imdbTvShowRating.setTvShow(tvShow);
+		return null; // imdbTvShowRatingRepo.save(imdbTvShowRating).getTvShow();
 	}
 
 }

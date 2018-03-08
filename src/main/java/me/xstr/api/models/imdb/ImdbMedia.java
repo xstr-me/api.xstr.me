@@ -4,14 +4,11 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.xstr.api.models.MediaType;
 
 @Entity
 @Data
@@ -21,7 +18,7 @@ public class ImdbMedia {
 	
 	@Id
     private int imdbId;    
-    @Column(length=10)
+    @Column(length=15)
     private String titleType;    
     @Column(length=25)
     private String primaryTitle;

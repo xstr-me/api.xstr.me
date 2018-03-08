@@ -2,7 +2,6 @@ package me.xstr.api.batch.steps;
 
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
-import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
@@ -15,14 +14,11 @@ import me.xstr.api.batch.readers.ImdbMediaReader;
 import me.xstr.api.batch.readers.ImdbRawMediaReader;
 import me.xstr.api.batch.writers.AnidbTitlesWriter;
 import me.xstr.api.batch.writers.ImdbMediaWriter;
-import me.xstr.api.batch.writers.MovieWriter;
-import me.xstr.api.batch.writers.TvShowWriter;
-import me.xstr.api.models.Movie;
-import me.xstr.api.models.TvShow;
-import me.xstr.api.models.XstrMedia;
+import me.xstr.api.batch.writers.XstrMediaWriter;
 import me.xstr.api.models.anidb.AnidbRawTitles;
 import me.xstr.api.models.anidb.AnidbTitles;
 import me.xstr.api.models.imdb.ImdbMedia;
+import me.xstr.api.models.imdb.ImdbRating;
 import me.xstr.api.models.imdb.ImdbRawMedia;
 
 @Component
@@ -56,10 +52,7 @@ public class ImdbRawMediaSteps {
 	private XstrMediaItemProcessor xstrMediaItemProcessor;
 	
 	@Autowired
-	private ItemWriter<Movie> movieWriter;
-	
-	@Autowired
-	private ItemWriter<TvShow> tvShowWriter;
+	private XstrMediaWriter movieWriter;
 
 	@Bean
 	public Step imdbRawMediaStep() {
@@ -80,7 +73,7 @@ public class ImdbRawMediaSteps {
 	@Bean
 	public Step xstrMediaStep() {
 
-		return stepBuilderFactory.get("XstrMediaStep").<ImdbMedia, Movie>chunk(100).reader(imdbMediaReader)
+		return stepBuilderFactory.get("XstrMediaStep").<ImdbMedia, ImdbRating>chunk(100).reader(imdbMediaReader)
 				.processor(xstrMediaItemProcessor).writer(movieWriter).build();
 
 	}

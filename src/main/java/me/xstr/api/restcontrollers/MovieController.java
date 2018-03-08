@@ -12,6 +12,8 @@ import me.xstr.api.models.MediaType;
 import me.xstr.api.models.Movie;
 import me.xstr.api.models.TvShow;
 import me.xstr.api.models.imdb.ImdbMedia;
+import me.xstr.api.models.imdb.ImdbRating;
+import me.xstr.api.services.ImdbRatingService;
 import me.xstr.api.services.MovieService;
 import me.xstr.api.services.TvShowService;
 
@@ -20,6 +22,8 @@ public class MovieController {
 	
 	@Autowired
 	MovieService movieService;
+	@Autowired
+	ImdbRatingService imdbRatingService;
 	@Autowired
 	private TvShowService tvShowService;
 	
@@ -36,6 +40,12 @@ public class MovieController {
 	}
 	
 	@CrossOrigin(origins = "*")
+    @GetMapping(value = "/mv/{id}")
+	public TvShow tvshow(@PathVariable(value="id") int id) {
+		return tvShowService.findOneById(id);
+	}
+	
+	@CrossOrigin(origins = "*")
     @GetMapping(value = "/mv/{id}/info")
 	public Movie fullMovie(@PathVariable(value="id") int id) {
 		return movieService.findOneById(id);
@@ -43,16 +53,16 @@ public class MovieController {
 	
 	@CrossOrigin(origins = "*")
     @GetMapping(value = "/mv/save")
-	public Movie saveMovie() {
-		ImdbMedia imdbMedia = new ImdbMedia(3, MediaType.MOVIE,"cdcd","cqd",false,null,null,0,"");
-		return movieService.saveImdbMovie(imdbMedia);
+	public ImdbRating saveMovie() {
+		ImdbMedia imdbMedia = new ImdbMedia(328, MediaType.MOVIE,"cdcd","cqd",false,null,null,0,"");
+		return imdbRatingService.saveImdbMedia(imdbMedia,"movie");
 	}
 	
 	@CrossOrigin(origins = "*")
     @GetMapping(value = "/tv/save")
-	public TvShow saveTvShow() {
-		ImdbMedia imdbMedia = new ImdbMedia(2, MediaType.TVSHOW,"cdcd","cqd",false,null,null,0,"");
-		return tvShowService.saveImdbTvShow(imdbMedia);
+	public ImdbRating saveTvShow() {
+		ImdbMedia imdbMedia = new ImdbMedia(329, MediaType.TVSHOW,"cdcd","cqd",false,null,null,0,"");
+		return imdbRatingService.saveImdbMedia(imdbMedia,"tvShow");
 	}
 	
 

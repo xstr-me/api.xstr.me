@@ -5,11 +5,9 @@ import java.util.Date;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import me.xstr.api.models.MediaType;
 import me.xstr.api.models.imdb.ImdbMedia;
 import me.xstr.api.models.imdb.ImdbRawMedia;
 
@@ -22,7 +20,7 @@ public class ImdbMediaItemProcessor implements ItemProcessor<ImdbRawMedia, ImdbM
 	public ImdbMedia process(final ImdbRawMedia imdbRawMedia) throws Exception {
 
 		final ImdbMedia transformedImdbMedia = new ImdbMedia();
-		transformedImdbMedia.setTitleType(MediaType.MOVIE);
+		transformedImdbMedia.setTitleType(imdbRawMedia.getTitleType());
 		transformedImdbMedia.setImdbId(Integer.parseInt(imdbRawMedia.getTconst().substring(2)));
 
 		String shortTiltle = imdbRawMedia.getOriginalTitle();
