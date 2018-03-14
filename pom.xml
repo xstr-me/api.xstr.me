@@ -5,7 +5,7 @@
 
 	<groupId>me.xstr</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<packaging>${xstr.packaging}</packaging>
 
 	<name>api.xstr.me</name>
@@ -59,7 +59,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
@@ -81,11 +81,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-batch</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
@@ -132,7 +127,6 @@
 
 		<!-- <dependency> <groupId>io.swagger</groupId> <artifactId>swagger-codegen-maven-plugin</artifactId> 
 			<version>2.2.3</version> </dependency> -->
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
@@ -154,6 +148,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- <configuration> <profiles> <profile>dev</profile> <profile>production</profile> 
+					</profiles> </configuration> -->
 			</plugin>
 
 			<plugin>
@@ -198,40 +194,54 @@
 
 		</plugins>
 
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<excludes>
+					<exclude>dev/**</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
 	</build>
 
 	<profiles>
 
 		<profile>
 			<id>dev</id>
-			<!-- <activation> <activeByDefault>true</activeByDefault> </activation> -->
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<properties>
-				<activatedProperties>dev</activatedProperties>
-			</properties>
-		</profile>
-
-		<profile>
-			<id>server</id>
-			<properties>
-				<activatedProperties>server</activatedProperties>
-				<xstr.packaging>war</xstr.packaging>
+				<!-- default Spring profiles -->
+				<xstr.profiles>dev</xstr.profiles>
 			</properties>
 		</profile>
 
 		<profile>
 			<id>openshift</id>
 			<properties>
-				<activatedProperties>openshift</activatedProperties>
+				<xstr.profiles>docker</xstr.profiles>
 			</properties>
 		</profile>
 
 		<profile>
 			<id>heroku</id>
 			<properties>
-				<activatedProperties>heroku</activatedProperties>
+				<xstr.profiles>docker</xstr.profiles>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>tomcat</id>
+			<properties>
+				<xstr.profiles>xstrserver</xstr.profiles>
+				<xstr.packaging>war</xstr.packaging>
 			</properties>
 		</profile>
 
 	</profiles>
+
 
 </project>

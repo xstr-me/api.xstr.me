@@ -9,27 +9,27 @@ import me.xstr.api.models.Movie;
 import me.xstr.api.models.XstrMedia;
 import me.xstr.api.models.imdb.ImdbMedia;
 
-public interface MovieService {
+public interface XstrMediaService {
 	
 	@Transactional(readOnly = true)
-	Movie getOne(int id);
+	XstrMedia getOne(int id);
 	
 	@Transactional(readOnly = true)
-	List<Movie> findAll();
+	List<XstrMedia> findAll();
 
 	@Transactional(readOnly = true)
-	Movie findOneById(int id);
+	XstrMedia findOneById(int id);
 
 	@Transactional(readOnly = true)
-	Movie findOneByImdbRatingId(int id);
+	XstrMedia findOneByImdbRatingId(int id);
 	
 	@Transactional(readOnly = true)
-	List<Movie> findByOriginalTitle(String title);
+	XstrMedia findByOriginalTitle(String title);
 	
 	@Transactional
-	Movie save(Movie movie);
+	XstrMedia save(XstrMedia xstrMedia);
 	
 	@Transactional
-	Movie saveImdbMovie(ImdbMedia imdbMedia);
+	XstrMedia saveImdbMovie(ImdbMedia imdbMedia);
 
 }

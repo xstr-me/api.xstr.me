@@ -24,7 +24,7 @@ import org.springframework.boot.autoconfigure.batch.BatchProperties;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.scheduling.annotation.Scheduled;
 
-import me.xstr.api.batch.jobs.SimpleDemoJob;
+import me.xstr.api.batch.jobs.ImdbMediaJobs;
 import me.xstr.api.batch.listeners.JobCompletionNotificationListener;
 
 /*
@@ -58,7 +58,7 @@ public class BatchConfiguration extends DefaultBatchConfigurer {
 	private SimpleJobLauncher jobLauncher;
 
 	@Autowired
-	private SimpleDemoJob simpleDemoJob;
+	private ImdbMediaJobs imdbMediaJobs;
 
 	@Autowired
 	public JobCompletionNotificationListener jobCompletionNotificationListener;
@@ -69,7 +69,7 @@ public class BatchConfiguration extends DefaultBatchConfigurer {
 		JobParameters param = new JobParametersBuilder().addString("JobID", String.valueOf(System.currentTimeMillis()))
 				.toJobParameters();
 
-		JobExecution execution = jobLauncher.run(simpleDemoJob.importUserJob(jobCompletionNotificationListener), param);
+		JobExecution execution = jobLauncher.run(imdbMediaJobs.addImdbMediaJob(jobCompletionNotificationListener), param);
 
 		log.info("Job finished with status :" + execution.getStatus());
 	}

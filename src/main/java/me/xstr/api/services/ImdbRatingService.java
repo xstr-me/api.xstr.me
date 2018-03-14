@@ -2,6 +2,7 @@ package me.xstr.api.services;
 
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,12 +14,15 @@ public interface ImdbRatingService {
 	List<ImdbRating> findAll();
 
 	@Transactional(readOnly = true)
-	ImdbRating findOneById(int id);
+	Optional<ImdbRating> findOneById(int id);
 	
 	@Transactional
 	ImdbRating save(ImdbRating imdbRating);
 	
 	@Transactional
-	ImdbRating saveImdbMedia(ImdbMedia imdbMedia,String type);
+	ImdbRating saveImdbMedia(ImdbMedia imdbMedia);
+
+	@Transactional(readOnly = true)
+	ImdbRating findOneByImdbId(int imdbId);
 
 }

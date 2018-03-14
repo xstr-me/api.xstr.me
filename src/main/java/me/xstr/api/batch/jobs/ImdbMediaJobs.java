@@ -14,11 +14,7 @@ import org.springframework.stereotype.Component;
 import me.xstr.api.batch.listeners.JobCompletionNotificationListener;
 
 @Component
-public class SimpleDemoJob {
-
-	@Autowired
-	@Qualifier("batchStagingDataSource")
-	public DataSource batchStagingDataSource;
+public class ImdbMediaJobs {
 
 	@Autowired
 	public JobBuilderFactory jobBuilderFactory;
@@ -29,13 +25,16 @@ public class SimpleDemoJob {
 	@Autowired
 	Step anidbRawTitlesStep;
 	
-	@Autowired
-	Step xstrMediaStep;
+	//@Autowired
+	//Step xstrMediaStep;
 	
 	@Bean
-	public Job importUserJob(JobCompletionNotificationListener listener) {
-		return jobBuilderFactory.get("importUserJob").incrementer(new RunIdIncrementer()).listener(listener)
-				.flow(imdbRawMediaStep).next(anidbRawTitlesStep).next(xstrMediaStep).end().build();
+	public Job addImdbMediaJob(JobCompletionNotificationListener listener) {
+		return jobBuilderFactory.get("addImdbMediaJob").incrementer(new RunIdIncrementer()).listener(listener)
+				.flow(imdbRawMediaStep)
+				//.next(anidbRawTitlesStep)
+				//.next(xstrMediaStep)
+				.end().build();
 	}
 
 }

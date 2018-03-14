@@ -2,6 +2,7 @@ package me.xstr.api.services.impl;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,8 +24,8 @@ public class ImdbRatingServiceImpl implements ImdbRatingService {
 	}
 
 	@Override
-	public ImdbRating findOneById(int id) {
-		return null;
+	public Optional<ImdbRating> findOneById(int id) {
+		return imdbRatingRepo.findById(id);
 	}
 
 	@Override
@@ -33,8 +34,13 @@ public class ImdbRatingServiceImpl implements ImdbRatingService {
 	}
 
 	@Override
-	public ImdbRating saveImdbMedia(ImdbMedia imdbMedia,String type) {
-		return imdbRatingRepo.save(new ImdbRating(imdbMedia,type));
+	public ImdbRating saveImdbMedia(ImdbMedia imdbMedia) {
+		return imdbRatingRepo.save(new ImdbRating(imdbMedia));
+	}
+
+	@Override
+	public ImdbRating findOneByImdbId(int imdbId) {
+		return imdbRatingRepo.findOneByImdbId(imdbId);
 	}
 
 }

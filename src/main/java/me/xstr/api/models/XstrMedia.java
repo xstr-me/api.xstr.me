@@ -3,6 +3,7 @@ package me.xstr.api.models;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -15,6 +16,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Version;
 
@@ -34,12 +36,12 @@ import me.xstr.api.models.imdb.ImdbRating;
 @Inheritance(strategy=InheritanceType.JOINED)
 @DiscriminatorColumn(
 name="mediatype",
-discriminatorType=DiscriminatorType.STRING)
+discriminatorType=DiscriminatorType.STRING,length=2)
 //@JsonIdentityInfo(generator=ObjectIdGenerators.UUIDGenerator.class, property="@id")
 public class XstrMedia implements Serializable {
 	
 	public XstrMedia(ImdbMedia imdbMedia) {
-		this.setShortTitle(imdbMedia.getOriginalTitle());
+		this.setOriginalTitle(new XstrTitle(imdbMedia.getOriginalTitle()));//
 		this.setOriginalLanguage("en");
 		this.setReleaseDate(imdbMedia.getStartYear());
 	}
@@ -54,8 +56,13 @@ public class XstrMedia implements Serializable {
     @Column(updatable = false, nullable = false)
     protected int id;
 
-	protected String shortTitle;
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, optional = false, orphanRemoval=true)
+	protected XstrTitle originalTitle;
+
+	@OneToMany
+	protected List<XstrAlternativeTitle> alternativeTitles;
 	protected Date releaseDate;
+	@Column(length=2)
 	protected String originalLanguage;
     
     @Version

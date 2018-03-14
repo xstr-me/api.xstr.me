@@ -37,7 +37,7 @@ public class DataSourceConfig {
 	    return batchDataSourceProperties().initializeDataSourceBuilder().build();
 	}
 	
-	@Bean
+	/*@Bean
 	@ConfigurationProperties("xstr.batch.staging.datasource")
 	public DataSourceProperties batchStagingDataSourceProperties() {
 	    return new DataSourceProperties();
@@ -47,6 +47,6 @@ public class DataSourceConfig {
 	@ConfigurationProperties("xstr.batch.staging.datasource")
 	public DataSource batchStagingDataSource() {
 	    return batchStagingDataSourceProperties().initializeDataSourceBuilder().build();
-	}
+	}*/
 
 }

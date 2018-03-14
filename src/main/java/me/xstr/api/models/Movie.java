@@ -11,7 +11,7 @@ import me.xstr.api.models.imdb.ImdbMedia;
 @EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue(MediaType.MOVIE)
+@DiscriminatorValue(MediaType.Values.MOVIE)
 public class Movie extends XstrMedia {
 
 	/**

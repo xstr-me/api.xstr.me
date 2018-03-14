@@ -40,7 +40,7 @@ public class MovieController {
 	}
 	
 	@CrossOrigin(origins = "*")
-    @GetMapping(value = "/mv/{id}")
+    @GetMapping(value = "/tv/{id}")
 	public TvShow tvshow(@PathVariable(value="id") int id) {
 		return tvShowService.findOneById(id);
 	}
@@ -55,14 +55,14 @@ public class MovieController {
     @GetMapping(value = "/mv/save")
 	public ImdbRating saveMovie() {
 		ImdbMedia imdbMedia = new ImdbMedia(328, MediaType.MOVIE,"cdcd","cqd",false,null,null,0,"");
-		return imdbRatingService.saveImdbMedia(imdbMedia,"movie");
+		return imdbRatingService.saveImdbMedia(imdbMedia);
 	}
 	
 	@CrossOrigin(origins = "*")
     @GetMapping(value = "/tv/save")
 	public ImdbRating saveTvShow() {
-		ImdbMedia imdbMedia = new ImdbMedia(329, MediaType.TVSHOW,"cdcd","cqd",false,null,null,0,"");
-		return imdbRatingService.saveImdbMedia(imdbMedia,"tvShow");
+		ImdbMedia imdbMedia = new ImdbMedia(329, MediaType.TV_SERIES,"cdcd","cqd",false,null,null,0,"");
+		return imdbRatingService.saveImdbMedia(imdbMedia);
 	}
 	
 

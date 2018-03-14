@@ -17,7 +17,6 @@ public class XstrMediaWriter extends RepositoryItemWriter<ImdbRating> {
 
 	public XstrMediaWriter() {
 		super();
-		
 		super.setMethodName("save");
 	}
 

@@ -9,6 +9,9 @@ public class GenericInfo {
 	
 	@Value("${api.version}")
 	private String version;
+	
+	@Value("${spring.application.name}")
+	private String serverName;
 
 	private String name;
 	private String description;
@@ -27,6 +30,9 @@ public class GenericInfo {
 	}
 	public String getDescription() {
 		return this.description;
+	}
+	public String getServerName() {
+		return this.serverName;
 	}
 	
 	

@@ -3,6 +3,7 @@ package me.xstr.api.models.imdb;
 import java.io.Serializable;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
@@ -14,11 +15,16 @@ import javax.persistence.MapsId;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.xstr.api.batch.processors.ImdbMediaItemProcessor;
+import me.xstr.api.models.MediaType;
 import me.xstr.api.models.Movie;
 import me.xstr.api.models.ShortMovie;
 import me.xstr.api.models.TvEpisode;
@@ -40,6 +46,7 @@ import me.xstr.api.models.XstrMedia;
 public class ImdbRating implements Serializable {
 
 	private static final long serialVersionUID = 3957215591730354433L;
+	private static final Logger log = LoggerFactory.getLogger(ImdbRating.class);
 
 	public ImdbRating(int imdbId) {
 		this.setImdbId(imdbId);
@@ -47,44 +54,26 @@ public class ImdbRating implements Serializable {
 		this.setNumVotes(0);
 	}
 
-	public ImdbRating(ImdbMedia imdbMedia, String type) {
+	public ImdbRating(ImdbMedia imdbMedia) {
+		log.info("#####  processing {} with id {} Title = {}", imdbMedia.getTitleType(), imdbMedia.getImdbId(), imdbMedia.getOriginalTitle());
 		this.setImdbId(imdbMedia.getImdbId());
 		this.setAverageRating(0);
 		this.setNumVotes(0);
-		switch (type) {
-		case "movie":
-		case "tvMovie":
-		case "tvSpecial":
-			this.xstrMedia = new Movie(imdbMedia);
-			break;
-		case "tvSeries":
-		case "tvMiniSeries":
-			this.xstrMedia = new TvShow(imdbMedia);
-			break;
-		case "short":
-		case "tvShort":
-			this.xstrMedia = new ShortMovie(imdbMedia);
-			break;
-		case "tvEpisode":
-			this.xstrMedia = new TvEpisode(imdbMedia);
-			break;
-		default:
-			this.xstrMedia = new XstrMedia(imdbMedia);
-			break;
-		}
+	    this.xstrMedia= imdbMedia.getTitleType().getXstrMedia(imdbMedia);
 
 	}
 
 	@Id
 	int id;
 
+	@Column(unique=true)
 	protected int imdbId;
 
 	protected float averageRating;
 	protected int numVotes;
 
 	@JsonIgnore
-	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.DETACH, optional = true)
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, optional = true)
 	@JoinColumn(name = "xstrMedia")
 	@MapsId
 	private XstrMedia xstrMedia;

@@ -12,7 +12,7 @@ import me.xstr.api.models.imdb.ImdbMedia;
 @EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue(MediaType.TVEPISODE)
+@DiscriminatorValue(MediaType.Values.EPISODE)
 public class TvEpisode extends XstrMedia {
 
 	public TvEpisode(ImdbMedia imdbMedia) {

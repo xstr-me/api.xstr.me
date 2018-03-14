@@ -33,8 +33,8 @@ public class ImdbRawMediaSteps {
 	@Autowired
 	public ImdbMediaItemProcessor imdbMediaItemProcessor;
 
-	@Autowired
-	private ImdbMediaWriter imdbMediaWriter;
+	//@Autowired
+	//private ImdbMediaWriter imdbMediaWriter;
 	
 	@Autowired
 	private AnidbRawTitlesReader anidbRawTitlesReader;
@@ -45,37 +45,38 @@ public class ImdbRawMediaSteps {
 	@Autowired
 	private AnidbTitlesWriter anidbTitlesWriter;
 
-	@Autowired
-	private ImdbMediaReader imdbMediaReader;
+	//@Autowired
+	//private ImdbMediaReader imdbMediaReader;
 	
 	@Autowired
 	private XstrMediaItemProcessor xstrMediaItemProcessor;
 	
 	@Autowired
-	private XstrMediaWriter movieWriter;
+	private XstrMediaWriter xstrMediaWriter;
 
 	@Bean
 	public Step imdbRawMediaStep() {
 
-		return stepBuilderFactory.get("ImdbRawMediaStep").<ImdbRawMedia, ImdbMedia>chunk(10).reader(imdbRawMediaReader)
-				.processor(imdbMediaItemProcessor).writer(imdbMediaWriter).build();
+		return stepBuilderFactory.get("ImdbRawMediaStep").<ImdbRawMedia, ImdbRating>chunk(1).reader(imdbRawMediaReader)
+				.processor(xstrMediaItemProcessor).writer(xstrMediaWriter).build();
+				//.processor(imdbMediaItemProcessor).writer(imdbMediaWriter).build();
 
 	}
 
 	@Bean
 	public Step anidbRawTitlesStep() {
 
-		return stepBuilderFactory.get("AnidbRawTitlesStep").<AnidbRawTitles, AnidbTitles>chunk(100).reader(anidbRawTitlesReader)
+		return stepBuilderFactory.get("AnidbRawTitlesStep").<AnidbRawTitles, AnidbTitles>chunk(5).reader(anidbRawTitlesReader)
 				.processor(anidbTitlesItemProcessor).writer(anidbTitlesWriter).build();
 
 	}
 
-	@Bean
+	/*@Bean
 	public Step xstrMediaStep() {
 
 		return stepBuilderFactory.get("XstrMediaStep").<ImdbMedia, ImdbRating>chunk(100).reader(imdbMediaReader)
-				.processor(xstrMediaItemProcessor).writer(movieWriter).build();
+				.processor(xstrMediaItemProcessor).writer(xstrMediaWriter).build();
 
-	}
+	}*/
 
 }

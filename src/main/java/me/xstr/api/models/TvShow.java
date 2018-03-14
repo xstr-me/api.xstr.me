@@ -16,7 +16,7 @@ import me.xstr.api.models.imdb.ImdbMedia;
 @EqualsAndHashCode(callSuper=false)
 @AllArgsConstructor
 @NoArgsConstructor
-@DiscriminatorValue(MediaType.TVSHOW)
+@DiscriminatorValue(MediaType.Values.TV_SHOW)
 public class TvShow extends XstrMedia {
 	public TvShow(ImdbMedia imdbMedia) {
 		super(imdbMedia);

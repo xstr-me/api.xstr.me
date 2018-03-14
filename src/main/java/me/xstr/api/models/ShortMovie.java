@@ -11,7 +11,7 @@ import me.xstr.api.models.imdb.ImdbMedia;
 @EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue(MediaType.SHORT)
+@DiscriminatorValue(MediaType.Values.SHORT_MOVIE)
 public class ShortMovie extends XstrMedia {
 
 	public ShortMovie(ImdbMedia imdbMedia) {
