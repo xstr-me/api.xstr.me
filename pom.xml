@@ -209,10 +209,18 @@
 	<profiles>
 
 		<profile>
-			<id>dev</id>
+			<id>default</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<properties>
+				<!-- default Spring profiles -->
+				<xstr.profiles>default</xstr.profiles>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>dev</id>
 			<properties>
 				<!-- default Spring profiles -->
 				<xstr.profiles>dev</xstr.profiles>
