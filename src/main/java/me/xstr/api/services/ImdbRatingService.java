@@ -4,6 +4,7 @@ package me.xstr.api.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import me.xstr.api.models.imdb.ImdbMedia;
@@ -20,6 +21,9 @@ public interface ImdbRatingService {
 	ImdbRating save(ImdbRating imdbRating);
 	
 	@Transactional
+	List<ImdbRating> saveAll(List<ImdbRating> imdbRatings);
+	
+	@Transactional//(propagation=Propagation.MANDATORY, value = "batchTransactionManager")
 	ImdbRating saveImdbMedia(ImdbMedia imdbMedia);
 
 	@Transactional(readOnly = true)

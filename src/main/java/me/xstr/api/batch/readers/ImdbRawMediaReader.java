@@ -37,7 +37,8 @@ public class ImdbRawMediaReader extends FlatFileItemReader<ImdbRawMedia> {
 		super.setResource(new ClassPathResource("data/imdb/title.basics.tsv"));
 		super.setLineMapper(defaultLineMapper);
 		super.setLinesToSkip(1);
-		super.setCurrentItemCount(0); // or (399)
+		super.setMaxItemCount(3);
+		// super.setCurrentItemCount(0); // or (399)
 	}
 
 }

@@ -16,11 +16,13 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 	private String password;
 
 	@Override
-	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests()
+	protected void configure(HttpSecurity httpSecurity) throws Exception {
+		httpSecurity.authorizeRequests()
 				.antMatchers("/", "/info", "/mv/**", "/tv/**", "/api-*", "/configuration/ui", "/swagger-resources",
-						"/swagger-ui.html", "/webjars/**")
+						"/swagger-ui.html", "/webjars/**", "/console/**")
 				.permitAll().anyRequest().authenticated().and().httpBasic();
+		httpSecurity.csrf().disable();
+        httpSecurity.headers().frameOptions().disable();
 	}
 
 	@Autowired

@@ -19,6 +19,7 @@ public class AnidbRawTitlesReader extends StaxEventItemReader<AnidbRawTitles> {
 		super.setFragmentRootElementName("anime");
 		super.setUnmarshaller(jaxb2Marshaller);
 		super.setCurrentItemCount(0);
+		super.setMaxItemCount(3);
 	}
 
 }

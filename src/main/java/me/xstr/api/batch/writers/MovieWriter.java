@@ -1,7 +1,6 @@
 package me.xstr.api.batch.writers;
 
 import javax.annotation.PostConstruct;
-
 import org.springframework.batch.item.data.RepositoryItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

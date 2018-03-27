@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import me.xstr.api.models.Movie;
 import me.xstr.api.models.XstrMedia;
 import me.xstr.api.models.imdb.ImdbMedia;
+import me.xstr.api.models.imdb.ImdbRating;
 
 public interface XstrMediaService {
 	

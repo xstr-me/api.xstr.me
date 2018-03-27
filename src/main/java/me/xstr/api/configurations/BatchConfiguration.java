@@ -1,30 +1,45 @@
 package me.xstr.api.configurations;
 
+import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.batch.core.JobExecution;
-import org.springframework.batch.core.JobParameters;
-import org.springframework.batch.core.JobParametersBuilder;
-import org.springframework.batch.core.JobParametersInvalidException;
-import org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer;
+import org.springframework.batch.core.configuration.BatchConfigurationException;
+import org.springframework.batch.core.configuration.DuplicateJobException;
+import org.springframework.batch.core.configuration.JobRegistry;
+import org.springframework.batch.core.configuration.annotation.BatchConfigurer;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
+import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+import org.springframework.batch.core.configuration.support.JobRegistryBeanPostProcessor;
+import org.springframework.batch.core.configuration.support.MapJobRegistry;
+import org.springframework.batch.core.explore.JobExplorer;
+import org.springframework.batch.core.explore.support.JobExplorerFactoryBean;
+import org.springframework.batch.core.launch.JobLauncher;
+import org.springframework.batch.core.launch.JobOperator;
 import org.springframework.batch.core.launch.support.SimpleJobLauncher;
-import org.springframework.batch.core.repository.JobExecutionAlreadyRunningException;
-import org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException;
-import org.springframework.batch.core.repository.JobRestartException;
+import org.springframework.batch.core.launch.support.SimpleJobOperator;
+import org.springframework.batch.core.repository.JobRepository;
+import org.springframework.batch.core.repository.support.JobRepositoryFactoryBean;
+import org.springframework.batch.core.repository.support.MapJobRepositoryFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.boot.autoconfigure.batch.BatchDataSourceInitializer;
 import org.springframework.boot.autoconfigure.batch.BatchProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.core.task.TaskExecutor;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.scheduling.TaskScheduler;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.scheduling.concurrent.ConcurrentTaskScheduler;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
+import org.springframework.transaction.PlatformTransactionManager;
 
-import me.xstr.api.batch.jobs.ImdbMediaJobs;
 import me.xstr.api.batch.listeners.JobCompletionNotificationListener;
 
 /*
@@ -33,20 +48,79 @@ import me.xstr.api.batch.listeners.JobCompletionNotificationListener;
 
 @Configuration
 @EnableBatchProcessing
-@Import(BatchSchedulerConfiguration.class)
-public class BatchConfiguration extends DefaultBatchConfigurer {
+@EnableScheduling
+// @Import(BatchSchedulerConfiguration.class)
+public class BatchConfiguration implements BatchConfigurer {
 
 	private static final Logger log = LoggerFactory.getLogger(BatchConfiguration.class);
 
 	@Autowired
 	@Qualifier("batchDataSource")
 	public DataSource batchDataSource;
+	/*@Autowired
+	@Qualifier("xstrDataSource")
+	public DataSource xstrDataSource;*/
+	
+	
+	private PlatformTransactionManager batchTransactionManager;
+	private JobRepository jobRepository;
+	private JobLauncher jobLauncher;
+	private JobExplorer jobExplorer;
+	private JobRegistry jobRegistry;
+	private JobOperator jobOperator;
+
+	@Autowired
+	public JobCompletionNotificationListener jobCompletionNotificationListener;
 
 	@Override
-	@Autowired
-	public void setDataSource(@Qualifier("batchDataSource") DataSource batchDataSource) {
-		super.setDataSource(batchDataSource);
+	public JobRepository getJobRepository() {
+		return jobRepository;
 	}
+
+	@Override
+	public PlatformTransactionManager getTransactionManager() {
+		return batchTransactionManager;
+	}
+
+	@Override
+	public JobLauncher getJobLauncher() {
+		return jobLauncher;
+	}
+
+	@Override
+	public JobExplorer getJobExplorer() {
+		return jobExplorer;
+	}
+	
+	public JobRegistry getJobRegistry() {
+		return jobRegistry;
+	}
+	
+	public JobOperator getJobOperator() {
+		return jobOperator;
+	}
+
+	//@Bean
+	public PlatformTransactionManager batchTransactionManager() {
+		//LocalContainerEntityManagerFactoryBean lemf = new LocalContainerEntityManagerFactoryBean();
+		//lemf.setDataSource(batchDataSource);
+		//lemf.afterPropertiesSet();
+		//JpaTransactionManager transactionManager = new JpaTransactionManager();
+		//transactionManager.setDataSource(batchDataSource);
+		//transactionManager.setEntityManagerFactory(lemf.getObject() );
+		DataSourceTransactionManager transactionManager = new DataSourceTransactionManager(batchDataSource);
+		// transactionManager.afterPropertiesSet();
+		return transactionManager;
+	}
+	
+	/*@Bean
+	@Primary
+	public PlatformTransactionManager transactionManager() {
+		
+		return new DataSourceTransactionManager(xstrDataSource);
+	}*/
+	
+
 
 	@Bean
 	public BatchDataSourceInitializer batchDatabaseInitializer(@Qualifier("batchDataSource") DataSource batchDataSource,
@@ -54,23 +128,102 @@ public class BatchConfiguration extends DefaultBatchConfigurer {
 		return new BatchDataSourceInitializer(batchDataSource, resourceLoader, batchProperties);
 	}
 
-	@Autowired
-	private SimpleJobLauncher jobLauncher;
+	// @Scheduled(fixedDelayString = "${xstr.batch.cron.highfreq}")
+	@Scheduled(fixedDelayString = "30000")
+	public void executeFastJob() throws Exception {
+		log.info("total Jobs = {}", getJobOperator().getJobNames().size());
+		for (String jobName : getJobOperator().getJobNames()) {
+			getJobOperator().startNextInstance(jobName);
+		}
+	}
 
-	@Autowired
-	private ImdbMediaJobs imdbMediaJobs;
+	public JobLauncher createJobLauncher() throws Exception {
+		SimpleJobLauncher launcher = new SimpleJobLauncher();
+		launcher.setJobRepository(jobRepository);
+		//launcher.setTaskExecutor(taskExecutor());
+		launcher.afterPropertiesSet();
+		return launcher;
+	}
 
-	@Autowired
-	public JobCompletionNotificationListener jobCompletionNotificationListener;
+	protected JobRepository createJobRepository() throws Exception {
+		JobRepositoryFactoryBean factory = new JobRepositoryFactoryBean();
+		factory.setDataSource(batchDataSource);
+		factory.setTransactionManager(batchTransactionManager);
+		factory.afterPropertiesSet();
+		return factory.getObject();
+	}
 
-	@Scheduled(fixedDelayString = "${xstr.batch.cron.highfreq}")
-	public void executeFastJob() throws JobExecutionAlreadyRunningException, JobRestartException,
-			JobInstanceAlreadyCompleteException, JobParametersInvalidException {
-		JobParameters param = new JobParametersBuilder().addString("JobID", String.valueOf(System.currentTimeMillis()))
-				.toJobParameters();
+	protected JobExplorer createJobExplorer() throws Exception {
+		JobExplorerFactoryBean jobExplorerFactoryBean = new JobExplorerFactoryBean();
+		jobExplorerFactoryBean.setDataSource(batchDataSource);
+		jobExplorerFactoryBean.afterPropertiesSet();
+		return jobExplorerFactoryBean.getObject();
+	}
 
-		JobExecution execution = jobLauncher.run(imdbMediaJobs.addImdbMediaJob(jobCompletionNotificationListener), param);
+	public JobRegistry createJobRegistry() {
+		return new MapJobRegistry();
+	}
 
-		log.info("Job finished with status :" + execution.getStatus());
+	@Bean
+	public JobRegistryBeanPostProcessor jobRegistryBeanPostProcessor() throws DuplicateJobException {
+		JobRegistryBeanPostProcessor postProcessor = new JobRegistryBeanPostProcessor();
+		postProcessor.setJobRegistry(jobRegistry);
+		return postProcessor;
+	}
+
+	@Bean
+	public MapJobRepositoryFactoryBean mapJobRepositoryFactory() throws Exception {
+		MapJobRepositoryFactoryBean factory = new MapJobRepositoryFactoryBean(batchTransactionManager);
+		factory.afterPropertiesSet();
+		return factory;
+	}
+
+	@Bean
+	public JobBuilderFactory jobBuilderFactory() {
+		return new JobBuilderFactory(jobRepository);
+	}
+
+	@Bean
+	public StepBuilderFactory stepBuilderFactory() {
+		return new StepBuilderFactory(jobRepository, batchTransactionManager);
+	}
+
+	public JobOperator createJobOperator() throws Exception {
+		SimpleJobOperator operator = new SimpleJobOperator();
+		operator.setJobRepository(jobRepository);
+		operator.setJobLauncher(jobLauncher);
+		operator.setJobRegistry(jobRegistry);
+		operator.setJobExplorer(jobExplorer);
+		operator.afterPropertiesSet();
+		return operator;
+	}
+
+	@Bean
+	public TaskScheduler getTaskScheduler() {
+		return new ConcurrentTaskScheduler();
+	}
+
+	/*@Bean
+	public TaskExecutor taskExecutor() {
+		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+		executor.setMaxPoolSize(16);
+		executor.setThreadPriority(1);
+		executor.afterPropertiesSet();
+		return executor;
+	}*/
+
+	@PostConstruct
+	public void initialize() {
+		try {
+			this.batchTransactionManager = batchTransactionManager();
+			this.jobRepository = createJobRepository();
+			this.jobExplorer = createJobExplorer();
+			this.jobLauncher = createJobLauncher();
+			this.jobRegistry = createJobRegistry();
+			this.jobOperator = createJobOperator();
+
+		} catch (Exception e) {
+			throw new BatchConfigurationException(e);
+		}
 	}
 }
