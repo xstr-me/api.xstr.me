@@ -247,6 +247,11 @@
 
 		<profile>
 			<id>heroku</id>
+			<activation>
+				<property>
+					<name>env.DYNO</name>
+				</property>
+			</activation>
 			<properties>
 				<!-- default Spring profiles -->
 				<xstr.profiles>docker</xstr.profiles>
