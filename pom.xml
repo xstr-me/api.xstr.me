@@ -231,6 +231,12 @@
 			<id>openshift</id>
 			<properties>
 				<xstr.profiles>docker</xstr.profiles>
+				<xstr.main.datasource.url>jdbc:h2:mem:xstrmeDB</xstr.main.datasource.url>
+				<xstr.main.datasource.username>sa</xstr.main.datasource.username>
+				<xstr.main.datasource.password>123456</xstr.main.datasource.password>
+				<xstr.batch.job.datasource.url>jdbc:h2:mem:xstrmeBatch</xstr.batch.job.datasource.url>
+				<xstr.batch.job.datasource.username>sa</xstr.batch.job.datasource.username>
+				<xstr.batch.job.datasource.password>123456</xstr.batch.job.datasource.password>
 			</properties>
 		</profile>
 
