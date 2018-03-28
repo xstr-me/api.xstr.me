@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -43,9 +44,17 @@
 	<properties>
 		<xstr.packaging>jar</xstr.packaging>
 		<xstr.password>changeme</xstr.password>
+		<xstr.excluded.profiles>-dev</xstr.excluded.profiles>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<!-- data source defaults -->
+		<xstr.main.datasource.url>jdbc:h2:mem:xstrmeDB</xstr.main.datasource.url>
+		<xstr.main.datasource.username>xstr</xstr.main.datasource.username>
+		<xstr.main.datasource.password>123456</xstr.main.datasource.password>
+		<xstr.batch.job.datasource.url>jdbc:h2:mem:xstrmeBatch</xstr.batch.job.datasource.url>
+		<xstr.batch.job.datasource.username>xstr</xstr.batch.job.datasource.username>
+		<xstr.batch.job.datasource.password>123456</xstr.batch.job.datasource.password>
 	</properties>
 
 	<dependencies>
@@ -200,6 +209,7 @@
 				<filtering>true</filtering>
 				<excludes>
 					<exclude>dev/**</exclude>
+					<exclude>application${xstr.excluded.profiles}.properties</exclude>
 				</excludes>
 			</resource>
 		</resources>
@@ -230,28 +240,25 @@
 		<profile>
 			<id>openshift</id>
 			<properties>
-				<xstr.profiles>docker</xstr.profiles>
-				<xstr.main.datasource.url>jdbc:h2:mem:xstrmeDB</xstr.main.datasource.url>
-				<xstr.main.datasource.username>sa</xstr.main.datasource.username>
-				<xstr.main.datasource.password>123456</xstr.main.datasource.password>
-				<xstr.batch.job.datasource.url>jdbc:h2:mem:xstrmeBatch</xstr.batch.job.datasource.url>
-				<xstr.batch.job.datasource.username>sa</xstr.batch.job.datasource.username>
-				<xstr.batch.job.datasource.password>123456</xstr.batch.job.datasource.password>
+				<!-- default Spring profiles -->
+				<xstr.profiles>default</xstr.profiles>
 			</properties>
 		</profile>
 
 		<profile>
 			<id>heroku</id>
 			<properties>
-				<xstr.profiles>docker</xstr.profiles>
+				<!-- default Spring profiles -->
+				<xstr.profiles>default</xstr.profiles>
 			</properties>
 		</profile>
 
 		<profile>
 			<id>tomcat</id>
 			<properties>
-				<xstr.profiles>xstrserver</xstr.profiles>
 				<xstr.packaging>war</xstr.packaging>
+				<xstr.excluded.profiles>*</xstr.excluded.profiles>
+				<xstr.profiles>xstrserver</xstr.profiles>
 			</properties>
 		</profile>
 
