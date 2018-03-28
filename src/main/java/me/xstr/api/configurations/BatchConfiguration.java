@@ -33,6 +33,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.scheduling.TaskScheduler;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -100,27 +101,12 @@ public class BatchConfiguration implements BatchConfigurer {
 		return jobOperator;
 	}
 
-	//@Bean
-	public PlatformTransactionManager batchTransactionManager() {
-		//LocalContainerEntityManagerFactoryBean lemf = new LocalContainerEntityManagerFactoryBean();
-		//lemf.setDataSource(batchDataSource);
-		//lemf.afterPropertiesSet();
-		//JpaTransactionManager transactionManager = new JpaTransactionManager();
-		//transactionManager.setDataSource(batchDataSource);
-		//transactionManager.setEntityManagerFactory(lemf.getObject() );
-		DataSourceTransactionManager transactionManager = new DataSourceTransactionManager(batchDataSource);
-		// transactionManager.afterPropertiesSet();
+	@Bean
+	public PlatformTransactionManager transactionManager() {
+		JpaTransactionManager transactionManager = new JpaTransactionManager();
+		transactionManager.setDataSource(batchDataSource);
 		return transactionManager;
 	}
-	
-	/*@Bean
-	@Primary
-	public PlatformTransactionManager transactionManager() {
-		
-		return new DataSourceTransactionManager(xstrDataSource);
-	}*/
-	
-
 
 	@Bean
 	public BatchDataSourceInitializer batchDatabaseInitializer(@Qualifier("batchDataSource") DataSource batchDataSource,
@@ -140,7 +126,7 @@ public class BatchConfiguration implements BatchConfigurer {
 	public JobLauncher createJobLauncher() throws Exception {
 		SimpleJobLauncher launcher = new SimpleJobLauncher();
 		launcher.setJobRepository(jobRepository);
-		//launcher.setTaskExecutor(taskExecutor());
+		launcher.setTaskExecutor(taskExecutor());
 		launcher.afterPropertiesSet();
 		return launcher;
 	}
@@ -203,19 +189,19 @@ public class BatchConfiguration implements BatchConfigurer {
 		return new ConcurrentTaskScheduler();
 	}
 
-	/*@Bean
+	@Bean
 	public TaskExecutor taskExecutor() {
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
 		executor.setMaxPoolSize(16);
 		executor.setThreadPriority(1);
 		executor.afterPropertiesSet();
 		return executor;
-	}*/
+	}
 
 	@PostConstruct
 	public void initialize() {
 		try {
-			this.batchTransactionManager = batchTransactionManager();
+			this.batchTransactionManager = transactionManager();
 			this.jobRepository = createJobRepository();
 			this.jobExplorer = createJobExplorer();
 			this.jobLauncher = createJobLauncher();
