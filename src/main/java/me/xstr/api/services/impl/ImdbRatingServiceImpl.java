@@ -30,12 +30,20 @@ public class ImdbRatingServiceImpl implements ImdbRatingService {
 
 	@Override
 	public ImdbRating save(ImdbRating imdbRating) {
+		System.out.println("############# - saving = "+ imdbRating.toString());
 		return imdbRatingRepo.save(imdbRating);
 	}
 
 	@Override
+	public List<ImdbRating> saveAll(List<ImdbRating> imdbRatings) {
+		return imdbRatingRepo.saveAll(imdbRatings);
+	}
+
+	@Override
 	public ImdbRating saveImdbMedia(ImdbMedia imdbMedia) {
-		return imdbRatingRepo.save(new ImdbRating(imdbMedia));
+		ImdbRating aa = imdbRatingRepo.save(new ImdbRating(imdbMedia));
+		imdbRatingRepo.flush();
+		return aa;
 	}
 
 	@Override

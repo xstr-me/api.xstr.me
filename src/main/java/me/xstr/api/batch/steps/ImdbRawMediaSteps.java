@@ -3,8 +3,10 @@ package me.xstr.api.batch.steps;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.PlatformTransactionManager;
 
 import me.xstr.api.batch.processors.AnidbTitlesItemProcessor;
 import me.xstr.api.batch.processors.ImdbMediaItemProcessor;
@@ -23,6 +25,10 @@ import me.xstr.api.models.imdb.ImdbRawMedia;
 
 @Component
 public class ImdbRawMediaSteps {
+	
+	/*@Autowired
+	@Qualifier("transactionManager")
+	private PlatformTransactionManager xstrTransactionManager;*/
 
 	@Autowired
 	public StepBuilderFactory stepBuilderFactory;
@@ -57,9 +63,13 @@ public class ImdbRawMediaSteps {
 	@Bean
 	public Step imdbRawMediaStep() {
 
-		return stepBuilderFactory.get("ImdbRawMediaStep").<ImdbRawMedia, ImdbRating>chunk(1).reader(imdbRawMediaReader)
-				.processor(xstrMediaItemProcessor).writer(xstrMediaWriter).build();
-				//.processor(imdbMediaItemProcessor).writer(imdbMediaWriter).build();
+		return stepBuilderFactory.get("ImdbRawMediaStep")
+				//.transactionManager(xstrTransactionManager)
+				.<ImdbRawMedia, ImdbRating>chunk(1)
+				.reader(imdbRawMediaReader)
+				.processor(xstrMediaItemProcessor)
+				.writer(xstrMediaWriter)
+				.build();
 
 	}
 

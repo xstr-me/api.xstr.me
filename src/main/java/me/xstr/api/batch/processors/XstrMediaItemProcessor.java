@@ -1,5 +1,7 @@
 package me.xstr.api.batch.processors;
 
+import java.util.Random;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,6 +9,7 @@ import org.springframework.batch.item.ItemProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import me.xstr.api.models.MediaType;
 import me.xstr.api.models.imdb.ImdbMedia;
 import me.xstr.api.models.imdb.ImdbRating;
 import me.xstr.api.models.imdb.ImdbRawMedia;
@@ -27,6 +30,8 @@ public class XstrMediaItemProcessor implements ItemProcessor<ImdbRawMedia, ImdbR
 	@Override
 	public ImdbRating process(final ImdbRawMedia imdbrawMedia) throws Exception {
 		ImdbMedia imdbMedia = new ImdbMedia(imdbrawMedia);
+		//imdbMedia.setOriginalTitle("123" + System.currentTimeMillis());
+		//imdbRatingService.saveImdbMedia(new ImdbMedia(555, MediaType.MOVIE,"cddfhgdghcd","cdfgdfqd",false,null,null,0,""));
 		if(imdbMedia.getTitleType()==null){
 			log.info("skipping unknown entry {} ImdbID exists", imdbrawMedia.getTconst());
 			return null;

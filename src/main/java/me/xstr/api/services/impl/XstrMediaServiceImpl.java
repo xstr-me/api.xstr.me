@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import me.xstr.api.models.XstrMedia;
 import me.xstr.api.models.XstrTitle;
 import me.xstr.api.models.imdb.ImdbMedia;
+import me.xstr.api.models.imdb.ImdbRating;
 import me.xstr.api.repositories.XstrMediaRepo;
 import me.xstr.api.services.XstrMediaService;
 
