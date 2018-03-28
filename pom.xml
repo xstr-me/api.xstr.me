@@ -241,7 +241,7 @@
 			<id>openshift</id>
 			<properties>
 				<!-- default Spring profiles -->
-				<xstr.profiles>default</xstr.profiles>
+				<xstr.profiles>docker</xstr.profiles>
 			</properties>
 		</profile>
 
@@ -249,7 +249,7 @@
 			<id>heroku</id>
 			<properties>
 				<!-- default Spring profiles -->
-				<xstr.profiles>default</xstr.profiles>
+				<xstr.profiles>docker</xstr.profiles>
 			</properties>
 		</profile>
 
