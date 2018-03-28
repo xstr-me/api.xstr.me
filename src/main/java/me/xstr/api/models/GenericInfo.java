@@ -12,7 +12,10 @@ public class GenericInfo {
 	
 	@Value("${spring.application.name}")
 	private String serverName;
-
+	
+	@Value("${xstr.main.datasource.username}")
+	private String dbUserName;
+	
 	private String name;
 	private String description;
 	
@@ -33,6 +36,9 @@ public class GenericInfo {
 	}
 	public String getServerName() {
 		return this.serverName;
+	}
+	public String getDbUserName() {
+		return this.dbUserName;
 	}
 	
 	
