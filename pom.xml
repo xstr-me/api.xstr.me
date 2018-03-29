@@ -240,8 +240,7 @@
 		<profile>
 			<id>openshift</id>
 			<properties>
-				<!-- default Spring profiles -->
-				<xstr.profiles>docker</xstr.profiles>
+				<xstr.main.datasource.username>${env.XSTR_MAIN_DATASOURCE_USERNAME}</xstr.main.datasource.username>
 			</properties>
 		</profile>
 
@@ -253,8 +252,7 @@
 				</property>
 			</activation>
 			<properties>
-				<!-- default Spring profiles -->
-				<xstr.profiles>docker</xstr.profiles>
+				<xstr.main.datasource.username>${env.XSTR_MAIN_DATASOURCE_USERNAME}</xstr.main.datasource.username>
 			</properties>
 		</profile>
 
