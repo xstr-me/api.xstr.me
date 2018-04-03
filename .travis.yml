@@ -6,6 +6,11 @@ addons:
   sonarcloud:
     organization: $sonarcloud_organization_key
     token: $sonarcloud_token
+    branches:
+      - master
+      - next
+matrix:
+  fast_finish: true
 before_install:
   - pip install --user codecov
 script:
