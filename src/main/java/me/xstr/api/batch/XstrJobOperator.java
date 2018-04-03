@@ -1,37 +1,25 @@
-/*package me.xstr.api.batch;
+package me.xstr.api.batch;
 
-import javax.annotation.PostConstruct;
-
-import org.springframework.batch.core.configuration.JobLocator;
-import org.springframework.batch.core.configuration.JobRegistry;
-import org.springframework.batch.core.explore.JobExplorer;
-import org.springframework.batch.core.launch.JobLauncher;
-import org.springframework.batch.core.launch.support.SimpleJobOperator;
-import org.springframework.batch.core.repository.JobRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.batch.core.launch.JobOperator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 @Service
-public class XstrJobOperator extends SimpleJobOperator{
-	
+@EnableScheduling
+public class XstrJobOperator {
+	private static final Logger log = LoggerFactory.getLogger(XstrJobOperator.class);
 	@Autowired
-	private JobExplorer jobExplorer;
-
-	@Autowired
-	private JobLauncher jobLauncher;
-
-	@Autowired
-	private JobRepository jobRepository;
-
-	@Autowired
-	private JobRegistry jobRegistry;
-	
-	@PostConstruct
-	public void initJobOperator() {
-		this.setJobExplorer(jobExplorer);
-		this.setJobLauncher(jobLauncher);
-		this.setJobRepository(jobRepository);
-		this.setJobRegistry(jobRegistry);
+	private JobOperator jobOperator;
+	@Scheduled(fixedDelayString = "${xstr.batch.cron.highfreq}")
+	public void executeFastJob() throws Exception {
+		log.info("total Jobs = {}", jobOperator.getJobNames().size());
+		for (String jobName : jobOperator.getJobNames()) {
+			jobOperator.startNextInstance(jobName);
+		}
 	}
 
-}*/
+}

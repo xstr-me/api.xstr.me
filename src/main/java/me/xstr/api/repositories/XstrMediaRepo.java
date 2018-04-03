@@ -6,9 +6,7 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import me.xstr.api.models.Movie;
 import me.xstr.api.models.XstrMedia;
-import me.xstr.api.models.XstrTitle;
 
 @Repository
 public interface XstrMediaRepo extends JpaRepository<XstrMedia, Integer> {

@@ -246,23 +246,31 @@
 
 		<profile>
 			<id>heroku</id>
+
 			<activation>
 				<property>
 					<name>env.DYNO</name>
 				</property>
 			</activation>
+
 			<properties>
 				<xstr.main.datasource.username>${env.XSTR_MAIN_DATASOURCE_USERNAME}</xstr.main.datasource.username>
 			</properties>
+
 		</profile>
 
 		<profile>
+
 			<id>tomcat</id>
+
 			<properties>
+
 				<xstr.packaging>war</xstr.packaging>
 				<xstr.excluded.profiles>*</xstr.excluded.profiles>
 				<xstr.profiles>xstrserver</xstr.profiles>
+
 			</properties>
+
 		</profile>
 
 	</profiles>

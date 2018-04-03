@@ -3,32 +3,22 @@ package me.xstr.api.batch.steps;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.PlatformTransactionManager;
-
 import me.xstr.api.batch.processors.AnidbTitlesItemProcessor;
 import me.xstr.api.batch.processors.ImdbMediaItemProcessor;
 import me.xstr.api.batch.processors.XstrMediaItemProcessor;
 import me.xstr.api.batch.readers.AnidbRawTitlesReader;
-import me.xstr.api.batch.readers.ImdbMediaReader;
 import me.xstr.api.batch.readers.ImdbRawMediaReader;
 import me.xstr.api.batch.writers.AnidbTitlesWriter;
-import me.xstr.api.batch.writers.ImdbMediaWriter;
 import me.xstr.api.batch.writers.XstrMediaWriter;
 import me.xstr.api.models.anidb.AnidbRawTitles;
 import me.xstr.api.models.anidb.AnidbTitles;
-import me.xstr.api.models.imdb.ImdbMedia;
 import me.xstr.api.models.imdb.ImdbRating;
 import me.xstr.api.models.imdb.ImdbRawMedia;
 
 @Component
 public class ImdbRawMediaSteps {
-	
-	/*@Autowired
-	@Qualifier("transactionManager")
-	private PlatformTransactionManager xstrTransactionManager;*/
 
 	@Autowired
 	public StepBuilderFactory stepBuilderFactory;
@@ -38,9 +28,6 @@ public class ImdbRawMediaSteps {
 
 	@Autowired
 	public ImdbMediaItemProcessor imdbMediaItemProcessor;
-
-	//@Autowired
-	//private ImdbMediaWriter imdbMediaWriter;
 	
 	@Autowired
 	private AnidbRawTitlesReader anidbRawTitlesReader;
@@ -50,9 +37,6 @@ public class ImdbRawMediaSteps {
 
 	@Autowired
 	private AnidbTitlesWriter anidbTitlesWriter;
-
-	//@Autowired
-	//private ImdbMediaReader imdbMediaReader;
 	
 	@Autowired
 	private XstrMediaItemProcessor xstrMediaItemProcessor;
@@ -64,7 +48,6 @@ public class ImdbRawMediaSteps {
 	public Step imdbRawMediaStep() {
 
 		return stepBuilderFactory.get("ImdbRawMediaStep")
-				//.transactionManager(xstrTransactionManager)
 				.<ImdbRawMedia, ImdbRating>chunk(1)
 				.reader(imdbRawMediaReader)
 				.processor(xstrMediaItemProcessor)
@@ -80,13 +63,5 @@ public class ImdbRawMediaSteps {
 				.processor(anidbTitlesItemProcessor).writer(anidbTitlesWriter).build();
 
 	}
-
-	/*@Bean
-	public Step xstrMediaStep() {
-
-		return stepBuilderFactory.get("XstrMediaStep").<ImdbMedia, ImdbRating>chunk(100).reader(imdbMediaReader)
-				.processor(xstrMediaItemProcessor).writer(xstrMediaWriter).build();
-
-	}*/
 
 }
