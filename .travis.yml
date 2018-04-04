@@ -12,7 +12,7 @@ script:
   - mvn install -Pserver
 after_success:
   - codecov
-  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$sonarcloud_token -Dsonar.organization=guedouari-github -Dsonar.projectKey=me.xstr.api -Dsonar.brach.name=$TRAVIS_BRANCH
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$sonarcloud_token -Dsonar.organization=guedouari-github -Dsonar.projectKey=me.xstr.api -Dsonar.branch.name=$TRAVIS_BRANCH
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
