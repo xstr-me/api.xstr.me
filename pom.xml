@@ -246,7 +246,7 @@
 		<profile>
 			<id>openshift</id>
 			<properties>
-				<xstr.main.datasource.username>${env.XSTR_MAIN_DATASOURCE_USERNAME}</xstr.main.datasource.username>
+				<!-- <xstr.main.datasource.username>${env.XSTR_MAIN_DATASOURCE_USERNAME}</xstr.main.datasource.username> -->
 			</properties>
 		</profile>
 
