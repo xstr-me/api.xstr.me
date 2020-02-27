@@ -1,4 +1,4 @@
-/*package me.xstr.api.configurations;
+package me.xstr.api.configurations;
 
 import javax.sql.DataSource;
 
@@ -97,4 +97,4 @@ public class BatchSchedulerConfiguration {
 		return new SimpleAsyncTaskExecutor();
 	}
 
-}*/
+}

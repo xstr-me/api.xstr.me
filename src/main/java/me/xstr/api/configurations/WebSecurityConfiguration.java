@@ -1,4 +1,4 @@
-package me.xstr.api.configurations;
+/*package me.xstr.api.configurations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,4 +29,4 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 		auth.inMemoryAuthentication().withUser("user").password(password).roles("USER", "ACTUATOR");
 	}
-}
+}*/

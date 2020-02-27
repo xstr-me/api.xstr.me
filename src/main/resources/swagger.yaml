@@ -1,0 +1,321 @@
+swagger: '2.0'
+info:
+  description: the main API for xstr.me
+  version: 0.0.5-SNAPSHOT
+  title: Xstr.Me API
+  contact:
+    email: apiteam@swagger.io
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: localhost:8080
+basePath: /
+tags:
+- name: application-info-controller
+  description: Application Info Controller
+- name: generic-info-controller
+  description: Generic Info Controller
+- name: movie-controller
+  description: Movie Controller
+paths:
+  /:
+    get:
+      tags:
+      - generic-info-controller
+      summary: genericInfo
+      operationId: genericInfoUsingGET
+      produces:
+      - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/GenericInfo'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /info:
+    get:
+      tags:
+      - application-info-controller
+      summary: applicationInfo
+      operationId: applicationInfoUsingGET
+      produces:
+      - '*/*'
+      parameters:
+      - name: name
+        in: query
+        description: name
+        required: false
+        type: string
+        default: World
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/ApplicationInfo'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /mv/list:
+    get:
+      tags:
+      - movie-controller
+      summary: xstrMovieList
+      operationId: xstrMovieListUsingGET
+      produces:
+      - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Movie'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /mv/save:
+    get:
+      tags:
+      - movie-controller
+      summary: saveMovie
+      operationId: saveMovieUsingGET
+      produces:
+      - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/ImdbRating'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /mv/{id}:
+    get:
+      tags:
+      - movie-controller
+      summary: movie
+      operationId: movieUsingGET
+      produces:
+      - '*/*'
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        type: integer
+        format: int32
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/Movie'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /mv/{id}/info:
+    get:
+      tags:
+      - movie-controller
+      summary: fullMovie
+      operationId: fullMovieUsingGET
+      produces:
+      - '*/*'
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        type: integer
+        format: int32
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/Movie'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /tv/save:
+    get:
+      tags:
+      - movie-controller
+      summary: saveTvShow
+      operationId: saveTvShowUsingGET
+      produces:
+      - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/ImdbRating'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+  /tv/{id}:
+    get:
+      tags:
+      - movie-controller
+      summary: tvshow
+      operationId: tvshowUsingGET
+      produces:
+      - '*/*'
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        type: integer
+        format: int32
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/TvShow'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+      deprecated: false
+definitions:
+  ApplicationInfo:
+    type: object
+    properties:
+      content:
+        type: string
+      id:
+        type: integer
+        format: int64
+    title: ApplicationInfo
+  GenericInfo:
+    type: object
+    properties:
+      dbUserName:
+        type: string
+      description:
+        type: string
+      name:
+        type: string
+      serverName:
+        type: string
+      version:
+        type: string
+    title: GenericInfo
+  ImdbRating:
+    type: object
+    properties:
+      averageRating:
+        type: number
+        format: float
+      id:
+        type: integer
+        format: int32
+      imdbId:
+        type: integer
+        format: int32
+      numVotes:
+        type: integer
+        format: int32
+    title: ImdbRating
+  Movie:
+    type: object
+    properties:
+      alternativeTitles:
+        type: array
+        items:
+          $ref: '#/definitions/XstrAlternativeTitle'
+      id:
+        type: integer
+        format: int32
+      imdbRating:
+        $ref: '#/definitions/ImdbRating'
+      originalLanguage:
+        type: string
+      originalTitle:
+        $ref: '#/definitions/XstrTitle'
+      releaseDate:
+        type: string
+        format: date-time
+      version:
+        type: integer
+        format: int32
+    title: Movie
+  TvShow:
+    type: object
+    properties:
+      alternativeTitles:
+        type: array
+        items:
+          $ref: '#/definitions/XstrAlternativeTitle'
+      endDate:
+        type: string
+        format: date-time
+      id:
+        type: integer
+        format: int32
+      imdbRating:
+        $ref: '#/definitions/ImdbRating'
+      originalLanguage:
+        type: string
+      originalTitle:
+        $ref: '#/definitions/XstrTitle'
+      releaseDate:
+        type: string
+        format: date-time
+      version:
+        type: integer
+        format: int32
+    title: TvShow
+  XstrAlternativeTitle:
+    type: object
+    properties:
+      id:
+        type: integer
+        format: int32
+      language:
+        type: string
+      official:
+        type: boolean
+      xstrTitle:
+        $ref: '#/definitions/XstrTitle'
+    title: XstrAlternativeTitle
+  XstrTitle:
+    type: object
+    properties:
+      title:
+        type: string
+      uuid:
+        type: string
+        format: uuid
+    title: XstrTitle

@@ -23,7 +23,6 @@ import org.springframework.scheduling.concurrent.ConcurrentTaskScheduler;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
 
-
 @Configuration
 @EnableBatchProcessing
 public class BatchConfiguration extends JpaBatchConfigurer {
@@ -39,20 +38,22 @@ public class BatchConfiguration extends JpaBatchConfigurer {
 		return new BatchDataSourceInitializer(batchDataSource, resourceLoader, batchProperties);
 	}
 
-	@Bean
+	/*@Bean
 	public JobRegistry jobRegistry() {
 		return new MapJobRegistry();
-	}
+	}*/
 
 	@Bean
-	public JobRegistryBeanPostProcessor jobRegistryBeanPostProcessor(JobRegistry jobRegistry) throws DuplicateJobException {
+	public JobRegistryBeanPostProcessor jobRegistryBeanPostProcessor(JobRegistry jobRegistry)
+			throws DuplicateJobException {
 		JobRegistryBeanPostProcessor postProcessor = new JobRegistryBeanPostProcessor();
 		postProcessor.setJobRegistry(jobRegistry);
 		return postProcessor;
 	}
 
 	@Bean
-	public MapJobRepositoryFactoryBean mapJobRepositoryFactory(PlatformTransactionManager transactionManager) throws Exception {
+	public MapJobRepositoryFactoryBean mapJobRepositoryFactory(PlatformTransactionManager transactionManager)
+			throws Exception {
 		MapJobRepositoryFactoryBean factory = new MapJobRepositoryFactoryBean(transactionManager);
 		factory.afterPropertiesSet();
 		return factory;
